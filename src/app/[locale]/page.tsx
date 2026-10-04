@@ -19,13 +19,15 @@ export default async function HomePage({ params }: PageProps) {
   return (
     <>
       <Hero />
-      <WhatIBuild />
-      <Featured />
-      <Tech />
-      <Projects />
-      <GithubSection />
-      <About />
-      <Contact />
+      <div className="theme-surface">
+        <WhatIBuild />
+        <Featured />
+        <Tech />
+        <Projects />
+        <GithubSection />
+        <About />
+        <Contact />
+      </div>
     </>
   );
 }

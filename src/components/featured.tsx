@@ -28,7 +28,7 @@ export async function Featured() {
 
         <Reveal delay={0.08}>
           <div className="mt-12 overflow-hidden rounded-[28px] border border-border bg-surface shadow-[var(--shadow)]">
-            <div className="relative aspect-[16/10] w-full md:aspect-[21/9]">
+            <div className="relative aspect-[16/10] w-full overflow-hidden md:aspect-[21/9]">
               <Image
                 src="/images/govmate-product.jpg"
                 alt={t("imageAlt")}

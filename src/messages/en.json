@@ -16,21 +16,25 @@
   },
   "hero": {
     "name": "Khayal Jamilli",
-    "headline": "Digital products that feel simple — and ship.",
-    "sub": "I design and build web applications, AI workflows and automation systems for real operations — clear interfaces, reliable architecture, production delivery.",
+    "headline": "I build and ship digital products.",
+    "sub": "Web apps, AI workflows and automation systems for real operations — clear interfaces, reliable architecture, production delivery.",
     "ctaPrimary": "Explore my work",
     "ctaSecondary": "GitHub",
     "pillars": {
       "web": "WEB",
       "ai": "AI",
-      "automation": "AUTOMATION",
+      "automation": "AUTO",
       "cloud": "CLOUD"
-    }
+    },
+    "role": "Software Developer · AI · Automation",
+    "visualAlt": "Developer workstation with code and product interfaces",
+    "codeNote": "Built for clarity. Shipped for production.",
+    "liveNote": "GovMate AI · OstWind · BelegPair"
   },
   "whatIBuild": {
     "eyebrow": "What I build",
-    "title": "Useful technology, presented like a product.",
     "subtitle": "Not experiments for the shelf — systems people can open, understand and use.",
+    "title": "Useful technology, presented like a product.",
     "items": {
       "web": {
         "title": "Web Applications",

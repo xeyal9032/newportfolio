@@ -191,6 +191,12 @@ a {
   border-color: color-mix(in oklab, var(--foreground) 28%, transparent);
 }
 
+/* Sections below hero should always follow theme tokens cleanly */
+.theme-surface {
+  color: var(--foreground);
+  background: var(--background);
+}
+
 .surface {
   background: color-mix(in oklab, var(--surface) 92%, transparent);
   border: 1px solid var(--border);

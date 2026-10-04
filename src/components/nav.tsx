@@ -20,7 +20,7 @@ export function Nav() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
+    const onScroll = () => setScrolled(window.scrollY > 40);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -42,26 +42,26 @@ export function Nav() {
         scrolled || open ? "nav-blur" : "bg-transparent",
       )}
     >
-      <div className="container-page flex h-[4.25rem] items-center justify-between gap-4">
+      <div className="container-page flex h-[4.35rem] items-center justify-between gap-4">
         <a
           href="#top"
           className={cn(
-            "text-[0.98rem] font-medium tracking-[-0.02em] transition",
+            "text-[0.98rem] font-semibold tracking-[-0.02em] transition",
             overHero ? "text-white" : "text-foreground",
           )}
         >
           Khayal Jamilli
         </a>
 
-        <nav className="hidden items-center gap-7 md:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary">
           {links.map((link) => (
             <a
               key={link.key}
               href={link.href}
               className={cn(
-                "text-sm transition",
+                "text-[0.9rem] font-medium transition",
                 overHero
-                  ? "text-white/70 hover:text-white"
+                  ? "text-white/80 hover:text-white"
                   : "text-muted hover:text-foreground",
               )}
             >
@@ -71,16 +71,16 @@ export function Nav() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <div className={cn("hidden sm:block", overHero && "[&_select]:border-white/20 [&_select]:text-white")}>
-            <LanguageSelector />
+          <div className="hidden sm:block">
+            <LanguageSelector forceLight={overHero} />
           </div>
-          <ThemeToggle />
+          <ThemeToggle forceLight={overHero} />
           <button
             type="button"
             className={cn(
-              "inline-flex h-9 w-9 items-center justify-center rounded-full border md:hidden",
+              "inline-flex h-9 w-9 items-center justify-center rounded-full border lg:hidden",
               overHero
-                ? "border-white/25 text-white"
+                ? "border-white/35 bg-white/10 text-white"
                 : "border-border text-foreground",
             )}
             aria-expanded={open}
@@ -112,7 +112,7 @@ export function Nav() {
       <div
         id="mobile-menu"
         className={cn(
-          "border-t border-border bg-background/95 backdrop-blur-xl md:hidden",
+          "border-t border-border bg-[#0b0c0e]/96 backdrop-blur-xl lg:hidden",
           open ? "block" : "hidden",
         )}
       >
@@ -121,14 +121,14 @@ export function Nav() {
             <a
               key={link.key}
               href={link.href}
-              className="text-lg text-foreground"
+              className="text-lg text-white"
               onClick={() => setOpen(false)}
             >
               {t(link.key)}
             </a>
           ))}
           <div className="pt-2 sm:hidden">
-            <LanguageSelector />
+            <LanguageSelector forceLight />
           </div>
         </div>
       </div>

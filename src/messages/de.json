@@ -16,18 +16,24 @@
   },
   "hero": {
     "name": "Khayal Jamilli",
-    "headline": "Digitale Produkte, die einfach wirken — und ausgeliefert werden.",
-    "sub": "Ich entwerfe und baue Webanwendungen, KI-Workflows und Automatisierungssysteme für echte Abläufe — klare Interfaces, zuverlässige Architektur, Production Delivery.",
-    "ctaPrimary": "Meine Arbeit entdecken",
+    "headline": "Ich baue und liefere digitale Produkte.",
+    "sub": "Web-Apps, KI-Workflows und Automatisierung für echte Abläufe — klare Interfaces, zuverlässige Architektur, Production Delivery.",
+    "ctaPrimary": "Meine Arbeit ansehen",
     "ctaSecondary": "GitHub",
     "pillars": {
       "web": "WEB",
       "ai": "KI",
-      "automation": "AUTOMATION",
+      "automation": "AUTO",
       "cloud": "CLOUD"
-    }
+    },
+    "role": "Softwareentwickler · KI · Automatisierung",
+    "visualAlt": "Entwickler-Arbeitsplatz mit Code und Produktinterfaces",
+    "codeNote": "Für Klarheit gebaut. Für Production geliefert.",
+    "liveNote": "GovMate AI · OstWind · BelegPair"
   },
   "whatIBuild": {
+    "eyebrow": "Was ich baue",
+    "subtitle": "Keine Experimente fürs Regal — Systeme, die man öffnen, verstehen und nutzen kann.",
     "title": "Nützliche Technologie, präsentiert wie ein Produkt.",
     "items": {
       "web": {
@@ -46,9 +52,7 @@
         "title": "Digitale Lösungen",
         "description": "End-to-end-Lösungen — APIs, Cloud-Deploy und Produktdenken, das liefert."
       }
-    },
-    "eyebrow": "Was ich baue",
-    "subtitle": "Keine Experimente fürs Regal — Systeme, die man öffnen, verstehen und nutzen kann."
+    }
   },
   "featured": {
     "eyebrow": "Featured Produkt",

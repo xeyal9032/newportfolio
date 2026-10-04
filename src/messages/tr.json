@@ -16,21 +16,25 @@
   },
   "hero": {
     "name": "Khayal Jamilli",
-    "headline": "Basit hisseden dijital ürünler — ve yayına çıkanlar.",
-    "sub": "Gerçek operasyonlar için web uygulamaları, AI iş akışları ve otomasyon sistemleri tasarlayıp geliştiriyorum — net arayüz, güvenilir mimari, üretim teslimatı.",
-    "ctaPrimary": "Çalışmalarımı keşfet",
+    "headline": "Dijital ürünler tasarlar ve yayına alırım.",
+    "sub": "Gerçek operasyonlar için web uygulamaları, AI iş akışları ve otomasyon — net arayüz, güvenilir mimari, production teslimatı.",
+    "ctaPrimary": "Çalışmalarımı gör",
     "ctaSecondary": "GitHub",
     "pillars": {
       "web": "WEB",
       "ai": "AI",
-      "automation": "OTOMASYON",
+      "automation": "AUTO",
       "cloud": "CLOUD"
-    }
+    },
+    "role": "Yazılım Geliştirici · AI · Otomasyon",
+    "visualAlt": "Kod ve ürün arayüzleriyle geliştirici çalışma istasyonu",
+    "codeNote": "Netlik için yazılır. Production için yayınlanır.",
+    "liveNote": "GovMate AI · OstWind · BelegPair"
   },
   "whatIBuild": {
     "eyebrow": "Ne geliştiriyorum",
-    "title": "Faydalı teknoloji, ürün gibi sunulur.",
     "subtitle": "Rafta kalan deneyler değil — insanların açıp anlayıp kullanabileceği sistemler.",
+    "title": "Faydalı teknoloji, ürün gibi sunulur.",
     "items": {
       "web": {
         "title": "Web Uygulamaları",

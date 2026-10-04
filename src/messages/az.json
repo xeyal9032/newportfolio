@@ -16,18 +16,24 @@
   },
   "hero": {
     "name": "Khayal Jamilli",
-    "headline": "Sadə hiss olunan rəqəmsal məhsullar — və yayına çıxanlar.",
-    "sub": "Real əməliyyatlar üçün veb tətbiqlər, AI iş axınları və avtomatlaşdırma sistemləri dizayn edib qururam — aydın interfeys, etibarlı arxitektura, istehsal təslimati.",
-    "ctaPrimary": "İşlərimi kəşf et",
+    "headline": "Rəqəmsal məhsullar qururam və yayına çıxarıram.",
+    "sub": "Real əməliyyatlar üçün veb tətbiqlər, AI axınları və avtomatlaşdırma — aydın interfeys, etibarlı arxitektura, production təslim.",
+    "ctaPrimary": "İşlərimə bax",
     "ctaSecondary": "GitHub",
     "pillars": {
       "web": "WEB",
       "ai": "AI",
-      "automation": "AVTOMATLAŞDIRMA",
+      "automation": "AUTO",
       "cloud": "CLOUD"
-    }
+    },
+    "role": "Software Developer · AI · Avtomatlaşdırma",
+    "visualAlt": "Kod və məhsul interfeysləri ilə developer iş stansiyası",
+    "codeNote": "Aydınlıq üçün yazılır. Production üçün buraxılır.",
+    "liveNote": "GovMate AI · OstWind · BelegPair"
   },
   "whatIBuild": {
+    "eyebrow": "Nə qururam",
+    "subtitle": "Rəfdə qalan eksperimentlər deyil — açıb anlaşılan və istifadə olunan sistemlər.",
     "title": "Faydalı texnologiya, məhsul kimi təqdim olunur.",
     "items": {
       "web": {
@@ -46,9 +52,7 @@
         "title": "Rəqəmsal Həllər",
         "description": "API-lər, bulud deploy və məhsul düşüncəsi ilə uçdan-uca həllər."
       }
-    },
-    "eyebrow": "Nə qururam",
-    "subtitle": "Rəfdə qalan eksperimentlər deyil — açıb anlaşılan və istifadə olunan sistemlər."
+    }
   },
   "featured": {
     "eyebrow": "Seçilmiş məhsul",
