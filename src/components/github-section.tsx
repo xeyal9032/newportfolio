@@ -18,10 +18,11 @@ export async function GithubSection() {
         <Reveal>
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div>
-              <h2 id="github-heading" className="headline">
+              <p className="eyebrow">GitHub</p>
+              <h2 id="github-heading" className="headline mt-4">
                 {t("title")}
               </h2>
-              <p className="lead mt-4">{t("subtitle")}</p>
+              <p className="lead mt-5">{t("subtitle")}</p>
             </div>
             <a
               href={siteConfig.githubUrl}
@@ -36,7 +37,7 @@ export async function GithubSection() {
 
         {repos.length === 0 ? (
           <Reveal delay={0.05}>
-            <div className="surface mt-10 p-8 text-muted">{t("fallback")}</div>
+            <div className="surface mt-12 p-8 text-muted">{t("fallback")}</div>
           </Reveal>
         ) : (
           <div className="mt-12 grid gap-4 md:grid-cols-2">
@@ -46,7 +47,7 @@ export async function GithubSection() {
                   href={repo.html_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="surface block h-full p-6 transition duration-300 hover:-translate-y-0.5"
+                  className="surface block h-full p-7 transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)]"
                 >
                   <div className="flex items-start justify-between gap-4">
                     <h3 className="text-xl tracking-[-0.02em]">{repo.name}</h3>
@@ -56,10 +57,10 @@ export async function GithubSection() {
                       </span>
                     ) : null}
                   </div>
-                  <p className="mt-3 text-[0.95rem] leading-relaxed text-muted">
+                  <p className="mt-4 text-[0.98rem] leading-relaxed text-muted">
                     {repo.description || t("noDescription")}
                   </p>
-                  <p className="mt-6 text-xs text-muted">
+                  <p className="mt-7 text-xs tracking-[0.08em] text-muted uppercase">
                     {t("updated")} {formatDate(repo.updated_at, locale)}
                   </p>
                 </a>
@@ -70,7 +71,7 @@ export async function GithubSection() {
 
         {profile ? (
           <Reveal delay={0.08}>
-            <p className="mt-8 text-sm text-muted">
+            <p className="mt-10 text-sm text-muted">
               @{profile.login}
               {profile.public_repos
                 ? ` · ${profile.public_repos} public repositories`

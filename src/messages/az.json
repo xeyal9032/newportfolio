@@ -16,8 +16,8 @@
   },
   "hero": {
     "name": "Khayal Jamilli",
-    "headline": "Kod, AI və avtomatlaşdırma ilə rəqəmsal məhsullar qururam.",
-    "sub": "Veb inkişaf, AI əsaslı tətbiqlər, avtomatlaşdırma və praktik rəqəmsal həllər.",
+    "headline": "Sadə hiss olunan rəqəmsal məhsullar — və yayına çıxanlar.",
+    "sub": "Real əməliyyatlar üçün veb tətbiqlər, AI iş axınları və avtomatlaşdırma sistemləri dizayn edib qururam — aydın interfeys, etibarlı arxitektura, istehsal təslimati.",
     "ctaPrimary": "İşlərimi kəşf et",
     "ctaSecondary": "GitHub",
     "pillars": {
@@ -28,7 +28,7 @@
     }
   },
   "whatIBuild": {
-    "title": "Faydalı texnologiya qururam.",
+    "title": "Faydalı texnologiya, məhsul kimi təqdim olunur.",
     "items": {
       "web": {
         "title": "Veb Tətbiqlər",
@@ -46,25 +46,29 @@
         "title": "Rəqəmsal Həllər",
         "description": "API-lər, bulud deploy və məhsul düşüncəsi ilə uçdan-uca həllər."
       }
-    }
+    },
+    "eyebrow": "Nə qururam",
+    "subtitle": "Rəfdə qalan eksperimentlər deyil — açıb anlaşılan və istifadə olunan sistemlər."
   },
   "featured": {
     "eyebrow": "Seçilmiş məhsul",
     "title": "GovMate AI",
-    "subtitle": "Alman rəsmi yazışmalar üçün AI köməkçisi.",
-    "body": "GovMate AI Jobcenter, Ausländerbehörde, Finanzamt və Krankenkasse kimi sahələrdə alman rəsmi yazışmaları anlamağa və yaratmağa kömək edir.",
+    "subtitle": "Alman rəsmi yazışmalar üçün AI dəstəyi — qarışıq məktubdan aydın növbəti addıma.",
+    "body": "GovMate AI Almaniyada yaşayan insanların Jobcenter, Ausländerbehörde, Finanzamt, Krankenkasse və əlaqəli qurumlardan gələn rəsmi yazışmaları anlamasına və cavablamasına kömək edir. Sənədi yükləyin, sadə dildə izah alın, son tarixləri izləyin və peşəkar alman cavabı yaradın.",
     "points": {
       "interface": "Analiz, məktub və son tarixlər üçün məhsul interfeysi",
       "multilingual": "Yeddi dildə çoxdilli təcrübə",
       "workflow": "Sənəd yükləmədən peşəkar cavaba AI iş axını",
       "stack": "Next.js, Supabase, OpenAI, Stripe — istehsal arxitekturası"
     },
-    "viewProject": "Layihəyə bax",
-    "github": "GitHub"
+    "viewProject": "GovMate AI-ı aç",
+    "github": "GitHub-da bax",
+    "imageAlt": "GovMate AI məhsul interfeysi laptop mockup-ı",
+    "visualCaption": "Sənəd analizi, son tarixlər və rəsmi cavablar — bir sakit məhsul səthi."
   },
   "tech": {
-    "title": "Texnologiya ekosistemi",
-    "subtitle": "Dizayn, inkişaf və deploy üçün həqiqətən istifadə etdiyim alətlər.",
+    "title": "Fokuslu texnologiya ekosistemi",
+    "subtitle": "Real təslimətdə istifadə etdiyim alətlər — loqo divarı deyil.",
     "groups": {
       "frontend": "Frontend",
       "backend": "Backend",
@@ -75,8 +79,8 @@
     }
   },
   "projects": {
-    "title": "Seçilmiş işlər",
-    "subtitle": "Praktik fokuslu məhsullar və alətlər.",
+    "title": "Praktik kənarı olan məhsullar və sistemlər.",
+    "subtitle": "Hər layihə real repository və ya canlı məhsuldur — nişan deyil, iş.",
     "filters": {
       "all": "Hamısı",
       "ai": "AI",
@@ -119,20 +123,21 @@
         "description": "3D səhnələrlə immersiv rəqəmsal portfolyo dünyası.",
         "longDescription": "Next.js + React Three Fiber ilə eksperimental portfolyo dünyası."
       }
-    }
+    },
+    "eyebrow": "Seçilmiş işlər"
   },
   "github": {
-    "title": "GitHub-da",
-    "subtitle": "Son ictimai repositoriyalar — GitHub-dan canlı.",
-    "viewProfile": "GitHub-a bax",
+    "title": "GitHub-da açıq işlər",
+    "subtitle": "Son ictimai repositoriyalar — canlı çəkilir, uydurulmur.",
+    "viewProfile": "GitHub profilinə bax",
     "updated": "Yeniləndi",
     "fallback": "GitHub müvəqqəti əlçatan deyil. Ən son repositoriyalar üçün profilə baxın.",
     "language": "Dil",
     "noDescription": "Təsvir yoxdur."
   },
   "about": {
-    "title": "Faydalı şeylər qurmağa fokuslanmış developer.",
-    "p1": "Mürəkkəb ideyaları sadə rəqəmsal məhsullara çevirməyi sevirəm.",
+    "title": "Faydalı şeylər qururam — və anlaşılan saxlayıram.",
+    "p1": "Mürəkkəb ideyaları sadə rəqəmsal məhsullara çevirməyi sevirəm. Aydınlıq sənətdir.",
     "p2": "İşim veb tətbiqlər, AI, avtomatlaşdırma, API-lər və bulud deploy kəsişməsindədir.",
     "p3": "Agile komandalarda işləyir, kod keyfiyyətinə önəm verir və real problemləri həll etməkdən motivasiya alıram.",
     "languagesTitle": "Dillər",
@@ -149,15 +154,19 @@
       "master": "Research Engineering Magistraturası — Milli Radio Elektronika Universiteti",
       "bachelor": "Avtomatlaşdırma və İT Bakalavrı — Milli Radio Elektronika Universiteti",
       "cert": "Google AI Essentials — İxtisaslaşma"
-    }
+    },
+    "eyebrow": "Haqqımda",
+    "role": "Veb Developer · AI · Rəqəmsal Həllər",
+    "portraitAlt": "Khayal Jamilli portreti"
   },
   "contact": {
     "title": "Gəl birlikdə faydalı bir şey quraq.",
-    "subtitle": "İdeyanız, layihəniz və ya texniki probleminiz var?",
-    "cta": "Danışaq.",
+    "subtitle": "İdeyanız, məhsul brifiniz və ya sakit, istehsal yönümlü yanaşma tələb edən texniki probleminiz var?",
+    "cta": "Yazın — şəxsən cavab verirəm.",
     "email": "Email yaz",
     "github": "GitHub",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "eyebrow": "Əlaqə"
   },
   "footer": {
     "tagline": "Veb Developer • AI • Rəqəmsal Həllər",

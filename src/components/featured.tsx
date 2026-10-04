@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { featuredProject } from "@/data/projects";
 import { Reveal } from "./reveal";
@@ -17,24 +18,46 @@ export async function Featured() {
       <div className="container-page">
         <Reveal>
           <p className="eyebrow">{t("eyebrow")}</p>
-          <h2 id="featured-heading" className="headline mt-4">
+          <h2 id="featured-heading" className="headline mt-4 max-w-[12ch]">
             {t("title")}
           </h2>
-          <p className="mt-4 max-w-2xl text-xl tracking-[-0.02em] text-muted md:text-2xl">
+          <p className="mt-5 max-w-3xl text-[clamp(1.25rem,2.4vw,1.85rem)] leading-snug tracking-[-0.02em] text-muted">
             {t("subtitle")}
           </p>
         </Reveal>
 
         <Reveal delay={0.08}>
-          <div className="surface mt-12 overflow-hidden">
+          <div className="mt-12 overflow-hidden rounded-[28px] border border-border bg-surface shadow-[var(--shadow)]">
+            <div className="relative aspect-[16/10] w-full md:aspect-[21/9]">
+              <Image
+                src="/images/govmate-product.jpg"
+                alt={t("imageAlt")}
+                fill
+                sizes="(max-width: 1180px) 100vw, 1180px"
+                className="object-cover"
+                priority
+              />
+              <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_35%,rgba(7,8,9,0.78)_100%)]" />
+              <div className="absolute inset-x-0 bottom-0 p-6 md:p-10">
+                <p className="text-sm tracking-[0.16em] text-white/60 uppercase">
+                  govmateai.com
+                </p>
+                <p className="mt-2 max-w-2xl text-xl text-white md:text-2xl">
+                  {t("visualCaption")}
+                </p>
+              </div>
+            </div>
+
             <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
-              <div className="border-b border-border p-8 md:p-12 lg:border-b-0 lg:border-r">
-                <p className="lead !max-w-xl">{t("body")}</p>
+              <div className="border-b border-border p-8 md:p-12 lg:border-r lg:border-b-0">
+                <p className="text-[1.05rem] leading-relaxed text-muted md:text-lg">
+                  {t("body")}
+                </p>
                 <ul className="mt-10 space-y-4">
                   {points.map((point) => (
                     <li
                       key={point}
-                      className="flex gap-3 text-[0.98rem] leading-relaxed text-foreground/90"
+                      className="flex gap-3 text-[1rem] leading-relaxed text-foreground"
                     >
                       <span
                         className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
@@ -64,38 +87,18 @@ export async function Featured() {
                 </div>
               </div>
 
-              <div
-                className="relative min-h-[320px] bg-[linear-gradient(160deg,var(--accent-soft),transparent_40%),linear-gradient(180deg,var(--surface-elevated),var(--background))] p-8 md:p-10"
-                aria-hidden
-              >
-                <div className="mx-auto flex h-full max-w-sm flex-col justify-center gap-4">
-                  <div className="rounded-2xl border border-border bg-background/70 p-5 shadow-[var(--shadow)] backdrop-blur">
-                    <p className="text-xs tracking-[0.16em] text-muted uppercase">
-                      Document analysis
+              <div className="grid gap-4 p-8 md:grid-cols-2 md:p-10">
+                {featuredProject.technologies.map((tech) => (
+                  <div
+                    key={tech}
+                    className="rounded-2xl border border-border bg-surface-elevated px-5 py-6"
+                  >
+                    <p className="text-xs tracking-[0.14em] text-muted uppercase">
+                      Stack
                     </p>
-                    <p className="mt-3 text-lg tracking-[-0.02em]">
-                      Official letter understood
-                    </p>
-                    <div className="mt-5 space-y-2">
-                      <div className="h-2 rounded-full bg-accent-soft" />
-                      <div className="h-2 w-4/5 rounded-full bg-border" />
-                      <div className="h-2 w-2/3 rounded-full bg-border" />
-                    </div>
+                    <p className="mt-3 text-lg tracking-[-0.02em]">{tech}</p>
                   </div>
-                  <div className="grid grid-cols-2 gap-3">
-                    <div className="rounded-2xl border border-border bg-background/60 p-4">
-                      <p className="text-xs text-muted">Languages</p>
-                      <p className="mt-2 text-sm font-medium">TR · DE · EN · AZ</p>
-                    </div>
-                    <div className="rounded-2xl border border-border bg-background/60 p-4">
-                      <p className="text-xs text-muted">Deadline</p>
-                      <p className="mt-2 text-sm font-medium">Tracked</p>
-                    </div>
-                  </div>
-                  <div className="rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm text-muted">
-                    {featuredProject.technologies.slice(0, 4).join(" · ")}
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

@@ -16,8 +16,8 @@
   },
   "hero": {
     "name": "Khayal Jamilli",
-    "headline": "Ich baue digitale Produkte mit Code, KI und Automatisierung.",
-    "sub": "Webentwicklung, KI-gestützte Anwendungen, Automatisierung und praxisnahe digitale Lösungen.",
+    "headline": "Digitale Produkte, die einfach wirken — und ausgeliefert werden.",
+    "sub": "Ich entwerfe und baue Webanwendungen, KI-Workflows und Automatisierungssysteme für echte Abläufe — klare Interfaces, zuverlässige Architektur, Production Delivery.",
     "ctaPrimary": "Meine Arbeit entdecken",
     "ctaSecondary": "GitHub",
     "pillars": {
@@ -28,7 +28,7 @@
     }
   },
   "whatIBuild": {
-    "title": "Ich baue nützliche Technologie.",
+    "title": "Nützliche Technologie, präsentiert wie ein Produkt.",
     "items": {
       "web": {
         "title": "Webanwendungen",
@@ -46,25 +46,29 @@
         "title": "Digitale Lösungen",
         "description": "End-to-end-Lösungen — APIs, Cloud-Deploy und Produktdenken, das liefert."
       }
-    }
+    },
+    "eyebrow": "Was ich baue",
+    "subtitle": "Keine Experimente fürs Regal — Systeme, die man öffnen, verstehen und nutzen kann."
   },
   "featured": {
     "eyebrow": "Featured Produkt",
     "title": "GovMate AI",
-    "subtitle": "KI-Unterstützung für deutsche Behördenkommunikation.",
-    "body": "GovMate AI hilft Nutzern, deutsche Behördenkorrespondenz zu verstehen und zu erstellen — z. B. Jobcenter, Ausländerbehörde, Finanzamt und Krankenkasse.",
+    "subtitle": "KI-Unterstützung für deutsche Behördenkommunikation — von verwirrenden Briefen zu klaren nächsten Schritten.",
+    "body": "GovMate AI hilft Menschen in Deutschland, amtliche Korrespondenz von Jobcenter, Ausländerbehörde, Finanzamt, Krankenkasse und verwandten Stellen zu verstehen und zu beantworten. Dokument hochladen, verständliche Erklärung erhalten, Fristen verfolgen und eine professionelle deutsche Antwort erzeugen.",
     "points": {
       "interface": "Produktinterface für Analyse, Briefe und Fristen",
       "multilingual": "Mehrsprachiges Erlebnis in sieben Sprachen",
       "workflow": "KI-Workflow vom Dokument-Upload zur professionellen Antwort",
       "stack": "Next.js, Supabase, OpenAI, Stripe — Produktionsarchitektur"
     },
-    "viewProject": "Projekt ansehen",
-    "github": "GitHub"
+    "viewProject": "GovMate AI öffnen",
+    "github": "Auf GitHub ansehen",
+    "imageAlt": "GovMate AI Produktinterface als Laptop-Mockup",
+    "visualCaption": "Dokumentanalyse, Fristen und amtliche Antworten — eine ruhige Produktfläche."
   },
   "tech": {
-    "title": "Technologie-Ökosystem",
-    "subtitle": "Werkzeuge, die ich wirklich nutze, um zu gestalten, zu bauen und zu liefern.",
+    "title": "Ein fokussiertes Technologie-Ökosystem",
+    "subtitle": "Werkzeuge aus echter Delivery — keine Logo-Wand.",
     "groups": {
       "frontend": "Frontend",
       "backend": "Backend",
@@ -75,8 +79,8 @@
     }
   },
   "projects": {
-    "title": "Ausgewählte Arbeiten",
-    "subtitle": "Produkte und Tools mit praktischem Fokus.",
+    "title": "Produkte und Systeme mit praktischem Fokus.",
+    "subtitle": "Jedes Projekt ist ein echtes Repository oder Live-Produkt — Arbeit, keine Badges.",
     "filters": {
       "all": "Alle",
       "ai": "KI",
@@ -119,20 +123,21 @@
         "description": "Immersives digitales Portfolio-Universum mit 3D-Szenen.",
         "longDescription": "Experimentelle Portfolio-Welt mit Next.js + React Three Fiber."
       }
-    }
+    },
+    "eyebrow": "Ausgewählte Arbeiten"
   },
   "github": {
-    "title": "Auf GitHub",
-    "subtitle": "Aktuelle öffentliche Repositories — live von GitHub.",
-    "viewProfile": "GitHub ansehen",
+    "title": "Offene Arbeit auf GitHub",
+    "subtitle": "Aktuelle öffentliche Repositories — live geladen, nie erfunden.",
+    "viewProfile": "GitHub-Profil ansehen",
     "updated": "Aktualisiert",
     "fallback": "GitHub ist vorübergehend nicht verfügbar. Besuchen Sie das Profil für die neuesten Repositories.",
     "language": "Sprache",
     "noDescription": "Keine Beschreibung."
   },
   "about": {
-    "title": "Ein Entwickler, der nützliche Dinge baut.",
-    "p1": "Ich verwandle gerne komplizierte Ideen in einfache digitale Produkte.",
+    "title": "Ich baue nützliche Dinge — und halte sie verständlich.",
+    "p1": "Ich verwandle gerne komplizierte Ideen in einfache digitale Produkte. Klarheit ist das Handwerk.",
     "p2": "Meine Arbeit liegt an der Schnittstelle von Webanwendungen, KI, Automatisierung, APIs und Cloud-Deploy — immer mit Klarheit und Zuverlässigkeit.",
     "p3": "Ich arbeite in agilen Teams, lege Wert auf Codequalität und löse gerne echte Probleme für echte Menschen.",
     "languagesTitle": "Sprachen",
@@ -149,15 +154,19 @@
       "master": "Master in Research Engineering — Nationale Universität für Radioelektronik",
       "bachelor": "Bachelor in Automatisierung & IT — Nationale Universität für Radioelektronik",
       "cert": "Google AI Essentials — Spezialisierung"
-    }
+    },
+    "eyebrow": "Über mich",
+    "role": "Webentwickler · KI · Digitale Lösungen",
+    "portraitAlt": "Porträt von Khayal Jamilli"
   },
   "contact": {
     "title": "Lass uns etwas Nützliches bauen.",
-    "subtitle": "Haben Sie eine Idee, ein Projekt oder ein technisches Problem?",
-    "cta": "Lass uns sprechen.",
+    "subtitle": "Haben Sie eine Idee, ein Produktbriefing oder ein technisches Problem, das einen ruhigen, produktionsorientierten Ansatz braucht?",
+    "cta": "Schreiben Sie mir — ich antworte persönlich.",
     "email": "E-Mail schreiben",
     "github": "GitHub",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "eyebrow": "Kontakt"
   },
   "footer": {
     "tagline": "Webentwickler • KI • Digitale Lösungen",

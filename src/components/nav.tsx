@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
 import { ThemeToggle } from "./theme-toggle";
 import { LanguageSelector } from "./language-selector";
 import { cn } from "@/lib/utils";
@@ -21,7 +20,7 @@ export function Nav() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 12);
+    const onScroll = () => setScrolled(window.scrollY > 24);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -34,17 +33,22 @@ export function Nav() {
     };
   }, [open]);
 
+  const overHero = !scrolled && !open;
+
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 transition-all duration-300",
+        "fixed inset-x-0 top-0 z-50 transition-all duration-300",
         scrolled || open ? "nav-blur" : "bg-transparent",
       )}
     >
-      <div className="container-page flex h-16 items-center justify-between gap-4">
+      <div className="container-page flex h-[4.25rem] items-center justify-between gap-4">
         <a
           href="#top"
-          className="text-[0.95rem] font-medium tracking-[-0.02em] text-foreground"
+          className={cn(
+            "text-[0.98rem] font-medium tracking-[-0.02em] transition",
+            overHero ? "text-white" : "text-foreground",
+          )}
         >
           Khayal Jamilli
         </a>
@@ -54,7 +58,12 @@ export function Nav() {
             <a
               key={link.key}
               href={link.href}
-              className="text-sm text-muted transition hover:text-foreground"
+              className={cn(
+                "text-sm transition",
+                overHero
+                  ? "text-white/70 hover:text-white"
+                  : "text-muted hover:text-foreground",
+              )}
             >
               {t(link.key)}
             </a>
@@ -62,13 +71,18 @@ export function Nav() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <div className="hidden sm:block">
+          <div className={cn("hidden sm:block", overHero && "[&_select]:border-white/20 [&_select]:text-white")}>
             <LanguageSelector />
           </div>
           <ThemeToggle />
           <button
             type="button"
-            className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border md:hidden"
+            className={cn(
+              "inline-flex h-9 w-9 items-center justify-center rounded-full border md:hidden",
+              overHero
+                ? "border-white/25 text-white"
+                : "border-border text-foreground",
+            )}
             aria-expanded={open}
             aria-controls="mobile-menu"
             aria-label={open ? t("close") : t("menu")}
@@ -78,13 +92,15 @@ export function Nav() {
             <span className="flex w-4 flex-col gap-1.5" aria-hidden>
               <span
                 className={cn(
-                  "h-px w-full bg-foreground transition",
+                  "h-px w-full transition",
+                  overHero ? "bg-white" : "bg-foreground",
                   open && "translate-y-[3.5px] rotate-45",
                 )}
               />
               <span
                 className={cn(
-                  "h-px w-full bg-foreground transition",
+                  "h-px w-full transition",
+                  overHero ? "bg-white" : "bg-foreground",
                   open && "-translate-y-[3.5px] -rotate-45",
                 )}
               />
@@ -96,7 +112,7 @@ export function Nav() {
       <div
         id="mobile-menu"
         className={cn(
-          "border-t border-border md:hidden",
+          "border-t border-border bg-background/95 backdrop-blur-xl md:hidden",
           open ? "block" : "hidden",
         )}
       >
@@ -114,13 +130,6 @@ export function Nav() {
           <div className="pt-2 sm:hidden">
             <LanguageSelector />
           </div>
-          <Link
-            href="/"
-            className="text-sm text-muted"
-            onClick={() => setOpen(false)}
-          >
-            Home
-          </Link>
         </div>
       </div>
     </header>

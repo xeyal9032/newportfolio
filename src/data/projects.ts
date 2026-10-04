@@ -32,6 +32,7 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/xeyal9032/govmate-ai",
     liveUrl: "https://govmateai.com",
+    image: "/images/govmate-product.jpg",
     featured: true,
   },
   {
@@ -44,6 +45,7 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Prisma", "CMS"],
     githubUrl: "https://github.com/xeyal9032/ostwind",
     liveUrl: "https://frontend.ostwind.az",
+    image: "/images/ostwind-cover.jpg",
   },
   {
     id: "evrak",
@@ -55,6 +57,7 @@ export const projects: Project[] = [
     technologies: ["Python", "Excel", "DATEV"],
     githubUrl: "https://github.com/xeyal9032/Evrak_Karsilastirma_Araci",
     liveUrl: "https://belegpair.govmateai.com",
+    image: "/images/belegpair-cover.jpg",
   },
   {
     id: "ostwind-ai",
@@ -65,6 +68,7 @@ export const projects: Project[] = [
     category: "ai",
     technologies: ["React", "Google AI", "JavaScript"],
     githubUrl: "https://github.com/xeyal9032/ostwindgroup-ai",
+    image: "/images/hero-atmosphere.jpg",
   },
   {
     id: "nextcode",
@@ -75,6 +79,7 @@ export const projects: Project[] = [
     category: "web",
     technologies: ["PHP", "HTML", "CSS"],
     githubUrl: "https://github.com/xeyal9032/nextcode-group-website",
+    image: "/images/ostwind-cover.jpg",
   },
   {
     id: "megashop",
@@ -85,6 +90,7 @@ export const projects: Project[] = [
     category: "web",
     technologies: ["PHP", "MySQL"],
     githubUrl: "https://github.com/xeyal9032/MegaShop",
+    image: "/images/belegpair-cover.jpg",
   },
   {
     id: "jarvis",
@@ -95,6 +101,7 @@ export const projects: Project[] = [
     category: "tools",
     technologies: ["HTML", "JavaScript"],
     githubUrl: "https://github.com/xeyal9032/jarvis",
+    image: "/images/hero-atmosphere.jpg",
   },
   {
     id: "xeyal-os",
@@ -105,6 +112,7 @@ export const projects: Project[] = [
     category: "web",
     technologies: ["Next.js", "React Three Fiber", "TypeScript"],
     githubUrl: "https://github.com/xeyal9032/xeyal-os",
+    image: "/images/govmate-product.jpg",
   },
 ];
 

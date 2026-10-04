@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Khayal Jamilli — Web Geliştirici, AI & Dijital Çözümler",
-    "description": "Khayal Jamilli portfolyosu — web geliştirme, yapay zeka uygulamaları, otomasyon ve modern dijital çözümler."
+    "description": "Khayal Jamilli üretim kalitesinde web ürünleri, AI uygulamaları ve otomasyon sistemleri geliştirir — GovMate AI’dan çok dilli platformlara."
   },
   "nav": {
     "about": "Hakkımda",
@@ -16,8 +16,8 @@
   },
   "hero": {
     "name": "Khayal Jamilli",
-    "headline": "Kod, yapay zeka ve otomasyonla dijital ürünler geliştiriyorum.",
-    "sub": "Web geliştirme, yapay zeka uygulamaları, otomasyon ve pratik dijital çözümler.",
+    "headline": "Basit hisseden dijital ürünler — ve yayına çıkanlar.",
+    "sub": "Gerçek operasyonlar için web uygulamaları, AI iş akışları ve otomasyon sistemleri tasarlayıp geliştiriyorum — net arayüz, güvenilir mimari, üretim teslimatı.",
     "ctaPrimary": "Çalışmalarımı keşfet",
     "ctaSecondary": "GitHub",
     "pillars": {
@@ -28,43 +28,47 @@
     }
   },
   "whatIBuild": {
-    "title": "Faydalı teknoloji geliştiriyorum.",
+    "eyebrow": "Ne geliştiriyorum",
+    "title": "Faydalı teknoloji, ürün gibi sunulur.",
+    "subtitle": "Rafta kalan deneyler değil — insanların açıp anlayıp kullanabileceği sistemler.",
     "items": {
       "web": {
         "title": "Web Uygulamaları",
-        "description": "Net yapıya sahip, hızlı ve üretim kalitesinde ürün arayüzleri."
+        "description": "Bilinçli yapı, performans ve sürdürülebilirlikle ürün kalitesinde arayüzler — iş büyüdükçe büyüyen sistemler."
       },
       "ai": {
         "title": "Yapay Zeka Ürünleri",
-        "description": "Karmaşık işleri basit ve güvenilir araçlara dönüştüren pratik AI akışları."
+        "description": "Sürtünmeyi azaltan pratik AI: belge anlama, taslak oluşturma, çok dilli destek ve yönlendirilmiş akışlar."
       },
       "automation": {
         "title": "Otomasyon",
-        "description": "Belgelerden operasyona kadar tekrarlayan işi azaltan sistemler."
+        "description": "Tekrarlayan belge ve operasyon işini sessizce kaldıran sistemler — raporlar, karşılaştırmalar, aktarımlar."
       },
       "digital": {
         "title": "Dijital Çözümler",
-        "description": "API’ler, bulut dağıtım ve ürün düşüncesiyle uçtan uca çözümler."
+        "description": "Uçtan uca teslimat: API’ler, veri modelleri, bulut dağıtım ve yazılımı kalıcı kılan ürün kararları."
       }
     }
   },
   "featured": {
     "eyebrow": "Öne çıkan ürün",
     "title": "GovMate AI",
-    "subtitle": "Alman resmi yazışmalar için yapay zeka asistanı.",
-    "body": "GovMate AI, Jobcenter, Ausländerbehörde, Finanzamt ve Krankenkasse gibi alanlarda Alman resmi yazışmaları anlamaya ve oluşturmaya yardımcı olur.",
+    "subtitle": "Alman resmi yazışmalar için AI desteği — karmaşık mektuptan net sonraki adıma.",
+    "body": "GovMate AI, Almanya’da yaşayanların Jobcenter, Ausländerbehörde, Finanzamt, Krankenkasse ve benzeri kurumlardan gelen resmi yazışmaları anlamasına ve yanıtlamasına yardımcı olur. Belgeyi yükleyin, sade dilde açıklama alın, son tarihleri takip edin ve profesyonel Almanca yanıt üretin.",
     "points": {
-      "interface": "Analiz, mektup ve son tarihler için ürün arayüzü",
-      "multilingual": "Yedi dilde çok dilli deneyim",
-      "workflow": "Belge yüklemeden profesyonel yanıta AI iş akışı",
-      "stack": "Next.js, Supabase, OpenAI, Stripe — üretim mimarisi"
+      "interface": "Analiz, mektup taslağı ve son tarih takibi için ürün arayüzü",
+      "multilingual": "Baskı altında netlik isteyenler için yedi dilli deneyim",
+      "workflow": "Belge yüklemeden kullanılabilir resmi yanıta AI iş akışı",
+      "stack": "Üretim stack’i: Next.js, Supabase, OpenAI, Stripe, Vercel"
     },
-    "viewProject": "Projeyi Gör",
-    "github": "GitHub"
+    "viewProject": "GovMate AI’ı Aç",
+    "github": "GitHub’da Gör",
+    "imageAlt": "GovMate AI ürün arayüzü dizüstü bilgisayar mockup’ı",
+    "visualCaption": "Belge analizi, son tarihler ve resmi yanıtlar — tek sakin ürün yüzeyi."
   },
   "tech": {
-    "title": "Teknoloji ekosistemi",
-    "subtitle": "Tasarlamak, geliştirmek ve yayınlamak için gerçekten kullandığım araçlar.",
+    "title": "Odaklı teknoloji ekosistemi",
+    "subtitle": "Gerçek teslimatta kullandığım araçlar — logo duvarı değil.",
     "groups": {
       "frontend": "Frontend",
       "backend": "Backend",
@@ -75,8 +79,9 @@
     }
   },
   "projects": {
-    "title": "Seçili çalışmalar",
-    "subtitle": "Pratik odaklı ürünler ve araçlar.",
+    "eyebrow": "Seçili çalışmalar",
+    "title": "Pratik kenarı olan ürünler ve sistemler.",
+    "subtitle": "Her proje gerçek bir depo veya canlı ürün — rozet değil, iş.",
     "filters": {
       "all": "Tümü",
       "ai": "AI",
@@ -85,56 +90,59 @@
       "tools": "Araçlar"
     },
     "viewGithub": "GitHub",
-    "viewLive": "Canlı",
+    "viewLive": "Canlı site",
     "items": {
       "govmate": {
-        "description": "Alman bürokrasisi için AI asistanı — belge analizi ve resmi mektup.",
+        "description": "Alman bürokrasisi için AI ürünü — analiz, son tarihler ve resmi mektup.",
         "longDescription": "Resmi mektupları açıklayan, son tarihleri çıkaran ve Almanca yanıt üreten tam kapsamlı AI ürünü."
       },
       "ostwind": {
-        "description": "CMS ve yönetim araçlarıyla çok dilli eğitim danışmanlığı platformu.",
+        "description": "CMS ve yönetim operasyonlarıyla çok dilli eğitim danışmanlığı platformu.",
         "longDescription": "Next.js, Prisma ve özel içerik sistemiyle uluslararası eğitim platformu."
       },
       "evrak": {
-        "description": "DATEV / yevmiye belge karşılaştırması ve renkli Excel raporları.",
-        "longDescription": "Muhasebe belgelerini karşılaştırıp net çok dilli Excel raporları üreten otomasyon aracı."
+        "description": "DATEV / yevmiye belge karşılaştırması ve net çok dilli Excel raporları.",
+        "longDescription": "Muhasebe belgelerini karşılaştırıp okunabilir Excel raporları üreten otomasyon."
       },
       "ostwindAi": {
-        "description": "Google AI entegrasyonlu modern AI sohbet uygulaması.",
-        "longDescription": "Günlük kullanım için pratik özellikler içeren React tabanlı AI sohbet deneyimi."
+        "description": "Günlük operasyon için Google AI entegrasyonlu AI sohbet ürünü.",
+        "longDescription": "Günlük iş akışları için pratik özellikler içeren React tabanlı AI sohbet."
       },
       "nextcode": {
-        "description": "NextCode Group için dijital pazarlama ajansı sitesi.",
-        "longDescription": "Net mesajlaşma ve dönüşüm odaklı yapıya sahip ajans sitesi."
+        "description": "Dönüşüm odaklı yapıya sahip dijital pazarlama ajansı sitesi.",
+        "longDescription": "Net mesajlaşma ve dönüşüm odaklı ajans sitesi."
       },
       "megashop": {
-        "description": "PHP ile geliştirilmiş e-ticaret vitrini.",
+        "description": "PHP ile e-ticaret temelleri — katalogdan ödemeye.",
         "longDescription": "Katalog, ürün ve ödeme temellerini kapsayan mağaza deneyimi."
       },
       "jarvis": {
-        "description": "Kişisel asistan arayüzü deneyi.",
-        "longDescription": "Asistan tarzı etkileşim kalıplarını keşfeden hafif bir arayüz deneyi."
+        "description": "Sakin etkileşim kalıplarını araştıran asistan arayüzü deneyi.",
+        "longDescription": "Asistan tarzı etkileşimleri keşfeden hafif frontend deneyi."
       },
       "xeyalOs": {
-        "description": "3D sahnelerle immersif dijital portföy evreni.",
-        "longDescription": "Next.js + React Three Fiber ile deneysel portföy dünyası."
+        "description": "Next.js ve React Three Fiber ile immersif portföy evreni.",
+        "longDescription": "Mekânsal hikâye anlatımını keşfeden deneysel 3D portföy dünyası."
       }
     }
   },
   "github": {
-    "title": "GitHub’da",
-    "subtitle": "Son genel depolar — GitHub’dan canlı.",
-    "viewProfile": "GitHub’ı Gör",
+    "title": "GitHub’da açık çalışmalar",
+    "subtitle": "Son genel depolar — canlı çekilir, uydurulmaz.",
+    "viewProfile": "GitHub profilini gör",
     "updated": "Güncellendi",
     "fallback": "GitHub geçici olarak kullanılamıyor. En son depolar için profile gidin.",
     "language": "Dil",
     "noDescription": "Açıklama yok."
   },
   "about": {
-    "title": "Faydalı şeyler üretmeye odaklı bir geliştirici.",
-    "p1": "Karmaşık fikirleri basit dijital ürünlere dönüştürmeyi seviyorum.",
-    "p2": "İşim web uygulamaları, AI, otomasyon, API’ler ve bulut dağıtımının kesişiminde — her zaman netlik ve güvenilirlikle.",
-    "p3": "Çevik ekiplerde çalışır, kod kalitesine önem verir ve gerçek sorunları çözmekten motive olurum.",
+    "eyebrow": "Hakkımda",
+    "role": "Web Geliştirici · AI · Dijital Çözümler",
+    "portraitAlt": "Khayal Jamilli portresi",
+    "title": "Faydalı şeyler üretirim — ve anlaşılır tutarım.",
+    "p1": "Karmaşık fikirleri basit dijital ürünlere dönüştürmeyi seviyorum. Netlik bir zanaattır.",
+    "p2": "İşim web uygulamaları, AI, otomasyon, API’ler ve bulut dağıtımının kesişiminde — gürültüden çok güvenilirliğe yanayım.",
+    "p3": "Çevik ekiplerde iyi çalışır, kod incelemesine önem verir ve gerçek sistemlerde gerçek insanlara dokunan sorunları çözmekten motive olurum.",
     "languagesTitle": "Diller",
     "educationTitle": "Eğitim",
     "languages": {
@@ -152,9 +160,10 @@
     }
   },
   "contact": {
+    "eyebrow": "İletişim",
     "title": "Birlikte faydalı bir şey inşa edelim.",
-    "subtitle": "Bir fikriniz, projeniz veya teknik sorununuz mu var?",
-    "cta": "Konuşalım.",
+    "subtitle": "Bir fikriniz, ürün brifiniz veya sakin, üretim odaklı yaklaşım isteyen teknik bir sorununuz mu var?",
+    "cta": "Yazın — kişisel olarak yanıtlarım.",
     "email": "E-posta gönder",
     "github": "GitHub",
     "linkedin": "LinkedIn"

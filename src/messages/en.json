@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Khayal Jamilli — Web Developer, AI & Digital Solutions",
-    "description": "Portfolio of Khayal Jamilli — web development, AI applications, automation and modern digital solutions."
+    "description": "Khayal Jamilli builds production web products, AI applications and automation systems — from GovMate AI to multilingual platforms."
   },
   "nav": {
     "about": "About",
@@ -16,8 +16,8 @@
   },
   "hero": {
     "name": "Khayal Jamilli",
-    "headline": "I build digital products with code, AI and automation.",
-    "sub": "Web development, AI-powered applications, automation and practical digital solutions.",
+    "headline": "Digital products that feel simple — and ship.",
+    "sub": "I design and build web applications, AI workflows and automation systems for real operations — clear interfaces, reliable architecture, production delivery.",
     "ctaPrimary": "Explore my work",
     "ctaSecondary": "GitHub",
     "pillars": {
@@ -28,43 +28,47 @@
     }
   },
   "whatIBuild": {
-    "title": "I build useful technology.",
+    "eyebrow": "What I build",
+    "title": "Useful technology, presented like a product.",
+    "subtitle": "Not experiments for the shelf — systems people can open, understand and use.",
     "items": {
       "web": {
         "title": "Web Applications",
-        "description": "Fast, maintainable product interfaces with clear structure and production-ready quality."
+        "description": "Product-grade interfaces with deliberate structure, performance and maintainability — built to grow with the business."
       },
       "ai": {
         "title": "AI Products",
-        "description": "Practical AI workflows that turn complex tasks into simple, trustworthy tools."
+        "description": "Practical AI that reduces friction: document understanding, drafting, multilingual assistance and guided workflows."
       },
       "automation": {
         "title": "Automation",
-        "description": "Systems that remove repetitive work from documents, ops, and everyday workflows."
+        "description": "Quiet systems that remove repetitive document and operations work — reports, comparisons, handoffs."
       },
       "digital": {
         "title": "Digital Solutions",
-        "description": "End-to-end solutions — APIs, cloud deploy, and product thinking that ships."
+        "description": "End-to-end delivery: APIs, data models, cloud deployment and the product decisions that make software stick."
       }
     }
   },
   "featured": {
     "eyebrow": "Featured product",
     "title": "GovMate AI",
-    "subtitle": "AI assistance for German official communication.",
-    "body": "GovMate AI helps users understand and create German official correspondence involving areas such as Jobcenter, Ausländerbehörde, Finanzamt and Krankenkasse.",
+    "subtitle": "AI assistance for German official communication — from confusing letters to clear next steps.",
+    "body": "GovMate AI helps people living in Germany understand and respond to official correspondence from Jobcenter, Ausländerbehörde, Finanzamt, Krankenkasse and related institutions. Upload a document, get a plain-language explanation, track deadlines, and generate a professional German reply.",
     "points": {
-      "interface": "Product interface for analysis, letters, and deadlines",
-      "multilingual": "Multilingual experience across seven languages",
-      "workflow": "AI workflow from document upload to professional reply",
-      "stack": "Next.js, Supabase, OpenAI, Stripe — production architecture"
+      "interface": "A product interface for analysis, letter drafting and deadline tracking",
+      "multilingual": "Seven-language experience for people who need clarity under pressure",
+      "workflow": "An AI workflow from document upload to a usable official response",
+      "stack": "Production stack: Next.js, Supabase, OpenAI, Stripe, Vercel"
     },
-    "viewProject": "View Project",
-    "github": "GitHub"
+    "viewProject": "Open GovMate AI",
+    "github": "View on GitHub",
+    "imageAlt": "GovMate AI product interface mockup on a laptop",
+    "visualCaption": "Document analysis, deadlines and official replies — one calm product surface."
   },
   "tech": {
-    "title": "Technology ecosystem",
-    "subtitle": "Tools I actually use to design, build, and ship.",
+    "title": "A focused technology ecosystem",
+    "subtitle": "Tools I use in real shipping work — not a logo wall.",
     "groups": {
       "frontend": "Frontend",
       "backend": "Backend",
@@ -75,8 +79,9 @@
     }
   },
   "projects": {
-    "title": "Selected work",
-    "subtitle": "Products and tools built with a practical focus.",
+    "eyebrow": "Selected work",
+    "title": "Products and systems with a practical edge.",
+    "subtitle": "Each project is a real repository or live product — presented as work, not as badges.",
     "filters": {
       "all": "All",
       "ai": "AI",
@@ -85,56 +90,59 @@
       "tools": "Tools"
     },
     "viewGithub": "GitHub",
-    "viewLive": "Live",
+    "viewLive": "Live site",
     "items": {
       "govmate": {
-        "description": "AI assistant for German bureaucracy — document analysis and official letter drafting.",
-        "longDescription": "Full-stack AI product that explains official letters, extracts deadlines, and generates professional German replies."
+        "description": "AI product for German bureaucracy — analysis, deadlines and official letter drafting.",
+        "longDescription": "Full-stack AI product that explains official letters, extracts deadlines and generates professional German replies."
       },
       "ostwind": {
-        "description": "Multilingual education consultancy platform with CMS and admin tools.",
-        "longDescription": "International education platform built with Next.js, Prisma, and a custom content system."
+        "description": "Multilingual education consultancy platform with CMS and admin operations.",
+        "longDescription": "International education platform built with Next.js, Prisma and a custom content system."
       },
       "evrak": {
-        "description": "DATEV / journal document comparison with colored Excel reports.",
-        "longDescription": "Automation tool that compares accounting documents and produces clear multilingual Excel reports."
+        "description": "DATEV / journal document comparison with clear multilingual Excel reporting.",
+        "longDescription": "Automation tool that compares accounting documents and produces readable Excel reports."
       },
       "ostwindAi": {
-        "description": "Modern AI chat application with Google AI integration.",
-        "longDescription": "React-based AI chat experience with multiple practical features for everyday use."
+        "description": "AI chat product with Google AI integration for everyday operational use.",
+        "longDescription": "React-based AI chat experience with practical features for daily workflows."
       },
       "nextcode": {
-        "description": "Digital marketing agency website for NextCode Group.",
-        "longDescription": "Agency presence site focused on clear messaging and conversion-oriented structure."
+        "description": "Digital marketing agency website with conversion-focused structure.",
+        "longDescription": "Agency presence site focused on clear messaging and conversion-oriented layout."
       },
       "megashop": {
-        "description": "E-commerce storefront built with PHP.",
-        "longDescription": "Shop experience covering catalog, product, and checkout foundations."
+        "description": "E-commerce storefront foundations in PHP — catalog to checkout.",
+        "longDescription": "Shop experience covering catalog, product and checkout foundations."
       },
       "jarvis": {
-        "description": "Personal assistant interface experiment.",
-        "longDescription": "Lightweight front-end experiment exploring assistant-style interaction patterns."
+        "description": "Assistant-style interface experiment exploring calm interaction patterns.",
+        "longDescription": "Lightweight front-end experiment exploring assistant-style interactions."
       },
       "xeyalOs": {
-        "description": "Immersive digital portfolio universe with 3D scenes.",
-        "longDescription": "Experimental Next.js + React Three Fiber portfolio world."
+        "description": "Immersive portfolio universe built with Next.js and React Three Fiber.",
+        "longDescription": "Experimental 3D portfolio world exploring spatial storytelling."
       }
     }
   },
   "github": {
-    "title": "On GitHub",
-    "subtitle": "Recent public repositories — live from GitHub.",
-    "viewProfile": "View GitHub",
+    "title": "Open work on GitHub",
+    "subtitle": "Recent public repositories — pulled live, never invented.",
+    "viewProfile": "View GitHub profile",
     "updated": "Updated",
     "fallback": "GitHub is temporarily unavailable. Visit the profile for the latest repositories.",
     "language": "Language",
     "noDescription": "No description provided."
   },
   "about": {
-    "title": "A developer focused on building useful things.",
-    "p1": "I like turning complicated ideas into simple digital products.",
-    "p2": "My work sits at the intersection of web applications, AI, automation, APIs, and cloud deployment — always with an eye on clarity and reliability.",
-    "p3": "I collaborate in agile teams, care about code quality, and stay motivated by solving real problems for real people.",
+    "eyebrow": "About",
+    "role": "Web Developer · AI · Digital Solutions",
+    "portraitAlt": "Portrait of Khayal Jamilli",
+    "title": "I build useful things — and keep them understandable.",
+    "p1": "I like turning complicated ideas into simple digital products. Clarity is the craft.",
+    "p2": "My work sits where web applications, AI, automation, APIs and cloud deployment meet — with a bias toward reliability over noise.",
+    "p3": "I work well in agile teams, take code review seriously, and stay motivated by solving problems that matter to real people in real systems.",
     "languagesTitle": "Languages",
     "educationTitle": "Education",
     "languages": {
@@ -152,9 +160,10 @@
     }
   },
   "contact": {
+    "eyebrow": "Contact",
     "title": "Let's build something useful.",
-    "subtitle": "Have an idea, project or technical problem?",
-    "cta": "Let's talk.",
+    "subtitle": "Have an idea, a product brief, or a technical problem that needs a calm, production-minded approach?",
+    "cta": "Write me — I reply personally.",
     "email": "Email me",
     "github": "GitHub",
     "linkedin": "LinkedIn"
