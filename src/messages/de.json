@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Khayal Jamilli — Webentwickler, KI & Digitale Lösungen",
+    "description": "Portfolio von Khayal Jamilli — Webentwicklung, KI-Anwendungen, Automatisierung und moderne digitale Lösungen."
+  },
+  "nav": {
+    "about": "Über mich",
+    "work": "Arbeit",
+    "projects": "Projekte",
+    "github": "GitHub",
+    "contact": "Kontakt",
+    "theme": "Theme wechseln",
+    "language": "Sprache",
+    "menu": "Menü",
+    "close": "Schließen"
+  },
+  "hero": {
+    "name": "Khayal Jamilli",
+    "headline": "Ich baue digitale Produkte mit Code, KI und Automatisierung.",
+    "sub": "Webentwicklung, KI-gestützte Anwendungen, Automatisierung und praxisnahe digitale Lösungen.",
+    "ctaPrimary": "Meine Arbeit entdecken",
+    "ctaSecondary": "GitHub",
+    "pillars": {
+      "web": "WEB",
+      "ai": "KI",
+      "automation": "AUTOMATION",
+      "cloud": "CLOUD"
+    }
+  },
+  "whatIBuild": {
+    "title": "Ich baue nützliche Technologie.",
+    "items": {
+      "web": {
+        "title": "Webanwendungen",
+        "description": "Schnelle, wartbare Produktinterfaces mit klarer Struktur und Produktionsqualität."
+      },
+      "ai": {
+        "title": "KI-Produkte",
+        "description": "Praktische KI-Workflows, die komplexe Aufgaben in einfache, verlässliche Tools verwandeln."
+      },
+      "automation": {
+        "title": "Automatisierung",
+        "description": "Systeme, die repetitive Arbeit bei Dokumenten, Ops und Alltag entfernen."
+      },
+      "digital": {
+        "title": "Digitale Lösungen",
+        "description": "End-to-end-Lösungen — APIs, Cloud-Deploy und Produktdenken, das liefert."
+      }
+    }
+  },
+  "featured": {
+    "eyebrow": "Featured Produkt",
+    "title": "GovMate AI",
+    "subtitle": "KI-Unterstützung für deutsche Behördenkommunikation.",
+    "body": "GovMate AI hilft Nutzern, deutsche Behördenkorrespondenz zu verstehen und zu erstellen — z. B. Jobcenter, Ausländerbehörde, Finanzamt und Krankenkasse.",
+    "points": {
+      "interface": "Produktinterface für Analyse, Briefe und Fristen",
+      "multilingual": "Mehrsprachiges Erlebnis in sieben Sprachen",
+      "workflow": "KI-Workflow vom Dokument-Upload zur professionellen Antwort",
+      "stack": "Next.js, Supabase, OpenAI, Stripe — Produktionsarchitektur"
+    },
+    "viewProject": "Projekt ansehen",
+    "github": "GitHub"
+  },
+  "tech": {
+    "title": "Technologie-Ökosystem",
+    "subtitle": "Werkzeuge, die ich wirklich nutze, um zu gestalten, zu bauen und zu liefern.",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "data": "Daten",
+      "ai": "KI",
+      "cloud": "Cloud",
+      "tools": "Developer Tools"
+    }
+  },
+  "projects": {
+    "title": "Ausgewählte Arbeiten",
+    "subtitle": "Produkte und Tools mit praktischem Fokus.",
+    "filters": {
+      "all": "Alle",
+      "ai": "KI",
+      "web": "Web",
+      "automation": "Automation",
+      "tools": "Tools"
+    },
+    "viewGithub": "GitHub",
+    "viewLive": "Live",
+    "items": {
+      "govmate": {
+        "description": "KI-Assistent für deutsche Bürokratie — Dokumentanalyse und Amtsschreiben.",
+        "longDescription": "Full-Stack-KI-Produkt, das Amtsschreiben erklärt, Fristen extrahiert und professionelle deutsche Antworten erstellt."
+      },
+      "ostwind": {
+        "description": "Mehrsprachige Bildungsberatungsplattform mit CMS und Admin-Tools.",
+        "longDescription": "Internationale Bildungsplattform mit Next.js, Prisma und eigenem Content-System."
+      },
+      "evrak": {
+        "description": "DATEV-/Journal-Dokumentenvergleich mit farbigen Excel-Reports.",
+        "longDescription": "Automatisierungstool zum Vergleich von Buchungsdokumenten mit klaren mehrsprachigen Excel-Reports."
+      },
+      "ostwindAi": {
+        "description": "Moderne KI-Chat-Anwendung mit Google-AI-Integration.",
+        "longDescription": "React-basierte KI-Chat-Erfahrung mit praktischen Features für den Alltag."
+      },
+      "nextcode": {
+        "description": "Website einer Digitalmarketing-Agentur für NextCode Group.",
+        "longDescription": "Agenturwebsite mit klarer Botschaft und conversion-orientierter Struktur."
+      },
+      "megashop": {
+        "description": "E-Commerce-Storefront mit PHP.",
+        "longDescription": "Shop-Erlebnis mit Katalog-, Produkt- und Checkout-Grundlagen."
+      },
+      "jarvis": {
+        "description": "Experiment mit persönlicher Assistenten-Oberfläche.",
+        "longDescription": "Leichtgewichtiges Frontend-Experiment zu Assistenten-Interaktionsmustern."
+      },
+      "xeyalOs": {
+        "description": "Immersives digitales Portfolio-Universum mit 3D-Szenen.",
+        "longDescription": "Experimentelle Portfolio-Welt mit Next.js + React Three Fiber."
+      }
+    }
+  },
+  "github": {
+    "title": "Auf GitHub",
+    "subtitle": "Aktuelle öffentliche Repositories — live von GitHub.",
+    "viewProfile": "GitHub ansehen",
+    "updated": "Aktualisiert",
+    "fallback": "GitHub ist vorübergehend nicht verfügbar. Besuchen Sie das Profil für die neuesten Repositories.",
+    "language": "Sprache",
+    "noDescription": "Keine Beschreibung."
+  },
+  "about": {
+    "title": "Ein Entwickler, der nützliche Dinge baut.",
+    "p1": "Ich verwandle gerne komplizierte Ideen in einfache digitale Produkte.",
+    "p2": "Meine Arbeit liegt an der Schnittstelle von Webanwendungen, KI, Automatisierung, APIs und Cloud-Deploy — immer mit Klarheit und Zuverlässigkeit.",
+    "p3": "Ich arbeite in agilen Teams, lege Wert auf Codequalität und löse gerne echte Probleme für echte Menschen.",
+    "languagesTitle": "Sprachen",
+    "educationTitle": "Ausbildung",
+    "languages": {
+      "az": "Aserbaidschanisch — Muttersprache",
+      "tr": "Türkisch — Professionell",
+      "ru": "Russisch — Professionell",
+      "uk": "Ukrainisch — Professionell",
+      "de": "Deutsch — Mittelstufe",
+      "en": "Englisch — Mittelstufe"
+    },
+    "education": {
+      "master": "Master in Research Engineering — Nationale Universität für Radioelektronik",
+      "bachelor": "Bachelor in Automatisierung & IT — Nationale Universität für Radioelektronik",
+      "cert": "Google AI Essentials — Spezialisierung"
+    }
+  },
+  "contact": {
+    "title": "Lass uns etwas Nützliches bauen.",
+    "subtitle": "Haben Sie eine Idee, ein Projekt oder ein technisches Problem?",
+    "cta": "Lass uns sprechen.",
+    "email": "E-Mail schreiben",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Webentwickler • KI • Digitale Lösungen",
+    "rights": "© {year} Khayal Jamilli"
+  }
+}

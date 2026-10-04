@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Khayal Jamilli — Web Developer, AI & Digital Solutions",
+    "description": "Portfolio of Khayal Jamilli — web development, AI applications, automation and modern digital solutions."
+  },
+  "nav": {
+    "about": "About",
+    "work": "Work",
+    "projects": "Projects",
+    "github": "GitHub",
+    "contact": "Contact",
+    "theme": "Toggle theme",
+    "language": "Language",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "name": "Khayal Jamilli",
+    "headline": "I build digital products with code, AI and automation.",
+    "sub": "Web development, AI-powered applications, automation and practical digital solutions.",
+    "ctaPrimary": "Explore my work",
+    "ctaSecondary": "GitHub",
+    "pillars": {
+      "web": "WEB",
+      "ai": "AI",
+      "automation": "AUTOMATION",
+      "cloud": "CLOUD"
+    }
+  },
+  "whatIBuild": {
+    "title": "I build useful technology.",
+    "items": {
+      "web": {
+        "title": "Web Applications",
+        "description": "Fast, maintainable product interfaces with clear structure and production-ready quality."
+      },
+      "ai": {
+        "title": "AI Products",
+        "description": "Practical AI workflows that turn complex tasks into simple, trustworthy tools."
+      },
+      "automation": {
+        "title": "Automation",
+        "description": "Systems that remove repetitive work from documents, ops, and everyday workflows."
+      },
+      "digital": {
+        "title": "Digital Solutions",
+        "description": "End-to-end solutions — APIs, cloud deploy, and product thinking that ships."
+      }
+    }
+  },
+  "featured": {
+    "eyebrow": "Featured product",
+    "title": "GovMate AI",
+    "subtitle": "AI assistance for German official communication.",
+    "body": "GovMate AI helps users understand and create German official correspondence involving areas such as Jobcenter, Ausländerbehörde, Finanzamt and Krankenkasse.",
+    "points": {
+      "interface": "Product interface for analysis, letters, and deadlines",
+      "multilingual": "Multilingual experience across seven languages",
+      "workflow": "AI workflow from document upload to professional reply",
+      "stack": "Next.js, Supabase, OpenAI, Stripe — production architecture"
+    },
+    "viewProject": "View Project",
+    "github": "GitHub"
+  },
+  "tech": {
+    "title": "Technology ecosystem",
+    "subtitle": "Tools I actually use to design, build, and ship.",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "data": "Data",
+      "ai": "AI",
+      "cloud": "Cloud",
+      "tools": "Developer Tools"
+    }
+  },
+  "projects": {
+    "title": "Selected work",
+    "subtitle": "Products and tools built with a practical focus.",
+    "filters": {
+      "all": "All",
+      "ai": "AI",
+      "web": "Web",
+      "automation": "Automation",
+      "tools": "Tools"
+    },
+    "viewGithub": "GitHub",
+    "viewLive": "Live",
+    "items": {
+      "govmate": {
+        "description": "AI assistant for German bureaucracy — document analysis and official letter drafting.",
+        "longDescription": "Full-stack AI product that explains official letters, extracts deadlines, and generates professional German replies."
+      },
+      "ostwind": {
+        "description": "Multilingual education consultancy platform with CMS and admin tools.",
+        "longDescription": "International education platform built with Next.js, Prisma, and a custom content system."
+      },
+      "evrak": {
+        "description": "DATEV / journal document comparison with colored Excel reports.",
+        "longDescription": "Automation tool that compares accounting documents and produces clear multilingual Excel reports."
+      },
+      "ostwindAi": {
+        "description": "Modern AI chat application with Google AI integration.",
+        "longDescription": "React-based AI chat experience with multiple practical features for everyday use."
+      },
+      "nextcode": {
+        "description": "Digital marketing agency website for NextCode Group.",
+        "longDescription": "Agency presence site focused on clear messaging and conversion-oriented structure."
+      },
+      "megashop": {
+        "description": "E-commerce storefront built with PHP.",
+        "longDescription": "Shop experience covering catalog, product, and checkout foundations."
+      },
+      "jarvis": {
+        "description": "Personal assistant interface experiment.",
+        "longDescription": "Lightweight front-end experiment exploring assistant-style interaction patterns."
+      },
+      "xeyalOs": {
+        "description": "Immersive digital portfolio universe with 3D scenes.",
+        "longDescription": "Experimental Next.js + React Three Fiber portfolio world."
+      }
+    }
+  },
+  "github": {
+    "title": "On GitHub",
+    "subtitle": "Recent public repositories — live from GitHub.",
+    "viewProfile": "View GitHub",
+    "updated": "Updated",
+    "fallback": "GitHub is temporarily unavailable. Visit the profile for the latest repositories.",
+    "language": "Language",
+    "noDescription": "No description provided."
+  },
+  "about": {
+    "title": "A developer focused on building useful things.",
+    "p1": "I like turning complicated ideas into simple digital products.",
+    "p2": "My work sits at the intersection of web applications, AI, automation, APIs, and cloud deployment — always with an eye on clarity and reliability.",
+    "p3": "I collaborate in agile teams, care about code quality, and stay motivated by solving real problems for real people.",
+    "languagesTitle": "Languages",
+    "educationTitle": "Education",
+    "languages": {
+      "az": "Azerbaijani — Native",
+      "tr": "Turkish — Professional",
+      "ru": "Russian — Professional",
+      "uk": "Ukrainian — Professional",
+      "de": "German — Intermediate",
+      "en": "English — Intermediate"
+    },
+    "education": {
+      "master": "Master in Research Engineering — National University of Radio Electronics",
+      "bachelor": "Bachelor in Automation & IT — National University of Radio Electronics",
+      "cert": "Google AI Essentials — Specialization"
+    }
+  },
+  "contact": {
+    "title": "Let's build something useful.",
+    "subtitle": "Have an idea, project or technical problem?",
+    "cta": "Let's talk.",
+    "email": "Email me",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Web Developer • AI • Digital Solutions",
+    "rights": "© {year} Khayal Jamilli"
+  }
+}

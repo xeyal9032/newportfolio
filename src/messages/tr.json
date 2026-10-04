@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Khayal Jamilli — Web Geliştirici, AI & Dijital Çözümler",
+    "description": "Khayal Jamilli portfolyosu — web geliştirme, yapay zeka uygulamaları, otomasyon ve modern dijital çözümler."
+  },
+  "nav": {
+    "about": "Hakkımda",
+    "work": "İşler",
+    "projects": "Projeler",
+    "github": "GitHub",
+    "contact": "İletişim",
+    "theme": "Temayı değiştir",
+    "language": "Dil",
+    "menu": "Menü",
+    "close": "Kapat"
+  },
+  "hero": {
+    "name": "Khayal Jamilli",
+    "headline": "Kod, yapay zeka ve otomasyonla dijital ürünler geliştiriyorum.",
+    "sub": "Web geliştirme, yapay zeka uygulamaları, otomasyon ve pratik dijital çözümler.",
+    "ctaPrimary": "Çalışmalarımı keşfet",
+    "ctaSecondary": "GitHub",
+    "pillars": {
+      "web": "WEB",
+      "ai": "AI",
+      "automation": "OTOMASYON",
+      "cloud": "CLOUD"
+    }
+  },
+  "whatIBuild": {
+    "title": "Faydalı teknoloji geliştiriyorum.",
+    "items": {
+      "web": {
+        "title": "Web Uygulamaları",
+        "description": "Net yapıya sahip, hızlı ve üretim kalitesinde ürün arayüzleri."
+      },
+      "ai": {
+        "title": "Yapay Zeka Ürünleri",
+        "description": "Karmaşık işleri basit ve güvenilir araçlara dönüştüren pratik AI akışları."
+      },
+      "automation": {
+        "title": "Otomasyon",
+        "description": "Belgelerden operasyona kadar tekrarlayan işi azaltan sistemler."
+      },
+      "digital": {
+        "title": "Dijital Çözümler",
+        "description": "API’ler, bulut dağıtım ve ürün düşüncesiyle uçtan uca çözümler."
+      }
+    }
+  },
+  "featured": {
+    "eyebrow": "Öne çıkan ürün",
+    "title": "GovMate AI",
+    "subtitle": "Alman resmi yazışmalar için yapay zeka asistanı.",
+    "body": "GovMate AI, Jobcenter, Ausländerbehörde, Finanzamt ve Krankenkasse gibi alanlarda Alman resmi yazışmaları anlamaya ve oluşturmaya yardımcı olur.",
+    "points": {
+      "interface": "Analiz, mektup ve son tarihler için ürün arayüzü",
+      "multilingual": "Yedi dilde çok dilli deneyim",
+      "workflow": "Belge yüklemeden profesyonel yanıta AI iş akışı",
+      "stack": "Next.js, Supabase, OpenAI, Stripe — üretim mimarisi"
+    },
+    "viewProject": "Projeyi Gör",
+    "github": "GitHub"
+  },
+  "tech": {
+    "title": "Teknoloji ekosistemi",
+    "subtitle": "Tasarlamak, geliştirmek ve yayınlamak için gerçekten kullandığım araçlar.",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "data": "Veri",
+      "ai": "Yapay Zeka",
+      "cloud": "Bulut",
+      "tools": "Geliştirici Araçları"
+    }
+  },
+  "projects": {
+    "title": "Seçili çalışmalar",
+    "subtitle": "Pratik odaklı ürünler ve araçlar.",
+    "filters": {
+      "all": "Tümü",
+      "ai": "AI",
+      "web": "Web",
+      "automation": "Otomasyon",
+      "tools": "Araçlar"
+    },
+    "viewGithub": "GitHub",
+    "viewLive": "Canlı",
+    "items": {
+      "govmate": {
+        "description": "Alman bürokrasisi için AI asistanı — belge analizi ve resmi mektup.",
+        "longDescription": "Resmi mektupları açıklayan, son tarihleri çıkaran ve Almanca yanıt üreten tam kapsamlı AI ürünü."
+      },
+      "ostwind": {
+        "description": "CMS ve yönetim araçlarıyla çok dilli eğitim danışmanlığı platformu.",
+        "longDescription": "Next.js, Prisma ve özel içerik sistemiyle uluslararası eğitim platformu."
+      },
+      "evrak": {
+        "description": "DATEV / yevmiye belge karşılaştırması ve renkli Excel raporları.",
+        "longDescription": "Muhasebe belgelerini karşılaştırıp net çok dilli Excel raporları üreten otomasyon aracı."
+      },
+      "ostwindAi": {
+        "description": "Google AI entegrasyonlu modern AI sohbet uygulaması.",
+        "longDescription": "Günlük kullanım için pratik özellikler içeren React tabanlı AI sohbet deneyimi."
+      },
+      "nextcode": {
+        "description": "NextCode Group için dijital pazarlama ajansı sitesi.",
+        "longDescription": "Net mesajlaşma ve dönüşüm odaklı yapıya sahip ajans sitesi."
+      },
+      "megashop": {
+        "description": "PHP ile geliştirilmiş e-ticaret vitrini.",
+        "longDescription": "Katalog, ürün ve ödeme temellerini kapsayan mağaza deneyimi."
+      },
+      "jarvis": {
+        "description": "Kişisel asistan arayüzü deneyi.",
+        "longDescription": "Asistan tarzı etkileşim kalıplarını keşfeden hafif bir arayüz deneyi."
+      },
+      "xeyalOs": {
+        "description": "3D sahnelerle immersif dijital portföy evreni.",
+        "longDescription": "Next.js + React Three Fiber ile deneysel portföy dünyası."
+      }
+    }
+  },
+  "github": {
+    "title": "GitHub’da",
+    "subtitle": "Son genel depolar — GitHub’dan canlı.",
+    "viewProfile": "GitHub’ı Gör",
+    "updated": "Güncellendi",
+    "fallback": "GitHub geçici olarak kullanılamıyor. En son depolar için profile gidin.",
+    "language": "Dil",
+    "noDescription": "Açıklama yok."
+  },
+  "about": {
+    "title": "Faydalı şeyler üretmeye odaklı bir geliştirici.",
+    "p1": "Karmaşık fikirleri basit dijital ürünlere dönüştürmeyi seviyorum.",
+    "p2": "İşim web uygulamaları, AI, otomasyon, API’ler ve bulut dağıtımının kesişiminde — her zaman netlik ve güvenilirlikle.",
+    "p3": "Çevik ekiplerde çalışır, kod kalitesine önem verir ve gerçek sorunları çözmekten motive olurum.",
+    "languagesTitle": "Diller",
+    "educationTitle": "Eğitim",
+    "languages": {
+      "az": "Azerbaycan dili — Ana dil",
+      "tr": "Türkçe — Profesyonel",
+      "ru": "Rusça — Profesyonel",
+      "uk": "Ukraynaca — Profesyonel",
+      "de": "Almanca — Orta",
+      "en": "İngilizce — Orta"
+    },
+    "education": {
+      "master": "Araştırma Mühendisliği Yüksek Lisans — Ulusal Radyo Elektronik Üniversitesi",
+      "bachelor": "Otomasyon & BT Lisans — Ulusal Radyo Elektronik Üniversitesi",
+      "cert": "Google AI Essentials — Uzmanlık"
+    }
+  },
+  "contact": {
+    "title": "Birlikte faydalı bir şey inşa edelim.",
+    "subtitle": "Bir fikriniz, projeniz veya teknik sorununuz mu var?",
+    "cta": "Konuşalım.",
+    "email": "E-posta gönder",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Web Geliştirici • AI • Dijital Çözümler",
+    "rights": "© {year} Khayal Jamilli"
+  }
+}
