@@ -59,10 +59,10 @@ export function Nav() {
               key={link.key}
               href={link.href}
               className={cn(
-                "text-[0.9rem] font-medium transition",
+                "text-[0.9rem] font-semibold transition",
                 overHero
-                  ? "text-white/80 hover:text-white"
-                  : "text-muted hover:text-foreground",
+                  ? "text-white hover:text-white/90"
+                  : "text-foreground/80 hover:text-foreground",
               )}
             >
               {t(link.key)}
@@ -80,8 +80,8 @@ export function Nav() {
             className={cn(
               "inline-flex h-9 w-9 items-center justify-center rounded-full border lg:hidden",
               overHero
-                ? "border-white/35 bg-white/10 text-white"
-                : "border-border text-foreground",
+                ? "border-white/40 bg-white/12 text-white"
+                : "border-border bg-surface text-foreground",
             )}
             aria-expanded={open}
             aria-controls="mobile-menu"
@@ -112,7 +112,7 @@ export function Nav() {
       <div
         id="mobile-menu"
         className={cn(
-          "border-t border-border bg-[#0b0c0e]/96 backdrop-blur-xl lg:hidden",
+          "border-t border-border bg-background lg:hidden",
           open ? "block" : "hidden",
         )}
       >
@@ -121,14 +121,14 @@ export function Nav() {
             <a
               key={link.key}
               href={link.href}
-              className="text-lg text-white"
+              className="text-lg font-semibold text-foreground"
               onClick={() => setOpen(false)}
             >
               {t(link.key)}
             </a>
           ))}
           <div className="pt-2 sm:hidden">
-            <LanguageSelector forceLight />
+            <LanguageSelector />
           </div>
         </div>
       </div>

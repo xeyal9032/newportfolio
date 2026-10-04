@@ -46,7 +46,7 @@ export function LanguageSelector({ forceLight = false }: LanguageSelectorProps) 
         aria-label={t("language")}
       >
         {locales.map((code) => (
-          <option key={code} value={code} className="bg-[#121418] text-white">
+          <option key={code} value={code} className="bg-white text-black dark:bg-[#121418] dark:text-white">
             {labels[code]}
           </option>
         ))}

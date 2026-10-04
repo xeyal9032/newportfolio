@@ -33,7 +33,7 @@ export function Hero() {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center opacity-55"
+          className="object-cover object-center opacity-60"
         />
         <div className="absolute inset-0 bg-[linear-gradient(105deg,rgba(7,8,9,0.92)_0%,rgba(7,8,9,0.78)_42%,rgba(7,8,9,0.55)_70%,rgba(7,8,9,0.82)_100%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_18%_15%,rgba(142,196,214,0.22),transparent_42%)]" />
@@ -42,7 +42,7 @@ export function Hero() {
       <div className="relative container-page grid min-h-[100svh] items-center gap-10 pb-14 pt-28 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:pb-20 lg:pt-32">
         <div className="max-w-2xl">
           <motion.p
-            className="text-[0.75rem] font-semibold tracking-[0.22em] text-white/60 uppercase"
+            className="text-[0.75rem] font-semibold tracking-[0.22em] text-white/75 uppercase"
             initial={reduce ? false : { opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4 }}
@@ -80,7 +80,7 @@ export function Hero() {
           </motion.p>
 
           <motion.p
-            className="mt-5 max-w-xl text-[1.02rem] leading-relaxed text-white/72 md:text-[1.12rem]"
+            className="mt-5 max-w-xl text-[1.02rem] leading-relaxed text-white/85 md:text-[1.12rem]"
             initial={reduce ? false : { opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.45, delay: 0.16 }}

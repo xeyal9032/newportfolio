@@ -1,39 +1,39 @@
 @import "tailwindcss";
 
 :root {
-  --background: #eceef1;
-  --foreground: #0b0c0f;
-  --muted: #5a616d;
+  --background: #f3f4f6;
+  --foreground: #0a0b0d;
+  --muted: #3f4654;
   --surface: #ffffff;
-  --surface-elevated: #f7f8fa;
-  --border: rgba(11, 12, 15, 0.08);
-  --accent: #1f5f7a;
-  --accent-soft: rgba(31, 95, 122, 0.1);
-  --hero-glow: rgba(31, 95, 122, 0.14);
-  --hero-glow-2: rgba(11, 12, 15, 0.05);
-  --shadow: 0 30px 80px rgba(11, 12, 15, 0.1);
-  --shadow-soft: 0 10px 30px rgba(11, 12, 15, 0.06);
+  --surface-elevated: #f8f9fb;
+  --border: rgba(10, 11, 13, 0.14);
+  --accent: #165a75;
+  --accent-soft: rgba(22, 90, 117, 0.12);
+  --hero-glow: rgba(22, 90, 117, 0.14);
+  --hero-glow-2: rgba(10, 11, 13, 0.05);
+  --shadow: 0 30px 80px rgba(10, 11, 13, 0.1);
+  --shadow-soft: 0 10px 30px rgba(10, 11, 13, 0.07);
   --radius: 22px;
   --radius-sm: 14px;
-  --nav-bg: rgba(236, 238, 241, 0.78);
+  --nav-bg: rgba(243, 244, 246, 0.92);
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --duration: 320ms;
 }
 
 .dark {
-  --background: #070809;
-  --foreground: #f4f5f7;
-  --muted: #9aa1ad;
-  --surface: #101215;
-  --surface-elevated: #16191e;
-  --border: rgba(244, 245, 247, 0.08);
-  --accent: #8ec4d6;
-  --accent-soft: rgba(142, 196, 214, 0.12);
-  --hero-glow: rgba(142, 196, 214, 0.12);
-  --hero-glow-2: rgba(255, 255, 255, 0.03);
+  --background: #08090b;
+  --foreground: #f5f6f8;
+  --muted: #b4bac6;
+  --surface: #12151a;
+  --surface-elevated: #191d24;
+  --border: rgba(245, 246, 248, 0.16);
+  --accent: #9ad0e2;
+  --accent-soft: rgba(154, 208, 226, 0.14);
+  --hero-glow: rgba(154, 208, 226, 0.14);
+  --hero-glow-2: rgba(255, 255, 255, 0.04);
   --shadow: 0 40px 100px rgba(0, 0, 0, 0.55);
   --shadow-soft: 0 12px 40px rgba(0, 0, 0, 0.35);
-  --nav-bg: rgba(7, 8, 9, 0.72);
+  --nav-bg: rgba(8, 9, 11, 0.9);
 }
 
 @theme inline {
@@ -102,13 +102,7 @@ a {
 }
 
 .grain {
-  pointer-events: none;
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  opacity: 0.04;
-  mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  display: none;
 }
 
 .container-page {
@@ -127,32 +121,34 @@ a {
 }
 
 .eyebrow {
-  font-size: 0.72rem;
-  letter-spacing: 0.2em;
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--muted);
-  font-weight: 520;
+  font-weight: 600;
 }
 
 .display {
   font-size: clamp(3rem, 8vw, 6.4rem);
   line-height: 0.94;
   letter-spacing: -0.055em;
-  font-weight: 550;
+  font-weight: 560;
+  color: var(--foreground);
 }
 
 .headline {
   font-size: clamp(2.2rem, 4.8vw, 3.8rem);
-  line-height: 1.02;
+  line-height: 1.05;
   letter-spacing: -0.04em;
-  font-weight: 550;
+  font-weight: 560;
+  color: var(--foreground);
 }
 
 .lead {
   font-size: clamp(1.08rem, 1.7vw, 1.35rem);
   line-height: 1.55;
   color: var(--muted);
-  max-width: 40rem;
+  max-width: 42rem;
 }
 
 .btn {
@@ -164,7 +160,7 @@ a {
   padding: 0.8rem 1.4rem;
   border-radius: 999px;
   font-size: 0.95rem;
-  font-weight: 520;
+  font-weight: 600;
   transition: transform var(--duration) var(--ease), background var(--duration) var(--ease),
     border-color var(--duration) var(--ease), color var(--duration) var(--ease),
     box-shadow var(--duration) var(--ease);
@@ -181,27 +177,26 @@ a {
 }
 
 .btn-secondary {
-  background: color-mix(in oklab, var(--surface) 70%, transparent);
+  background: var(--surface);
   color: var(--foreground);
   border: 1px solid var(--border);
-  backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-  border-color: color-mix(in oklab, var(--foreground) 28%, transparent);
+  border-color: color-mix(in oklab, var(--foreground) 35%, transparent);
 }
 
-/* Sections below hero should always follow theme tokens cleanly */
 .theme-surface {
   color: var(--foreground);
   background: var(--background);
 }
 
 .surface {
-  background: color-mix(in oklab, var(--surface) 92%, transparent);
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow-soft);
+  color: var(--foreground);
 }
 
 .nav-blur {
@@ -229,10 +224,5 @@ a {
 .divider-line {
   height: 1px;
   width: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    color-mix(in oklab, var(--foreground) 18%, transparent),
-    transparent
-  );
+  background: color-mix(in oklab, var(--foreground) 14%, transparent);
 }

@@ -141,12 +141,57 @@
   },
   "about": {
     "eyebrow": "About",
-    "role": "Web Developer · AI · Digital Solutions",
+    "role": "Software Developer · AI · Digital Solutions",
     "portraitAlt": "Portrait of Khayal Jamilli",
-    "title": "I build useful things — and keep them understandable.",
+    "location": "Building products across web, AI and automation.",
+    "title": "A developer focused on useful systems — not empty demos.",
+    "lead": "I design and ship digital products with clear interfaces, reliable architecture and a practical mindset.",
     "p1": "I like turning complicated ideas into simple digital products. Clarity is the craft.",
-    "p2": "My work sits where web applications, AI, automation, APIs and cloud deployment meet — with a bias toward reliability over noise.",
-    "p3": "I work well in agile teams, take code review seriously, and stay motivated by solving problems that matter to real people in real systems.",
+    "p2": "My work lives where web applications, AI, automation, APIs and cloud deployment meet. I care less about noise and more about software that people can trust in real workflows.",
+    "p3": "At OstWind Group and in independent products like GovMate AI, I work end-to-end: product thinking, frontend quality, API design, data models and production delivery.",
+    "p4": "I collaborate well in agile teams, take code review seriously, and stay motivated by solving problems that matter to real people in real systems.",
+    "ctaEmail": "Email me",
+    "ctaLinkedin": "LinkedIn",
+    "ctaGithub": "GitHub",
+    "principlesTitle": "How I work",
+    "principlesSubtitle": "A small set of principles that keep products calm, usable and shippable.",
+    "principles": {
+      "clarity": {
+        "title": "Clarity first",
+        "body": "Interfaces and architecture should explain themselves. If something needs a long apology, it usually needs a redesign."
+      },
+      "reliability": {
+        "title": "Reliability over hype",
+        "body": "I prefer stable delivery, tested paths and maintainable code over trends that break under real use."
+      },
+      "shipping": {
+        "title": "Ship to production",
+        "body": "A product only becomes useful when it reaches users. I build with deployment, monitoring and iteration in mind."
+      },
+      "collaboration": {
+        "title": "Team-ready craft",
+        "body": "Clean pull requests, honest communication and reusable systems make collaboration faster for everyone."
+      }
+    },
+    "experienceTitle": "Selected experience",
+    "experienceSubtitle": "Product work with measurable outcomes — from AI assistance to multilingual platforms.",
+    "experience": {
+      "govmate": {
+        "tag": "AI Product",
+        "title": "GovMate AI",
+        "body": "Built an AI product that helps users understand German official letters, track deadlines and draft professional replies — multilingual, production-ready and deployed on Vercel."
+      },
+      "ostwind": {
+        "tag": "Platform",
+        "title": "OstWind",
+        "body": "Contributed to a multilingual education consultancy platform with CMS and admin operations — Next.js, structured content and practical business workflows."
+      },
+      "automation": {
+        "tag": "Automation",
+        "title": "BelegPair & tooling",
+        "body": "Created document comparison and automation tools that remove repetitive accounting and ops work with clear reporting outputs."
+      }
+    },
     "languagesTitle": "Languages",
     "educationTitle": "Education",
     "languages": {

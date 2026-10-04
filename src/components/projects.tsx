@@ -47,7 +47,7 @@ export function Projects() {
                 "rounded-full border px-4 py-2 text-sm transition",
                 filter === item
                   ? "border-foreground bg-foreground text-background"
-                  : "border-border text-muted hover:text-foreground",
+                  : "border-border bg-surface text-foreground/80 hover:text-foreground",
               )}
             >
               {t(`filters.${item}`)}

@@ -59,14 +59,14 @@ export async function WhatIBuild() {
                   </div>
                 </div>
                 <div className="p-7 md:p-8">
-                  <h3 className="text-[1.7rem] tracking-[-0.03em]">
+                  <h3 className="text-[1.7rem] tracking-[-0.03em] text-foreground">
                     {t(`items.${item.key}.title`)}
                   </h3>
                   <p className="mt-3 max-w-md text-[1rem] leading-relaxed text-muted">
                     {t(`items.${item.key}.description`)}
                   </p>
                   <div className="divider-line mt-8" />
-                  <p className="mt-4 text-xs tracking-[0.14em] text-accent uppercase">
+                  <p className="mt-4 text-xs font-semibold tracking-[0.14em] text-accent uppercase">
                     {item.tech}
                   </p>
                 </div>

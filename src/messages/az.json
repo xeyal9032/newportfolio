@@ -140,10 +140,58 @@
     "noDescription": "Təsvir yoxdur."
   },
   "about": {
-    "title": "Faydalı şeylər qururam — və anlaşılan saxlayıram.",
+    "eyebrow": "Haqqımda",
+    "role": "Software Developer · AI · Rəqəmsal Həllər",
+    "portraitAlt": "Khayal Jamilli portreti",
+    "location": "Web, AI və avtomatlaşdırma məhsulları qururam.",
+    "title": "Faydalı sistemlərə fokuslanmış developer — boş demolar deyil.",
+    "lead": "Aydın interfeys, etibarlı arxitektura və praktik yanaşma ilə rəqəmsal məhsullar dizayn edib yayına çıxarıram.",
     "p1": "Mürəkkəb ideyaları sadə rəqəmsal məhsullara çevirməyi sevirəm. Aydınlıq sənətdir.",
-    "p2": "İşim veb tətbiqlər, AI, avtomatlaşdırma, API-lər və bulud deploy kəsişməsindədir.",
-    "p3": "Agile komandalarda işləyir, kod keyfiyyətinə önəm verir və real problemləri həll etməkdən motivasiya alıram.",
+    "p2": "İşim veb tətbiqlər, AI, avtomatlaşdırma, API-lər və bulud deploy kəsişməsindədir. Səs-küydən çox real iş axınlarında etibar edilən proqram təminatına önəm verirəm.",
+    "p3": "OstWind Group-da və GovMate AI kimi müstəqil məhsullarda uçdan-uca işləyirəm: məhsul düşüncəsi, frontend keyfiyyəti, API dizaynı, data modelləri və production təslim.",
+    "p4": "Agile komandalarda yaxşı əməkdaşlıq edir, code review-a ciddi yanaşır və real sistemlərdə real insanlara toxunan problemləri həll etməkdən motivasiya alıram.",
+    "ctaEmail": "Email yaz",
+    "ctaLinkedin": "LinkedIn",
+    "ctaGithub": "GitHub",
+    "principlesTitle": "Necə işləyirəm",
+    "principlesSubtitle": "Məhsulu sakit, istifadəolunan və buraxılışa hazır saxlayan kiçik prinsip dəsti.",
+    "principles": {
+      "clarity": {
+        "title": "Əvvəlcə aydınlıq",
+        "body": "İnterfeys və arxitektura özünü izah etməlidir. Uzun bəhanə lazımdırsa, adətən redesign lazımdır."
+      },
+      "reliability": {
+        "title": "Hype yox, etibarlılıq",
+        "body": "Real istifadədə qırılan trendlərdən çox sabit təslim, test edilmiş yollar və saxlanıla bilən kod seçirəm."
+      },
+      "shipping": {
+        "title": "Production-a çıxar",
+        "body": "Məhsul istifadəçiyə çatanda faydalı olur. Deploy, monitorinq və iterasiyanı əvvəldən düşünərək qururam."
+      },
+      "collaboration": {
+        "title": "Komanda üçün sənətkarlıq",
+        "body": "Təmiz PR-lar, dürüst kommunikasiya və təkrar istifadə olunan sistemlər hamı üçün əməkdaşlığı sürətləndirir."
+      }
+    },
+    "experienceTitle": "Seçilmiş təcrübə",
+    "experienceSubtitle": "Ölçülə bilən nəticəsi olan məhsul işləri — AI köməkçidən çoxdilli platformalara.",
+    "experience": {
+      "govmate": {
+        "tag": "AI Məhsul",
+        "title": "GovMate AI",
+        "body": "Alman rəsmi məktubları anlamağa, son tarixləri izləməyə və peşəkar cavab yazmağa kömək edən çoxdilli, production-ready AI məhsulu qurdum."
+      },
+      "ostwind": {
+        "tag": "Platforma",
+        "title": "OstWind",
+        "body": "CMS və admin əməliyyatları ilə çoxdilli təhsil konsaltinq platformasına töhfə — Next.js, strukturlaşdırılmış məzmun və praktik iş axınları."
+      },
+      "automation": {
+        "tag": "Avtomatlaşdırma",
+        "title": "BelegPair və alətlər",
+        "body": "Mühasibat və ops rutinini aydın hesabatlarla azaldan sənəd müqayisə və avtomatlaşdırma alətləri yaratdım."
+      }
+    },
     "languagesTitle": "Dillər",
     "educationTitle": "Təhsil",
     "languages": {
@@ -158,10 +206,7 @@
       "master": "Research Engineering Magistraturası — Milli Radio Elektronika Universiteti",
       "bachelor": "Avtomatlaşdırma və İT Bakalavrı — Milli Radio Elektronika Universiteti",
       "cert": "Google AI Essentials — İxtisaslaşma"
-    },
-    "eyebrow": "Haqqımda",
-    "role": "Veb Developer · AI · Rəqəmsal Həllər",
-    "portraitAlt": "Khayal Jamilli portreti"
+    }
   },
   "contact": {
     "title": "Gəl birlikdə faydalı bir şey quraq.",

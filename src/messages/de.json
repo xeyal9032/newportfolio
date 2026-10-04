@@ -140,10 +140,58 @@
     "noDescription": "Keine Beschreibung."
   },
   "about": {
-    "title": "Ich baue nützliche Dinge — und halte sie verständlich.",
+    "eyebrow": "Über mich",
+    "role": "Softwareentwickler · KI · Digitale Lösungen",
+    "portraitAlt": "Porträt von Khayal Jamilli",
+    "location": "Ich baue Produkte in Web, KI und Automatisierung.",
+    "title": "Ein Entwickler für nützliche Systeme — keine leeren Demos.",
+    "lead": "Ich entwerfe und liefere digitale Produkte mit klaren Interfaces, zuverlässiger Architektur und praktischem Denken.",
     "p1": "Ich verwandle gerne komplizierte Ideen in einfache digitale Produkte. Klarheit ist das Handwerk.",
-    "p2": "Meine Arbeit liegt an der Schnittstelle von Webanwendungen, KI, Automatisierung, APIs und Cloud-Deploy — immer mit Klarheit und Zuverlässigkeit.",
-    "p3": "Ich arbeite in agilen Teams, lege Wert auf Codequalität und löse gerne echte Probleme für echte Menschen.",
+    "p2": "Meine Arbeit liegt an der Schnittstelle von Webanwendungen, KI, Automatisierung, APIs und Cloud-Deploy. Weniger Lärm, mehr Software, der man in echten Abläufen vertraut.",
+    "p3": "Bei OstWind Group und in unabhängigen Produkten wie GovMate AI arbeite ich end-to-end: Produktdenken, Frontend-Qualität, API-Design, Datenmodelle und Production Delivery.",
+    "p4": "Ich arbeite gut in agilen Teams, nehme Code Reviews ernst und löse gerne Probleme, die echte Menschen in echten Systemen betreffen.",
+    "ctaEmail": "E-Mail schreiben",
+    "ctaLinkedin": "LinkedIn",
+    "ctaGithub": "GitHub",
+    "principlesTitle": "Wie ich arbeite",
+    "principlesSubtitle": "Wenige Prinzipien, die Produkte ruhig, nutzbar und lieferfähig halten.",
+    "principles": {
+      "clarity": {
+        "title": "Klarheit zuerst",
+        "body": "Interfaces und Architektur sollten sich selbst erklären. Braucht etwas eine lange Entschuldigung, braucht es meist ein Redesign."
+      },
+      "reliability": {
+        "title": "Zuverlässigkeit statt Hype",
+        "body": "Ich bevorzuge stabile Delivery, getestete Pfade und wartbaren Code statt Trends, die unter realer Nutzung brechen."
+      },
+      "shipping": {
+        "title": "In Production liefern",
+        "body": "Ein Produkt wird erst nützlich, wenn es Nutzer erreicht. Ich baue mit Deploy, Monitoring und Iteration im Blick."
+      },
+      "collaboration": {
+        "title": "Teamfähiges Handwerk",
+        "body": "Saubere PRs, ehrliche Kommunikation und wiederverwendbare Systeme machen Zusammenarbeit für alle schneller."
+      }
+    },
+    "experienceTitle": "Ausgewählte Erfahrung",
+    "experienceSubtitle": "Produktarbeit mit messbarem Nutzen — von KI-Assistenz bis mehrsprachigen Plattformen.",
+    "experience": {
+      "govmate": {
+        "tag": "KI-Produkt",
+        "title": "GovMate AI",
+        "body": "KI-Produkt, das deutsche Amtsschreiben erklärt, Fristen trackt und professionelle Antworten erstellt — mehrsprachig, production-ready, auf Vercel deployed."
+      },
+      "ostwind": {
+        "tag": "Plattform",
+        "title": "OstWind",
+        "body": "Beitrag zu einer mehrsprachigen Bildungsberatungsplattform mit CMS und Admin-Ops — Next.js, strukturierte Inhalte und praktische Workflows."
+      },
+      "automation": {
+        "tag": "Automatisierung",
+        "title": "BelegPair & Tools",
+        "body": "Dokumentenvergleich und Automatisierungstools, die repetitive Buchhaltungs- und Ops-Arbeit mit klaren Reports reduzieren."
+      }
+    },
     "languagesTitle": "Sprachen",
     "educationTitle": "Ausbildung",
     "languages": {
@@ -158,10 +206,7 @@
       "master": "Master in Research Engineering — Nationale Universität für Radioelektronik",
       "bachelor": "Bachelor in Automatisierung & IT — Nationale Universität für Radioelektronik",
       "cert": "Google AI Essentials — Spezialisierung"
-    },
-    "eyebrow": "Über mich",
-    "role": "Webentwickler · KI · Digitale Lösungen",
-    "portraitAlt": "Porträt von Khayal Jamilli"
+    }
   },
   "contact": {
     "title": "Lass uns etwas Nützliches bauen.",

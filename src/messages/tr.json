@@ -141,12 +141,57 @@
   },
   "about": {
     "eyebrow": "Hakkımda",
-    "role": "Web Geliştirici · AI · Dijital Çözümler",
+    "role": "Yazılım Geliştirici · AI · Dijital Çözümler",
     "portraitAlt": "Khayal Jamilli portresi",
-    "title": "Faydalı şeyler üretirim — ve anlaşılır tutarım.",
+    "location": "Web, AI ve otomasyon ürünleri geliştiriyorum.",
+    "title": "Faydalı sistemlere odaklı bir geliştirici — boş demolar değil.",
+    "lead": "Net arayüzler, güvenilir mimari ve pratik bir yaklaşımla dijital ürünler tasarlayıp yayına alıyorum.",
     "p1": "Karmaşık fikirleri basit dijital ürünlere dönüştürmeyi seviyorum. Netlik bir zanaattır.",
-    "p2": "İşim web uygulamaları, AI, otomasyon, API’ler ve bulut dağıtımının kesişiminde — gürültüden çok güvenilirliğe yanayım.",
-    "p3": "Çevik ekiplerde iyi çalışır, kod incelemesine önem verir ve gerçek sistemlerde gerçek insanlara dokunan sorunları çözmekten motive olurum.",
+    "p2": "İşim web uygulamaları, AI, otomasyon, API’ler ve bulut dağıtımının kesişiminde. Gürültüden çok, gerçek iş akışlarında güvenilen yazılıma önem veririm.",
+    "p3": "OstWind Group’ta ve GovMate AI gibi bağımsız ürünlerde uçtan uca çalışırım: ürün düşüncesi, frontend kalitesi, API tasarımı, veri modelleri ve production teslimatı.",
+    "p4": "Çevik ekiplerde iyi işbirliği yapar, kod incelemesine önem verir ve gerçek sistemlerde gerçek insanlara dokunan sorunları çözmekten motive olurum.",
+    "ctaEmail": "E-posta gönder",
+    "ctaLinkedin": "LinkedIn",
+    "ctaGithub": "GitHub",
+    "principlesTitle": "Nasıl çalışırım",
+    "principlesSubtitle": "Ürünleri sakin, kullanılabilir ve yayına hazır tutan küçük bir prensip seti.",
+    "principles": {
+      "clarity": {
+        "title": "Önce netlik",
+        "body": "Arayüz ve mimari kendini açıklamalı. Uzun bir özür gerekiyorsa genelde yeniden tasarım gerekir."
+      },
+      "reliability": {
+        "title": "Hype yerine güvenilirlik",
+        "body": "Gerçek kullanımda kırılan dönüşlere değil; stabil teslimat, test edilmiş yollar ve sürdürülebilir koda öncelik veririm."
+      },
+      "shipping": {
+        "title": "Production’a çıkar",
+        "body": "Bir ürün kullanıcıya ulaşınca faydalı olur. Deploy, izleme ve iterasyonu baştan düşünerek geliştiririm."
+      },
+      "collaboration": {
+        "title": "Ekip için zanaat",
+        "body": "Temiz PR’lar, dürüst iletişim ve yeniden kullanılabilir sistemler herkes için işbirliğini hızlandırır."
+      }
+    },
+    "experienceTitle": "Seçili deneyim",
+    "experienceSubtitle": "Ölçülebilir sonucu olan ürün işleri — AI asistanından çok dilli platformlara.",
+    "experience": {
+      "govmate": {
+        "tag": "AI Ürün",
+        "title": "GovMate AI",
+        "body": "Alman resmi mektupları anlamaya, son tarihleri takip etmeye ve profesyonel yanıt üretmeye yardımcı olan çok dilli, production-ready bir AI ürünü geliştirdim."
+      },
+      "ostwind": {
+        "tag": "Platform",
+        "title": "OstWind",
+        "body": "CMS ve yönetim operasyonlarıyla çok dilli eğitim danışmanlığı platformuna katkı: Next.js, yapılandırılmış içerik ve pratik iş akışları."
+      },
+      "automation": {
+        "tag": "Otomasyon",
+        "title": "BelegPair ve araçlar",
+        "body": "Tekrarlayan muhasebe ve operasyon işini net raporlarla azaltan belge karşılaştırma ve otomasyon araçları geliştirdim."
+      }
+    },
     "languagesTitle": "Diller",
     "educationTitle": "Eğitim",
     "languages": {
