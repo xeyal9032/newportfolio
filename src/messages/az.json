@@ -38,19 +38,19 @@
     "items": {
       "web": {
         "title": "Veb Tətbiqlər",
-        "description": "Aydın strukturlu, sürətli və istehsal keyfiyyətli məhsul interfeysləri."
+        "description": "Aydın strukturlu, sürətli və istehsal keyfiyyətli məhsul interfeysləri — biznes böyüdükcə böyüyən sistemlər."
       },
       "ai": {
         "title": "AI Məhsulları",
-        "description": "Mürəkkəb tapşırıqları sadə və etibarlı alətlərə çevirən praktik AI axınları."
+        "description": "Sürtünməni azaldan praktik AI: sənəd analizi, mətn hazırlama, çoxdilli dəstək və yönləndirilmiş iş axınları."
       },
       "automation": {
         "title": "Avtomatlaşdırma",
-        "description": "Sənədlərdən əməliyyatlara qədər təkrar işi azaldan sistemlər."
+        "description": "Sənədlərdən əməliyyatlara qədər təkrar işi azaldan sakit sistemlər — hesabatlar, müqayisələr, ötürülmələr."
       },
       "digital": {
         "title": "Rəqəmsal Həllər",
-        "description": "API-lər, bulud deploy və məhsul düşüncəsi ilə uçdan-uca həllər."
+        "description": "API-lər, data modelləri, bulud deploy və proqramı davamlı edən məhsul qərarları ilə uçdan-uca həllər."
       }
     }
   },
