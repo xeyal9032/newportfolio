@@ -9,6 +9,7 @@ export const siteConfig = {
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "xeyalcemilli9032@gmail.com",
   company: "OstWind Group",
   companyUrl: "https://frontend.ostwind.az/",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://newportfolio.vercel.app",
+  siteUrl:
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://newportfolio-iota-one.vercel.app",
   tagline: "Web Developer • AI • Digital Solutions",
 } as const;
