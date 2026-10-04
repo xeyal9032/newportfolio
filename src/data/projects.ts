@@ -121,26 +121,32 @@ export const featuredProject = projects.find((p) => p.featured)!;
 export const techEcosystem = [
   {
     id: "frontend",
+    accent: "#8ec4d6",
     items: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
   },
   {
     id: "backend",
+    accent: "#9ad7c0",
     items: ["Node.js", "REST APIs", "Prisma"],
   },
   {
     id: "data",
+    accent: "#7fbfa8",
     items: ["PostgreSQL", "Supabase", "SQL"],
   },
   {
     id: "ai",
+    accent: "#d4b483",
     items: ["OpenAI", "LLMs", "AI workflows"],
   },
   {
     id: "cloud",
+    accent: "#7eb8da",
     items: ["Vercel", "Netlify"],
   },
   {
     id: "tools",
+    accent: "#c4a484",
     items: ["Git", "GitHub", "Cursor", "Figma"],
   },
 ] as const;

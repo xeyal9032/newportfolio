@@ -80,6 +80,14 @@
       "ai": "KI",
       "cloud": "Cloud",
       "tools": "Developer Tools"
+    },
+    "descriptions": {
+      "frontend": "Interfaces, die produktreif wirken und wartbar bleiben.",
+      "backend": "APIs und Services für echte Anwendungs-Workflows.",
+      "data": "Strukturierte Speicherung für zuverlässige Produkte.",
+      "ai": "Praktische Modell-Workflows für Dokumente, Entwürfe und Assistance.",
+      "cloud": "Deploy-Pfade, die schnelles und stabiles Shipping halten.",
+      "tools": "Tägliche Craft-Tools für Design, Code und Zusammenarbeit."
     }
   },
   "projects": {

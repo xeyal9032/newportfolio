@@ -80,6 +80,14 @@
       "ai": "AI",
       "cloud": "Cloud",
       "tools": "Developer Tools"
+    },
+    "descriptions": {
+      "frontend": "Interfaces that feel product-ready and stay maintainable.",
+      "backend": "APIs and services shaped for real application workflows.",
+      "data": "Structured storage for products that need reliability.",
+      "ai": "Practical model workflows for documents, drafting and assistance.",
+      "cloud": "Deploy paths that keep shipping fast and stable.",
+      "tools": "Daily craft tools for design, code and collaboration."
     }
   },
   "projects": {

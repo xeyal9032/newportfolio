@@ -80,6 +80,14 @@
       "ai": "AI",
       "cloud": "Bulud",
       "tools": "Developer Alətləri"
+    },
+    "descriptions": {
+      "frontend": "Məhsul kimi hiss olunan və saxlanıla bilən interfeyslər.",
+      "backend": "Real tətbiq axınları üçün formalaşdırılmış API və servislər.",
+      "data": "Etibarlılıq tələb edən məhsullar üçün strukturlaşdırılmış data.",
+      "ai": "Sənəd, qaralama və kömək üçün praktik model iş axınları.",
+      "cloud": "Sürətli və sabit buraxılışı saxlayan deploy yolları.",
+      "tools": "Dizayn, kod və əməkdaşlıq üçün gündəlik alətlər."
     }
   },
   "projects": {

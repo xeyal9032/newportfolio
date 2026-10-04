@@ -80,6 +80,14 @@
       "ai": "Yapay Zeka",
       "cloud": "Bulut",
       "tools": "Geliştirici Araçları"
+    },
+    "descriptions": {
+      "frontend": "Ürün kalitesinde hisseden ve sürdürülebilir kalan arayüzler.",
+      "backend": "Gerçek uygulama akışları için şekillenen API ve servisler.",
+      "data": "Güvenilirlik gerektiren ürünler için yapılandırılmış veri.",
+      "ai": "Belge, taslak ve asistanlık için pratik model iş akışları.",
+      "cloud": "Hızlı ve stabil yayını koruyan deploy yolları.",
+      "tools": "Tasarım, kod ve işbirliği için günlük zanaat araçları."
     }
   },
   "projects": {
