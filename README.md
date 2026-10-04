@@ -84,6 +84,14 @@ Theme toggle, back-to-top control, responsive layouts for mobile / tablet / lapt
 
 </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top" colspan="2">
+
+### KJ Assistant
+OpenAI-powered portfolio robot that answers visitor questions about skills, projects, availability and how to start a collaboration — in EN / RU / TR / DE / AZ.
+
+</td>
+  </tr>
 </table>
 
 ---
@@ -169,9 +177,12 @@ GITHUB_USERNAME=xeyal9032
 GITHUB_TOKEN=
 NEXT_PUBLIC_SITE_URL=https://portfolio.govmateai.com
 NEXT_PUBLIC_CONTACT_EMAIL=xeyalcemilli9032@gmail.com
+OPENAI_API_KEY=
+OPENAI_MODEL=gpt-4.1-mini
 ```
 
-`GITHUB_TOKEN` is optional — it raises GitHub API rate limits for the live repos section.
+`GITHUB_TOKEN` is optional — it raises GitHub API rate limits for the live repos section.  
+`OPENAI_API_KEY` is required for the KJ Assistant chat widget.
 
 ### Scripts
 

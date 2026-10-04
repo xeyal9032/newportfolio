@@ -344,5 +344,24 @@
   "footer": {
     "tagline": "Veb Developer • AI • Rəqəmsal Həllər",
     "rights": "© {year} Khayal Jamilli"
+  },
+  "assistant": {
+    "label": "KJ-yə soruş",
+    "open": "Assistentı aç",
+    "close": "Assistentı bağla",
+    "title": "KJ Assistent",
+    "subtitle": "Bacarıqlar, layihələr, əməkdaşlıq və əlaqə haqqında soruş.",
+    "welcome": "Salam — Khayal-ın nə qurduğunu, hansı layihələrin bunu sübut etdiyini və birlikdə necə başlamağı izah edə bilərəm.",
+    "placeholder": "Bacarıq, layihə, əlçatanlıq soruş…",
+    "send": "Göndər",
+    "reset": "Yeni",
+    "thinking": "Düşünür…",
+    "error": "Xəta baş verdi. Yenidən cəhd et və ya birbaşa email yaz.",
+    "disclaimer": "Cavablar portfolyo bilgisinə əsaslanır. Brif üçün email ən yaxşısıdır.",
+    "suggestions": {
+      "skills": "Khayal mənə nə qura bilər?",
+      "projects": "Əvvəlcə hansı layihələrə baxmalıyam?",
+      "contact": "Əməkdaşlığa necə başlayım?"
+    }
   }
 }

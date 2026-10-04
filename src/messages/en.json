@@ -344,5 +344,24 @@
   "footer": {
     "tagline": "Web Developer • AI • Digital Solutions",
     "rights": "© {year} Khayal Jamilli"
+  },
+  "assistant": {
+    "label": "Ask KJ",
+    "open": "Open assistant",
+    "close": "Close assistant",
+    "title": "KJ Assistant",
+    "subtitle": "Ask about skills, projects, collaboration and how to get in touch.",
+    "welcome": "Hi — I can explain what Khayal builds, which projects prove it, and the best way to start working together.",
+    "placeholder": "Ask about skills, projects, availability…",
+    "send": "Send",
+    "reset": "New",
+    "thinking": "Thinking…",
+    "error": "Something went wrong. Please try again or email Khayal directly.",
+    "disclaimer": "Answers are based on portfolio knowledge. For briefs, email is best.",
+    "suggestions": {
+      "skills": "What can Khayal help me build?",
+      "projects": "Which projects should I look at first?",
+      "contact": "How do I start a collaboration?"
+    }
   }
 }

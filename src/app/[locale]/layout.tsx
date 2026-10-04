@@ -8,6 +8,7 @@ import { Providers } from "@/components/providers";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { BackToTop } from "@/components/back-to-top";
+import { Assistant } from "@/components/assistant";
 
 type LocaleLayoutProps = {
   children: React.ReactNode;
@@ -93,6 +94,7 @@ export default async function LocaleLayout({
           <main className="flex-1">{children}</main>
           <Footer />
           <BackToTop />
+          <Assistant />
         </div>
         <script
           type="application/ld+json"

@@ -24,7 +24,7 @@ export function BackToTop() {
         window.scrollTo({ top: 0, behavior: "smooth" });
       }}
       className={cn(
-        "fixed right-[max(1rem,env(safe-area-inset-right))] bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 inline-flex size-12 items-center justify-center rounded-full border border-border bg-foreground text-background shadow-[var(--shadow)] transition duration-300 md:right-6 md:bottom-6",
+        "fixed right-[max(5.25rem,calc(env(safe-area-inset-right)+4.25rem))] bottom-[max(1rem,env(safe-area-inset-bottom))] z-50 inline-flex size-12 items-center justify-center rounded-full border border-border bg-surface text-foreground shadow-[var(--shadow)] transition duration-300 md:right-[5.75rem] md:bottom-6",
         "hover:-translate-y-0.5 focus-visible:outline-none",
         visible
           ? "pointer-events-auto translate-y-0 opacity-100"

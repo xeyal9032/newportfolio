@@ -344,5 +344,24 @@
   "footer": {
     "tagline": "Webentwickler • KI • Digitale Lösungen",
     "rights": "© {year} Khayal Jamilli"
+  },
+  "assistant": {
+    "label": "KJ fragen",
+    "open": "Assistent öffnen",
+    "close": "Assistent schließen",
+    "title": "KJ Assistent",
+    "subtitle": "Fragen zu Skills, Projekten, Zusammenarbeit und Kontakt.",
+    "welcome": "Hallo — ich erkläre, was Khayal baut, welche Projekte das belegen und wie eine Zusammenarbeit startet.",
+    "placeholder": "Zu Skills, Projekten, Verfügbarkeit fragen…",
+    "send": "Senden",
+    "reset": "Neu",
+    "thinking": "Denkt nach…",
+    "error": "Etwas ist schiefgelaufen. Bitte erneut versuchen oder Khayal direkt mailen.",
+    "disclaimer": "Antworten basieren auf Portfolio-Wissen. Für Briefings ist E-Mail am besten.",
+    "suggestions": {
+      "skills": "Wobei kann Khayal mir helfen?",
+      "projects": "Welche Projekte sollte ich zuerst ansehen?",
+      "contact": "Wie starte ich eine Zusammenarbeit?"
+    }
   }
 }

@@ -344,5 +344,24 @@
   "footer": {
     "tagline": "Web Geliştirici • AI • Dijital Çözümler",
     "rights": "© {year} Khayal Jamilli"
+  },
+  "assistant": {
+    "label": "KJ’ye sor",
+    "open": "Asistanı aç",
+    "close": "Asistanı kapat",
+    "title": "KJ Asistan",
+    "subtitle": "Yetenekler, projeler, işbirliği ve iletişim hakkında sor.",
+    "welcome": "Merhaba — Khayal’ın neler kurduğunu, hangi projelerin bunu kanıtladığını ve birlikte nasıl başlanacağını anlatabilirim.",
+    "placeholder": "Yetenek, proje, müsaitlik sor…",
+    "send": "Gönder",
+    "reset": "Yeni",
+    "thinking": "Düşünüyor…",
+    "error": "Bir sorun oluştu. Tekrar dene veya doğrudan e-posta yaz.",
+    "disclaimer": "Yanıtlar portföy bilgisine dayanır. Brief için e-posta en iyisi.",
+    "suggestions": {
+      "skills": "Khayal bana ne kurabilir?",
+      "projects": "Önce hangi projelere bakmalıyım?",
+      "contact": "İşbirliğine nasıl başlarım?"
+    }
   }
 }
