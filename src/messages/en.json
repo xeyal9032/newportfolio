@@ -103,30 +103,75 @@
     },
     "viewGithub": "GitHub",
     "viewLive": "Live site",
+    "private": "Private",
     "items": {
       "govmate": {
         "description": "AI product for German bureaucracy — analysis, deadlines and official letter drafting.",
         "longDescription": "Full-stack AI product that explains official letters, extracts deadlines and generates professional German replies."
       },
+      "novaMilo": {
+        "description": "Sci-fi AI entry portal with Supabase auth, Gemini chat and Electron desktop dashboard.",
+        "longDescription": "Dual-companion AI experience spanning web auth, Gemini conversations and a desktop Electron shell."
+      },
+      "programchat": {
+        "description": "WhatsApp-style offline-first Android messaging with E2EE and WebRTC.",
+        "longDescription": "Kotlin Compose client plus Node.js / Socket.IO backend for secure realtime messaging."
+      },
+      "bmwDiagnostic": {
+        "description": "Local OBD-II / UDS diagnostic console for BMW X1 E84 with Gemini AI support.",
+        "longDescription": "Python Flask diagnostic tooling with K+DCAN / EDIABAS workflows and AI-assisted interpretation."
+      },
+      "xeyalSystem": {
+        "description": "Autonomous developer OS with AI error intelligence cloud platform.",
+        "longDescription": "Platform concept that pairs developer OS workflows with cloud-side AI error intelligence."
+      },
       "ostwind": {
         "description": "Multilingual education consultancy platform with CMS and admin operations.",
         "longDescription": "International education platform built with Next.js, Prisma and a custom content system."
+      },
+      "ruhrvia": {
+        "description": "Entrümpelung lead platform built with Laravel, Filament and Inertia.",
+        "longDescription": "Operations-focused lead system for clearing services — admin panels, pipelines and CRM-style flows."
+      },
+      "ruhrviaImmobilien": {
+        "description": "Next.js real-estate website with integrated admin panel.",
+        "longDescription": "Property marketing site and admin experience for RuhrVia Immobilien."
       },
       "evrak": {
         "description": "DATEV / journal document comparison with clear multilingual Excel reporting.",
         "longDescription": "Automation tool that compares accounting documents and produces readable Excel reports."
       },
+      "chatbotUi": {
+        "description": "Polished AI chatbot interface shipped as a production-ready Next.js app.",
+        "longDescription": "Chat product UI focused on calm conversation flows and deployable Next.js architecture."
+      },
+      "nextjsAiChatbot": {
+        "description": "Next.js AI chatbot foundation with modern streaming chat patterns.",
+        "longDescription": "TypeScript chatbot starter oriented around practical AI SDK and SaaS chat UX."
+      },
       "ostwindAi": {
         "description": "AI chat product with Google AI integration for everyday operational use.",
         "longDescription": "React-based AI chat experience with practical features for daily workflows."
+      },
+      "ostwindgroupWebsite": {
+        "description": "Corporate web presence for OstWind Group logistics and education brand.",
+        "longDescription": "Classic PHP website structure for group-level company communication."
       },
       "nextcode": {
         "description": "Digital marketing agency website with conversion-focused structure.",
         "longDescription": "Agency presence site focused on clear messaging and conversion-oriented layout."
       },
+      "nextcodeOstwind": {
+        "description": "Joint NextCode × OstWind web presence experiment.",
+        "longDescription": "Lightweight HTML site exploring shared brand and service messaging."
+      },
       "megashop": {
         "description": "E-commerce storefront foundations in PHP — catalog to checkout.",
         "longDescription": "Shop experience covering catalog, product and checkout foundations."
+      },
+      "almancaKelime": {
+        "description": "Privacy page for a German vocabulary learning product.",
+        "longDescription": "Clean HTML privacy documentation for an educational language app."
       },
       "jarvis": {
         "description": "Assistant-style interface experiment exploring calm interaction patterns.",
@@ -135,12 +180,16 @@
       "xeyalOs": {
         "description": "Immersive portfolio universe built with Next.js and React Three Fiber.",
         "longDescription": "Experimental 3D portfolio world exploring spatial storytelling."
+      },
+      "khayalJamilli": {
+        "description": "Early personal brand site for Khayal Jamilli.",
+        "longDescription": "Classic HTML personal presence — the starting point before the current portfolio system."
       }
     }
   },
   "github": {
     "title": "Open work on GitHub",
-    "subtitle": "Recent public repositories — pulled live, never invented.",
+    "subtitle": "Recent public repositories from @xeyal9032 and GovMateAi — pulled live, never invented.",
     "viewProfile": "View GitHub profile",
     "updated": "Updated",
     "fallback": "GitHub is temporarily unavailable. Visit the profile for the latest repositories.",

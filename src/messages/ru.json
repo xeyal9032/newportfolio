@@ -102,30 +102,75 @@
     },
     "viewGithub": "GitHub",
     "viewLive": "Сайт",
+    "private": "Приватный",
     "items": {
       "govmate": {
         "description": "ИИ-ассистент для немецкой бюрократии — анализ документов и официальные письма.",
         "longDescription": "Полноценный ИИ-продукт: объясняет письма, извлекает сроки и готовит ответы на немецком."
       },
+      "novaMilo": {
+        "description": "Sci-fi AI-портал с Supabase auth, Gemini-чатом и Electron-десктопом.",
+        "longDescription": "Двойной AI-опыт: веб-авторизация, Gemini-диалоги и Electron-оболочка."
+      },
+      "programchat": {
+        "description": "WhatsApp-подобный offline-first Android-мессенджер с E2EE и WebRTC.",
+        "longDescription": "Клиент на Kotlin Compose и backend Node.js / Socket.IO для безопасного realtime."
+      },
+      "bmwDiagnostic": {
+        "description": "Локальная OBD-II / UDS-диагностика BMW X1 E84 с Gemini AI.",
+        "longDescription": "Python Flask инструмент с K+DCAN / EDIABAS и AI-интерпретацией."
+      },
+      "xeyalSystem": {
+        "description": "Автономная developer OS + облачная AI-платформа анализа ошибок.",
+        "longDescription": "Платформа, соединяющая OS-воркфлоу разработчика с облачным AI error intelligence."
+      },
       "ostwind": {
         "description": "Многоязычная платформа образовательного консалтинга с CMS.",
         "longDescription": "Международная образовательная платформа на Next.js, Prisma и собственной CMS."
+      },
+      "ruhrvia": {
+        "description": "Lead-платформа Entrümpelung на Laravel, Filament и Inertia.",
+        "longDescription": "Операционная lead-система для клининга/вывоза — админка, пайплайны, CRM-потоки."
+      },
+      "ruhrviaImmobilien": {
+        "description": "Next.js сайт недвижимости с админ-панелью.",
+        "longDescription": "Маркетинг недвижимости и админ-опыт для RuhrVia Immobilien."
       },
       "evrak": {
         "description": "Сравнение DATEV / журнальных документов с цветными Excel-отчётами.",
         "longDescription": "Автоматизация сравнения бухгалтерских документов с понятными многоязычными отчётами."
       },
+      "chatbotUi": {
+        "description": "Готовый к продакшену AI chatbot UI на Next.js.",
+        "longDescription": "Chat-продукт с спокойными диалогами и deployable Next.js-архитектурой."
+      },
+      "nextjsAiChatbot": {
+        "description": "Основа Next.js AI chatbot с современным streaming.",
+        "longDescription": "TypeScript стартер вокруг AI SDK и SaaS chat UX."
+      },
       "ostwindAi": {
         "description": "Современный ИИ-чат с интеграцией Google AI.",
         "longDescription": "React-чат с практичными функциями для ежедневного использования."
+      },
+      "ostwindgroupWebsite": {
+        "description": "Корпоративный сайт OstWind Group.",
+        "longDescription": "Классическая PHP-структура для групповой коммуникации бренда."
       },
       "nextcode": {
         "description": "Сайт digital-агентства NextCode Group.",
         "longDescription": "Агентский сайт с ясной подачей и структурой под конверсию."
       },
+      "nextcodeOstwind": {
+        "description": "Совместный веб-эксперимент NextCode × OstWind.",
+        "longDescription": "Лёгкий HTML-сайт для общего бренда и сервисных сообщений."
+      },
       "megashop": {
         "description": "Интернет-магазин на PHP.",
         "longDescription": "Магазин с основами каталога, карточки товара и оформления заказа."
+      },
+      "almancaKelime": {
+        "description": "Страница конфиденциальности для приложения немецкого словаря.",
+        "longDescription": "Чистая HTML-документация privacy для образовательной языковой app."
       },
       "jarvis": {
         "description": "Эксперимент с интерфейсом личного ассистента.",
@@ -134,13 +179,17 @@
       "xeyalOs": {
         "description": "Иммерсивная портфолио-вселенная с 3D-сценами.",
         "longDescription": "Экспериментальный мир портфолио на Next.js + React Three Fiber."
+      },
+      "khayalJamilli": {
+        "description": "Ранний персональный сайт Khayal Jamilli.",
+        "longDescription": "Классическое HTML-присутствие — старт до текущей портфолио-системы."
       }
     },
     "eyebrow": "Избранные работы"
   },
   "github": {
     "title": "Открытая работа на GitHub",
-    "subtitle": "Недавние публичные репозитории — загружаются live, ничего не выдумано.",
+    "subtitle": "Недавние публичные репозитории @xeyal9032 и GovMateAi — загружаются live, ничего не выдумано.",
     "viewProfile": "Открыть профиль GitHub",
     "updated": "Обновлено",
     "fallback": "GitHub временно недоступен. Откройте профиль для актуальных репозиториев.",

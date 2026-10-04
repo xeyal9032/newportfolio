@@ -103,30 +103,75 @@
     },
     "viewGithub": "GitHub",
     "viewLive": "Canlı site",
+    "private": "Özel",
     "items": {
       "govmate": {
         "description": "Alman bürokrasisi için AI ürünü — analiz, son tarihler ve resmi mektup.",
         "longDescription": "Resmi mektupları açıklayan, son tarihleri çıkaran ve Almanca yanıt üreten tam kapsamlı AI ürünü."
       },
+      "novaMilo": {
+        "description": "Sci-fi AI giriş portalı — Supabase auth, Gemini sohbet ve Electron masaüstü.",
+        "longDescription": "Web auth, Gemini konuşmaları ve Electron masaüstü kabuğunu birleştiren çift AI deneyimi."
+      },
+      "programchat": {
+        "description": "WhatsApp tarzı offline-first Android mesajlaşma — E2EE ve WebRTC.",
+        "longDescription": "Kotlin Compose istemci ve Node.js / Socket.IO ile güvenli gerçek zamanlı mesajlaşma."
+      },
+      "bmwDiagnostic": {
+        "description": "BMW X1 E84 için yerel OBD-II / UDS teşhis konsolu + Gemini AI.",
+        "longDescription": "K+DCAN / EDIABAS iş akışları ve AI destekli yorumlama ile Python Flask teşhis aracı."
+      },
+      "xeyalSystem": {
+        "description": "Otonom geliştirici OS + AI hata zekâsı bulut platformu.",
+        "longDescription": "Geliştirici OS iş akışlarını bulut tarafı AI hata zekâsıyla birleştiren platform."
+      },
       "ostwind": {
         "description": "CMS ve yönetim operasyonlarıyla çok dilli eğitim danışmanlığı platformu.",
         "longDescription": "Next.js, Prisma ve özel içerik sistemiyle uluslararası eğitim platformu."
+      },
+      "ruhrvia": {
+        "description": "Laravel + Filament + Inertia ile Entrümpelung lead platformu.",
+        "longDescription": "Temizlik / boşaltma hizmetleri için operasyon odaklı lead sistemi — admin, pipeline, CRM akışları."
+      },
+      "ruhrviaImmobilien": {
+        "description": "Next.js emlak sitesi ve entegre admin paneli.",
+        "longDescription": "RuhrVia Immobilien için mülk pazarlama sitesi ve yönetim deneyimi."
       },
       "evrak": {
         "description": "DATEV / yevmiye belge karşılaştırması ve net çok dilli Excel raporları.",
         "longDescription": "Muhasebe belgelerini karşılaştırıp okunabilir Excel raporları üreten otomasyon."
       },
+      "chatbotUi": {
+        "description": "Üretime hazır Next.js AI chatbot arayüzü.",
+        "longDescription": "Sakin konuşma akışlarına ve deploy edilebilir Next.js mimarisine odaklı chat ürünü."
+      },
+      "nextjsAiChatbot": {
+        "description": "Modern streaming chat kalıplarıyla Next.js AI chatbot temeli.",
+        "longDescription": "AI SDK ve SaaS chat UX odaklı TypeScript chatbot başlangıç yapısı."
+      },
       "ostwindAi": {
         "description": "Günlük operasyon için Google AI entegrasyonlu AI sohbet ürünü.",
         "longDescription": "Günlük iş akışları için pratik özellikler içeren React tabanlı AI sohbet."
+      },
+      "ostwindgroupWebsite": {
+        "description": "OstWind Group için kurumsal web varlığı.",
+        "longDescription": "Grup düzeyinde kurumsal iletişim için klasik PHP site yapısı."
       },
       "nextcode": {
         "description": "Dönüşüm odaklı yapıya sahip dijital pazarlama ajansı sitesi.",
         "longDescription": "Net mesajlaşma ve dönüşüm odaklı ajans sitesi."
       },
+      "nextcodeOstwind": {
+        "description": "NextCode × OstWind ortak web varlığı deneyi.",
+        "longDescription": "Ortak marka ve hizmet mesajını keşfeden hafif HTML site."
+      },
       "megashop": {
         "description": "PHP ile e-ticaret temelleri — katalogdan ödemeye.",
         "longDescription": "Katalog, ürün ve ödeme temellerini kapsayan mağaza deneyimi."
+      },
+      "almancaKelime": {
+        "description": "Almanca kelime öğrenme ürünü için gizlilik sayfası.",
+        "longDescription": "Eğitim uygulaması için temiz HTML gizlilik dokümantasyonu."
       },
       "jarvis": {
         "description": "Sakin etkileşim kalıplarını araştıran asistan arayüzü deneyi.",
@@ -135,12 +180,16 @@
       "xeyalOs": {
         "description": "Next.js ve React Three Fiber ile immersif portföy evreni.",
         "longDescription": "Mekânsal hikâye anlatımını keşfeden deneysel 3D portföy dünyası."
+      },
+      "khayalJamilli": {
+        "description": "Khayal Jamilli için erken kişisel marka sitesi.",
+        "longDescription": "Mevcut portföy sisteminden önceki klasik HTML kişisel varlık."
       }
     }
   },
   "github": {
     "title": "GitHub’da açık çalışmalar",
-    "subtitle": "Son genel depolar — canlı çekilir, uydurulmaz.",
+    "subtitle": "@xeyal9032 ve GovMateAi’den son genel depolar — canlı çekilir, uydurulmaz.",
     "viewProfile": "GitHub profilini gör",
     "updated": "Güncellendi",
     "fallback": "GitHub geçici olarak kullanılamıyor. En son depolar için profile gidin.",

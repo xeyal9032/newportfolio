@@ -11,6 +11,7 @@ export type GithubRepo = {
   updated_at: string;
   fork: boolean;
   topics: string[];
+  owner?: string;
 };
 
 export type GithubProfile = {
@@ -23,6 +24,7 @@ export type GithubProfile = {
 };
 
 const username = process.env.GITHUB_USERNAME ?? siteConfig.githubUsername;
+const org = siteConfig.githubOrg;
 
 function authHeaders(): HeadersInit {
   const headers: HeadersInit = {
@@ -48,20 +50,66 @@ export async function getGithubProfile(): Promise<GithubProfile | null> {
   }
 }
 
-export async function getGithubRepos(limit = 8): Promise<GithubRepo[]> {
+async function fetchUserRepos(): Promise<GithubRepo[]> {
+  const res = await fetch(
+    `https://api.github.com/users/${username}/repos?sort=updated&per_page=40`,
+    {
+      headers: authHeaders(),
+      next: { revalidate: 3600 },
+    },
+  );
+  if (!res.ok) return [];
+  return (await res.json()) as GithubRepo[];
+}
+
+async function fetchOrgRepos(): Promise<GithubRepo[]> {
+  const res = await fetch(
+    `https://api.github.com/orgs/${org}/repos?sort=updated&per_page=40`,
+    {
+      headers: authHeaders(),
+      next: { revalidate: 3600 },
+    },
+  );
+  if (!res.ok) return [];
+  return (await res.json()) as GithubRepo[];
+}
+
+export async function getGithubRepos(limit = 12): Promise<GithubRepo[]> {
   try {
-    const res = await fetch(
-      `https://api.github.com/users/${username}/repos?sort=updated&per_page=30`,
-      {
-        headers: authHeaders(),
-        next: { revalidate: 3600 },
-      },
-    );
-    if (!res.ok) return [];
-    const repos = (await res.json()) as GithubRepo[];
-    return repos
-      .filter((repo) => !repo.fork && repo.name !== username)
-      .slice(0, limit);
+    const [userRepos, orgRepos] = await Promise.all([
+      fetchUserRepos(),
+      fetchOrgRepos(),
+    ]);
+
+    const skip = new Set([
+      username,
+      "newportfolio",
+      ".github",
+      "desktop-tutorial",
+      "nextjs-boilerplate",
+    ]);
+
+    const merged = [...userRepos, ...orgRepos]
+      .filter((repo) => !repo.fork && !skip.has(repo.name))
+      .sort(
+        (a, b) =>
+          new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime(),
+      );
+
+    const seen = new Set<string>();
+    const unique: GithubRepo[] = [];
+    for (const repo of merged) {
+      const key = repo.html_url;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      unique.push({
+        ...repo,
+        owner: repo.html_url.includes(`/${org}/`) ? org : username,
+      });
+      if (unique.length >= limit) break;
+    }
+
+    return unique;
   } catch {
     return [];
   }

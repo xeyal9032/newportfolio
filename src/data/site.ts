@@ -4,7 +4,9 @@ export const siteConfig = {
   description:
     "Portfolio of Khayal Jamilli — web development, AI applications, automation and modern digital solutions.",
   githubUsername: "xeyal9032",
+  githubOrg: "GovMateAi",
   githubUrl: "https://github.com/xeyal9032",
+  githubOrgUrl: "https://github.com/GovMateAi",
   linkedinUrl: "https://www.linkedin.com/in/khayaljamilli9032",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "xeyalcemilli9032@gmail.com",
   company: "OstWind Group",

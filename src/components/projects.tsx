@@ -93,15 +93,21 @@ export function Projects() {
                       </span>
                     ))}
                   </div>
-                  <div className="mt-7 flex flex-wrap gap-4">
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm font-medium text-foreground underline-offset-4 hover:underline"
-                    >
-                      {t("viewGithub")}
-                    </a>
+                  <div className="mt-7 flex flex-wrap items-center gap-4">
+                    {project.isPrivate ? (
+                      <span className="rounded-full border border-border px-3 py-1 text-xs tracking-[0.08em] text-muted uppercase">
+                        {t("private")}
+                      </span>
+                    ) : (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-medium text-foreground underline-offset-4 hover:underline"
+                      >
+                        {t("viewGithub")}
+                      </a>
+                    )}
                     {project.liveUrl ? (
                       <a
                         href={project.liveUrl}

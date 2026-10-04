@@ -9,7 +9,7 @@ export async function GithubSection() {
   const locale = await getLocale();
   const [profile, repos] = await Promise.all([
     getGithubProfile(),
-    getGithubRepos(8),
+    getGithubRepos(12),
   ]);
 
   return (
@@ -24,14 +24,24 @@ export async function GithubSection() {
               </h2>
               <p className="lead mt-5">{t("subtitle")}</p>
             </div>
-            <a
-              href={siteConfig.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-secondary"
-            >
-              {t("viewProfile")}
-            </a>
+            <div className="flex flex-wrap gap-3">
+              <a
+                href={siteConfig.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-secondary"
+              >
+                {t("viewProfile")}
+              </a>
+              <a
+                href={siteConfig.githubOrgUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-secondary"
+              >
+                GovMateAi
+              </a>
+            </div>
           </div>
         </Reveal>
 
@@ -50,7 +60,16 @@ export async function GithubSection() {
                   className="surface block h-full p-7 transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)]"
                 >
                   <div className="flex items-start justify-between gap-4">
-                    <h3 className="text-xl tracking-[-0.02em]">{repo.name}</h3>
+                    <div>
+                      {repo.owner ? (
+                        <p className="text-[0.7rem] tracking-[0.12em] text-muted uppercase">
+                          {repo.owner}
+                        </p>
+                      ) : null}
+                      <h3 className="mt-1 text-xl tracking-[-0.02em]">
+                        {repo.name}
+                      </h3>
+                    </div>
                     {repo.language ? (
                       <span className="shrink-0 rounded-full border border-border px-2.5 py-1 text-xs text-muted">
                         {repo.language}

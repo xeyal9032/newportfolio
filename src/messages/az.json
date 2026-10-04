@@ -102,30 +102,75 @@
     },
     "viewGithub": "GitHub",
     "viewLive": "Canlı",
+    "private": "Özəl",
     "items": {
       "govmate": {
         "description": "Alman bürokratiyası üçün AI köməkçisi — sənəd analizi və rəsmi məktub.",
         "longDescription": "Rəsmi məktubları izah edən, son tarixləri çıxaran və alman cavabları yaradan tam AI məhsulu."
       },
+      "novaMilo": {
+        "description": "Sci-fi AI giriş portalı — Supabase auth, Gemini çat və Electron desktop.",
+        "longDescription": "Web auth, Gemini söhbətləri və Electron qabığını birləşdirən ikili AI təcrübəsi."
+      },
+      "programchat": {
+        "description": "WhatsApp tipli offline-first Android mesajlaşma — E2EE və WebRTC.",
+        "longDescription": "Kotlin Compose klient və Node.js / Socket.IO ilə təhlükəsiz realtime mesajlaşma."
+      },
+      "bmwDiagnostic": {
+        "description": "BMW X1 E84 üçün lokal OBD-II / UDS diaqnostika konsolu + Gemini AI.",
+        "longDescription": "K+DCAN / EDIABAS axınları və AI dəstəkli şərhlə Python Flask diaqnostika aləti."
+      },
+      "xeyalSystem": {
+        "description": "Avtonom developer OS + AI xəta intellekti bulud platforması.",
+        "longDescription": "Developer OS axınlarını bulud tərəfli AI error intelligence ilə birləşdirən platforma."
+      },
       "ostwind": {
         "description": "CMS və admin alətləri ilə çoxdilli təhsil konsaltinq platforması.",
         "longDescription": "Next.js, Prisma və xüsusi məzmun sistemi ilə beynəlxalq təhsil platforması."
+      },
+      "ruhrvia": {
+        "description": "Laravel + Filament + Inertia ilə Entrümpelung lead platforması.",
+        "longDescription": "Təmizlik / boşaltma xidmətləri üçün əməliyyat yönümlü lead sistemi."
+      },
+      "ruhrviaImmobilien": {
+        "description": "Next.js daşınmaz əmlak saytı və admin panel.",
+        "longDescription": "RuhrVia Immobilien üçün əmlak marketinq saytı və idarəetmə təcrübəsi."
       },
       "evrak": {
         "description": "DATEV / jurnal sənəd müqayisəsi və rəngli Excel hesabatları.",
         "longDescription": "Mühasibat sənədlərini müqayisə edib aydın çoxdilli Excel hesabatları yaradan avtomatlaşdırma."
       },
+      "chatbotUi": {
+        "description": "Production-ready Next.js AI chatbot interfeysi.",
+        "longDescription": "Sakit söhbət axınlarına və deploy edilə bilən Next.js memarlığına fokuslanmış chat məhsulu."
+      },
+      "nextjsAiChatbot": {
+        "description": "Müasir streaming chat nümunələri ilə Next.js AI chatbot əsası.",
+        "longDescription": "AI SDK və SaaS chat UX ətrafında TypeScript chatbot starter."
+      },
       "ostwindAi": {
         "description": "Google AI inteqrasiyalı müasir AI çat tətbiqi.",
         "longDescription": "Gündəlik istifadə üçün praktik funksiyalı React əsaslı AI çat."
+      },
+      "ostwindgroupWebsite": {
+        "description": "OstWind Group üçün korporativ veb varlığı.",
+        "longDescription": "Qrup səviyyəli brend kommunikasiyası üçün klassik PHP sayt strukturu."
       },
       "nextcode": {
         "description": "NextCode Group üçün digital marketing agentlik saytı.",
         "longDescription": "Aydın mesaj və konversiya yönümlü struktura malik agentlik saytı."
       },
+      "nextcodeOstwind": {
+        "description": "NextCode × OstWind ortaq veb eksperimenti.",
+        "longDescription": "Ortaq brend və xidmət mesajını araşdıran yüngül HTML sayt."
+      },
       "megashop": {
         "description": "PHP ilə qurulmuş e-commerce vitrini.",
         "longDescription": "Kataloq, məhsul və ödəniş əsaslarını əhatə edən mağaza təcrübəsi."
+      },
+      "almancaKelime": {
+        "description": "Alman söz ehtiyatı tətbiqi üçün məxfilik səhifəsi.",
+        "longDescription": "Təhsil dil app-i üçün təmiz HTML privacy sənədləşməsi."
       },
       "jarvis": {
         "description": "Şəxsi köməkçi interfeysi eksperimenti.",
@@ -134,13 +179,17 @@
       "xeyalOs": {
         "description": "3D səhnələrlə immersiv rəqəmsal portfolyo dünyası.",
         "longDescription": "Next.js + React Three Fiber ilə eksperimental portfolyo dünyası."
+      },
+      "khayalJamilli": {
+        "description": "Khayal Jamilli üçün erkən şəxsi brend saytı.",
+        "longDescription": "Cari portfolyo sistemindən əvvəlki klassik HTML şəxsi varlıq."
       }
     },
     "eyebrow": "Seçilmiş işlər"
   },
   "github": {
     "title": "GitHub-da açıq işlər",
-    "subtitle": "Son ictimai repositoriyalar — canlı çəkilir, uydurulmur.",
+    "subtitle": "@xeyal9032 və GovMateAi-dən son ictimai repositoriyalar — canlı çəkilir, uydurulmur.",
     "viewProfile": "GitHub profilinə bax",
     "updated": "Yeniləndi",
     "fallback": "GitHub müvəqqəti əlçatan deyil. Ən son repositoriyalar üçün profilə baxın.",

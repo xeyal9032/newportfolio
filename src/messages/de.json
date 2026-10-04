@@ -102,30 +102,75 @@
     },
     "viewGithub": "GitHub",
     "viewLive": "Live",
+    "private": "Privat",
     "items": {
       "govmate": {
         "description": "KI-Assistent für deutsche Bürokratie — Dokumentanalyse und Amtsschreiben.",
         "longDescription": "Full-Stack-KI-Produkt, das Amtsschreiben erklärt, Fristen extrahiert und professionelle deutsche Antworten erstellt."
       },
+      "novaMilo": {
+        "description": "Sci-Fi-KI-Portal mit Supabase-Auth, Gemini-Chat und Electron-Desktop.",
+        "longDescription": "Dual-Companion-KI mit Web-Auth, Gemini-Gesprächen und Electron-Desktop-Shell."
+      },
+      "programchat": {
+        "description": "WhatsApp-ähnliche Offline-first Android-Messaging-App mit E2EE und WebRTC.",
+        "longDescription": "Kotlin-Compose-Client plus Node.js/Socket.IO-Backend für sicheres Echtzeit-Messaging."
+      },
+      "bmwDiagnostic": {
+        "description": "Lokale OBD-II/UDS-Diagnosekonsole für BMW X1 E84 mit Gemini-KI.",
+        "longDescription": "Python-Flask-Diagnosetool mit K+DCAN/EDIABAS-Workflows und KI-gestützter Auswertung."
+      },
+      "xeyalSystem": {
+        "description": "Autonomes Developer-OS mit KI-Fehlerintelligenz in der Cloud.",
+        "longDescription": "Plattform, die Developer-OS-Workflows mit cloudseitiger KI-Fehleranalyse verbindet."
+      },
       "ostwind": {
         "description": "Mehrsprachige Bildungsberatungsplattform mit CMS und Admin-Tools.",
         "longDescription": "Internationale Bildungsplattform mit Next.js, Prisma und eigenem Content-System."
+      },
+      "ruhrvia": {
+        "description": "Entrümpelung-Lead-Plattform mit Laravel, Filament und Inertia.",
+        "longDescription": "Operationsorientiertes Lead-System für Entrümpelung — Admin, Pipelines und CRM-Flows."
+      },
+      "ruhrviaImmobilien": {
+        "description": "Next.js-Immobilienwebsite mit integriertem Admin-Panel.",
+        "longDescription": "Property-Marketing-Site und Admin-Erlebnis für RuhrVia Immobilien."
       },
       "evrak": {
         "description": "DATEV-/Journal-Dokumentenvergleich mit farbigen Excel-Reports.",
         "longDescription": "Automatisierungstool zum Vergleich von Buchungsdokumenten mit klaren mehrsprachigen Excel-Reports."
       },
+      "chatbotUi": {
+        "description": "Produktionsreife KI-Chatbot-Oberfläche auf Next.js.",
+        "longDescription": "Chat-Produkt-UI mit ruhigen Gesprächsflüssen und deploybarer Next.js-Architektur."
+      },
+      "nextjsAiChatbot": {
+        "description": "Next.js-KI-Chatbot-Basis mit modernen Streaming-Mustern.",
+        "longDescription": "TypeScript-Chatbot-Starter rund um AI SDK und SaaS-Chat-UX."
+      },
       "ostwindAi": {
         "description": "Moderne KI-Chat-Anwendung mit Google-AI-Integration.",
         "longDescription": "React-basierte KI-Chat-Erfahrung mit praktischen Features für den Alltag."
+      },
+      "ostwindgroupWebsite": {
+        "description": "Corporate-Webpräsenz für OstWind Group.",
+        "longDescription": "Klassische PHP-Website für gruppenweite Unternehmenskommunikation."
       },
       "nextcode": {
         "description": "Website einer Digitalmarketing-Agentur für NextCode Group.",
         "longDescription": "Agenturwebsite mit klarer Botschaft und conversion-orientierter Struktur."
       },
+      "nextcodeOstwind": {
+        "description": "Gemeinsame NextCode × OstWind Web-Präsenz.",
+        "longDescription": "Leichte HTML-Site für gemeinsame Marken- und Servicebotschaften."
+      },
       "megashop": {
         "description": "E-Commerce-Storefront mit PHP.",
         "longDescription": "Shop-Erlebnis mit Katalog-, Produkt- und Checkout-Grundlagen."
+      },
+      "almancaKelime": {
+        "description": "Datenschutzseite für eine Deutsch-Vokabel-Lern-App.",
+        "longDescription": "Saubere HTML-Datenschutzdokumentation für eine Bildungs-App."
       },
       "jarvis": {
         "description": "Experiment mit persönlicher Assistenten-Oberfläche.",
@@ -134,13 +179,17 @@
       "xeyalOs": {
         "description": "Immersives digitales Portfolio-Universum mit 3D-Szenen.",
         "longDescription": "Experimentelle Portfolio-Welt mit Next.js + React Three Fiber."
+      },
+      "khayalJamilli": {
+        "description": "Frühe Personal-Brand-Website für Khayal Jamilli.",
+        "longDescription": "Klassische HTML-Präsenz — Ausgangspunkt vor dem aktuellen Portfolio-System."
       }
     },
     "eyebrow": "Ausgewählte Arbeiten"
   },
   "github": {
     "title": "Offene Arbeit auf GitHub",
-    "subtitle": "Aktuelle öffentliche Repositories — live geladen, nie erfunden.",
+    "subtitle": "Aktuelle öffentliche Repositories von @xeyal9032 und GovMateAi — live geladen, nie erfunden.",
     "viewProfile": "GitHub-Profil ansehen",
     "updated": "Aktualisiert",
     "fallback": "GitHub ist vorübergehend nicht verfügbar. Besuchen Sie das Profil für die neuesten Repositories.",
