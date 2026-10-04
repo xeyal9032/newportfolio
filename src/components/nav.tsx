@@ -40,13 +40,14 @@ export function Nav() {
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
         scrolled || open ? "nav-blur" : "bg-transparent",
+        overHero && "nav-on-hero",
       )}
     >
-      <div className="container-page flex h-[4.35rem] items-center justify-between gap-4">
+      <div className="container-page flex h-[4.35rem] items-center justify-between gap-3 sm:gap-4">
         <a
           href="#top"
           className={cn(
-            "text-[0.98rem] font-semibold tracking-[-0.02em] transition",
+            "nav-brand min-w-0 truncate text-[0.92rem] font-semibold tracking-[-0.02em] transition sm:text-[0.98rem]",
             overHero ? "text-white" : "text-foreground",
           )}
         >
@@ -59,10 +60,10 @@ export function Nav() {
               key={link.key}
               href={link.href}
               className={cn(
-                "text-[0.9rem] font-semibold transition",
+                "nav-link text-[0.9rem] font-semibold transition",
                 overHero
                   ? "text-white hover:text-white/90"
-                  : "text-foreground/80 hover:text-foreground",
+                  : "text-foreground hover:opacity-80",
               )}
             >
               {t(link.key)}
@@ -70,7 +71,7 @@ export function Nav() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
           <div className="hidden sm:block">
             <LanguageSelector forceLight={overHero} />
           </div>

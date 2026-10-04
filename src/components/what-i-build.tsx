@@ -33,16 +33,16 @@ export async function WhatIBuild() {
       <div className="container-page">
         <Reveal>
           <p className="eyebrow">{t("eyebrow")}</p>
-          <h2 id="what-heading" className="headline mt-4 max-w-[14ch]">
+          <h2 id="what-heading" className="headline mt-4 max-w-[18ch]">
             {t("title")}
           </h2>
           <p className="lead mt-5">{t("subtitle")}</p>
         </Reveal>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2">
+        <div className="mt-10 grid gap-5 sm:mt-14 sm:gap-6 md:grid-cols-2">
           {items.map((item, index) => (
             <Reveal key={item.key} delay={index * 0.05}>
-              <article className="group overflow-hidden rounded-[28px] border border-border bg-surface shadow-[var(--shadow-soft)] transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)]">
+              <article className="group overflow-hidden rounded-[22px] border border-border bg-surface shadow-[var(--shadow-soft)] transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)] sm:rounded-[28px]">
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <Image
                     src={item.image}
@@ -52,26 +52,26 @@ export async function WhatIBuild() {
                     className="object-cover transition duration-700 group-hover:scale-[1.04]"
                   />
                   <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,8,9,0.08)_0%,rgba(7,8,9,0.35)_45%,rgba(7,8,9,0.82)_100%)]" />
-                  <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-5 md:p-6">
-                    <div>
+                  <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-4 sm:gap-4 sm:p-5 md:p-6">
+                    <div className="min-w-0">
                       <p className="text-[0.72rem] font-semibold tracking-[0.2em] text-white/70">
                         0{index + 1}
                       </p>
-                      <h3 className="mt-2 text-[1.55rem] font-semibold tracking-[-0.03em] text-white md:text-[1.75rem]">
+                      <h3 className="mt-2 text-[1.35rem] font-semibold tracking-[-0.03em] text-white sm:text-[1.55rem] md:text-[1.75rem]">
                         {t(`items.${item.key}.title`)}
                       </h3>
                     </div>
-                    <span className="hidden rounded-full border border-white/25 bg-white/10 px-3 py-1 text-[0.7rem] font-semibold tracking-[0.12em] text-white backdrop-blur sm:inline-flex">
+                    <span className="hidden shrink-0 rounded-full border border-white/25 bg-white/10 px-3 py-1 text-[0.7rem] font-semibold tracking-[0.12em] text-white backdrop-blur sm:inline-flex">
                       {item.tech.split(" · ")[0]}
                     </span>
                   </div>
                 </div>
 
-                <div className="p-6 md:p-7">
-                  <p className="text-[1.02rem] leading-relaxed text-muted">
+                <div className="p-5 sm:p-6 md:p-7">
+                  <p className="text-[1rem] leading-relaxed text-muted sm:text-[1.02rem]">
                     {t(`items.${item.key}.description`)}
                   </p>
-                  <div className="mt-6 flex flex-wrap gap-2">
+                  <div className="mt-5 flex flex-wrap gap-2 sm:mt-6">
                     {item.tech.split(" · ").map((tech) => (
                       <span
                         key={tech}

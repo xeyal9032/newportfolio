@@ -12,7 +12,8 @@
     "theme": "Toggle theme",
     "language": "Language",
     "menu": "Menu",
-    "close": "Close"
+    "close": "Close",
+    "backToTop": "Back to top"
   },
   "hero": {
     "name": "Khayal Jamilli",
@@ -267,12 +268,78 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Let's build something useful.",
-    "subtitle": "Have an idea, a product brief, or a technical problem that needs a calm, production-minded approach?",
-    "cta": "Write me — I reply personally.",
-    "email": "Email me",
+    "title": "Let's build something useful together.",
+    "subtitle": "Product ideas, AI features, automation, or a technical problem that needs a calm production-minded partner.",
+    "availability": "Open for selected collaborations",
+    "intro": "I work best with teams and founders who care about clarity, reliable delivery and interfaces people can actually trust.",
+    "body": "Whether you need a new product surface, an AI workflow inside an existing system, or a cleaner architecture for something already in production — write with context and I will reply personally.",
+    "cta": "Prefer email for briefs. LinkedIn works for introductions. GitHub shows the work.",
+    "email": "Write email",
     "github": "GitHub",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "meta": {
+      "responseLabel": "Response",
+      "responseValue": "Usually within 24–48 hours",
+      "locationLabel": "Based",
+      "locationValue": "Remote · EU / DE timezone",
+      "languagesLabel": "Languages",
+      "languagesValue": "AZ · TR · RU · DE · EN"
+    },
+    "focusTitle": "What I can help with",
+    "focus": {
+      "product": {
+        "title": "Web products",
+        "body": "Next.js platforms, dashboards, CMS flows and conversion-focused interfaces."
+      },
+      "ai": {
+        "title": "AI features",
+        "body": "Practical LLM workflows, assistants and document intelligence that ship to production."
+      },
+      "automation": {
+        "title": "Automation",
+        "body": "Ops tooling, reporting pipelines and systems that remove repetitive work."
+      },
+      "platforms": {
+        "title": "Full delivery",
+        "body": "From brief and architecture to deploy, iteration and maintainable handoff."
+      }
+    },
+    "channelsTitle": "Direct channels",
+    "channelsSubtitle": "Choose the path that fits your request — every channel reaches me directly.",
+    "channels": {
+      "email": {
+        "label": "Email",
+        "hint": "Best for briefs, timelines and project details"
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "value": "Khayal Jamilli",
+        "hint": "Introductions, roles and professional context"
+      },
+      "github": {
+        "label": "GitHub",
+        "hint": "Public work, repositories and code quality"
+      },
+      "org": {
+        "label": "Organization",
+        "hint": "GovMateAi product repositories and experiments"
+      }
+    },
+    "processTitle": "How collaboration starts",
+    "process": {
+      "brief": {
+        "title": "Share the brief",
+        "body": "Goals, constraints, current stack and what success looks like."
+      },
+      "build": {
+        "title": "Define the path",
+        "body": "Scope, milestones and the smallest useful version we can ship first."
+      },
+      "ship": {
+        "title": "Build and iterate",
+        "body": "Clean delivery, production deploy and a maintainable next step."
+      }
+    }
   },
   "footer": {
     "tagline": "Web Developer • AI • Digital Solutions",

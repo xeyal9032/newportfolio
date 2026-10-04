@@ -16,20 +16,20 @@ export async function GithubSection() {
     <section id="github" className="section" aria-labelledby="github-heading">
       <div className="container-page">
         <Reveal>
-          <div className="flex flex-wrap items-end justify-between gap-6">
-            <div>
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+            <div className="min-w-0">
               <p className="eyebrow">GitHub</p>
               <h2 id="github-heading" className="headline mt-4">
                 {t("title")}
               </h2>
               <p className="lead mt-5">{t("subtitle")}</p>
             </div>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:flex-wrap">
               <a
                 href={siteConfig.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-secondary"
+                className="btn btn-secondary w-full sm:w-auto"
               >
                 {t("viewProfile")}
               </a>
@@ -37,7 +37,7 @@ export async function GithubSection() {
                 href={siteConfig.githubOrgUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-secondary"
+                className="btn btn-secondary w-full sm:w-auto"
               >
                 GovMateAi
               </a>

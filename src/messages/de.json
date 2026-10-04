@@ -12,7 +12,8 @@
     "theme": "Theme wechseln",
     "language": "Sprache",
     "menu": "Menü",
-    "close": "Schließen"
+    "close": "Schließen",
+    "backToTop": "Nach oben"
   },
   "hero": {
     "name": "Khayal Jamilli",
@@ -266,13 +267,79 @@
     }
   },
   "contact": {
-    "title": "Lass uns etwas Nützliches bauen.",
-    "subtitle": "Haben Sie eine Idee, ein Produktbriefing oder ein technisches Problem, das einen ruhigen, produktionsorientierten Ansatz braucht?",
-    "cta": "Schreiben Sie mir — ich antworte persönlich.",
+    "eyebrow": "Kontakt",
+    "title": "Lass uns gemeinsam etwas Nützliches bauen.",
+    "subtitle": "Produktideen, KI-Features, Automation oder ein technisches Problem, das einen ruhigen, produktionsorientierten Partner braucht.",
+    "availability": "Offen für ausgewählte Zusammenarbeit",
+    "intro": "Ich arbeite am besten mit Teams und Foundern, denen Klarheit, zuverlässige Lieferung und vertrauenswürdige Interfaces wichtig sind.",
+    "body": "Ob neue Produktfläche, KI-Workflow im bestehenden System oder sauberere Architektur für etwas in Production — schreiben Sie mit Kontext, ich antworte persönlich.",
+    "cta": "E-Mail für Briefings. LinkedIn für Vorstellungen. GitHub zeigt die Arbeit.",
     "email": "E-Mail schreiben",
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "eyebrow": "Kontakt"
+    "meta": {
+      "responseLabel": "Antwort",
+      "responseValue": "Meist innerhalb von 24–48 Stunden",
+      "locationLabel": "Standort",
+      "locationValue": "Remote · EU / DE Zeitzone",
+      "languagesLabel": "Sprachen",
+      "languagesValue": "AZ · TR · RU · DE · EN"
+    },
+    "focusTitle": "Wobei ich helfen kann",
+    "focus": {
+      "product": {
+        "title": "Webprodukte",
+        "body": "Next.js-Plattformen, Dashboards, CMS-Flows und conversion-orientierte Interfaces."
+      },
+      "ai": {
+        "title": "KI-Features",
+        "body": "Praktische LLM-Workflows, Assistenten und Dokumentenintelligenz für Production."
+      },
+      "automation": {
+        "title": "Automation",
+        "body": "Ops-Tools, Reporting-Pipelines und Systeme gegen repetitive Arbeit."
+      },
+      "platforms": {
+        "title": "Vollständige Delivery",
+        "body": "Vom Briefing und der Architektur bis Deploy, Iteration und sauberem Handoff."
+      }
+    },
+    "channelsTitle": "Direkte Kanäle",
+    "channelsSubtitle": "Wählen Sie den passenden Weg — jeder Kanal erreicht mich direkt.",
+    "channels": {
+      "email": {
+        "label": "E-Mail",
+        "hint": "Am besten für Briefings, Zeitpläne und Projektdetails"
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "value": "Khayal Jamilli",
+        "hint": "Vorstellungen, Rollen und professioneller Kontext"
+      },
+      "github": {
+        "label": "GitHub",
+        "hint": "Öffentliche Arbeit, Repositories und Codequalität"
+      },
+      "org": {
+        "label": "Organisation",
+        "hint": "GovMateAi Produkt-Repositories und Experimente"
+      }
+    },
+    "processTitle": "So startet die Zusammenarbeit",
+    "process": {
+      "brief": {
+        "title": "Briefing teilen",
+        "body": "Ziele, Constraints, aktueller Stack und Erfolgsdefinition."
+      },
+      "build": {
+        "title": "Pfad definieren",
+        "body": "Scope, Meilensteine und die kleinste nützliche Version zuerst."
+      },
+      "ship": {
+        "title": "Bauen und iterieren",
+        "body": "Saubere Delivery, Production-Deploy und ein wartbarer nächster Schritt."
+      }
+    }
   },
   "footer": {
     "tagline": "Webentwickler • KI • Digitale Lösungen",

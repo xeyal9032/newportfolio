@@ -8,11 +8,11 @@ export async function Footer() {
   return (
     <footer className="border-t border-border py-10">
       <div className="container-page flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-        <div>
+        <div className="min-w-0">
           <p className="text-lg tracking-[-0.02em]">{siteConfig.name}</p>
-          <p className="mt-2 text-sm text-muted">{t("tagline")}</p>
+          <p className="mt-2 text-sm leading-relaxed text-muted">{t("tagline")}</p>
         </div>
-        <div className="flex flex-wrap gap-5 text-sm text-muted">
+        <div className="flex flex-wrap gap-x-5 gap-y-3 text-sm text-muted">
           <a
             href={siteConfig.githubUrl}
             target="_blank"
@@ -31,7 +31,7 @@ export async function Footer() {
           </a>
           <a
             href={`mailto:${siteConfig.email}`}
-            className="hover:text-foreground"
+            className="break-all hover:text-foreground"
           >
             Email
           </a>

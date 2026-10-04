@@ -18,16 +18,16 @@ export async function About() {
           <p className="eyebrow">{t("eyebrow")}</p>
           <h2
             id="about-heading"
-            className="headline mt-4 max-w-[16ch]"
+            className="headline mt-4 max-w-[20ch]"
           >
             {t("title")}
           </h2>
           <p className="lead mt-5 max-w-3xl">{t("lead")}</p>
         </Reveal>
 
-        <div className="mt-14 grid items-start gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:gap-14">
+        <div className="mt-10 grid items-start gap-10 sm:mt-14 lg:grid-cols-[0.92fr_1.08fr] lg:gap-14">
           <Reveal>
-            <div className="media-frame relative aspect-[4/5] max-w-md lg:max-w-none">
+            <div className="media-frame relative mx-auto aspect-[4/5] w-full max-w-md lg:mx-0 lg:max-w-none">
               <Image
                 src="/images/portrait.jpg"
                 alt={t("portraitAlt")}
@@ -36,14 +36,16 @@ export async function About() {
                 className="object-cover object-top"
               />
               <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_50%,rgba(7,8,9,0.72)_100%)]" />
-              <div className="absolute inset-x-0 bottom-0 p-6 md:p-7">
+              <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6 md:p-7">
                 <p className="text-sm font-semibold tracking-[0.16em] text-white uppercase">
                   Khayal Jamilli
                 </p>
-                <p className="mt-1 text-[0.95rem] font-medium text-white">
+                <p className="mt-1 text-[0.9rem] font-medium leading-snug text-white sm:text-[0.95rem]">
                   {t("role")}
                 </p>
-                <p className="mt-3 text-sm text-white/85">{t("location")}</p>
+                <p className="mt-3 text-sm leading-relaxed text-white/85">
+                  {t("location")}
+                </p>
               </div>
             </div>
           </Reveal>
@@ -61,10 +63,10 @@ export async function About() {
             </Reveal>
 
             <Reveal delay={0.08}>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="btn btn-primary"
+                  className="btn btn-primary w-full sm:w-auto"
                 >
                   {t("ctaEmail")}
                 </a>
@@ -72,7 +74,7 @@ export async function About() {
                   href={siteConfig.linkedinUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary w-full sm:w-auto"
                 >
                   {t("ctaLinkedin")}
                 </a>
@@ -80,7 +82,7 @@ export async function About() {
                   href={siteConfig.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary w-full sm:w-auto"
                 >
                   {t("ctaGithub")}
                 </a>
@@ -155,7 +157,7 @@ export async function About() {
                 {languages.map((code) => (
                   <li
                     key={code}
-                    className="flex items-center justify-between gap-4 border-b border-border pb-3 text-[1rem] last:border-b-0 last:pb-0"
+                    className="flex flex-col gap-1 border-b border-border pb-3 text-[1rem] last:border-b-0 last:pb-0 sm:flex-row sm:items-center sm:justify-between sm:gap-4"
                   >
                     <span className="font-medium text-foreground">
                       {t(`languages.${code}`).split("—")[0].trim()}

@@ -32,7 +32,7 @@ export function Projects() {
         </Reveal>
 
         <div
-          className="mt-10 flex flex-wrap gap-2"
+          className="mt-8 flex flex-wrap gap-2 sm:mt-10"
           role="tablist"
           aria-label="Project filters"
         >
@@ -44,7 +44,7 @@ export function Projects() {
               aria-selected={filter === item}
               onClick={() => setFilter(item)}
               className={cn(
-                "rounded-full border px-4 py-2 text-sm transition",
+                "rounded-full border px-3.5 py-2 text-sm transition sm:px-4",
                 filter === item
                   ? "border-foreground bg-foreground text-background"
                   : "border-border bg-surface text-foreground/80 hover:text-foreground",
@@ -55,10 +55,10 @@ export function Projects() {
           ))}
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2">
+        <div className="mt-8 grid gap-5 sm:mt-12 sm:gap-6 md:grid-cols-2">
           {visible.map((project, index) => (
             <Reveal key={project.id} delay={index * 0.03}>
-              <article className="group overflow-hidden rounded-[26px] border border-border bg-surface shadow-[var(--shadow-soft)] transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)]">
+              <article className="group overflow-hidden rounded-[22px] border border-border bg-surface shadow-[var(--shadow-soft)] transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)] sm:rounded-[26px]">
                 <div className="relative aspect-[16/10] overflow-hidden">
                   {project.image ? (
                     <Image
@@ -70,17 +70,17 @@ export function Projects() {
                     />
                   ) : null}
                   <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_40%,rgba(7,8,9,0.7)_100%)]" />
-                  <div className="absolute inset-x-0 bottom-0 p-5">
+                  <div className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
                     <p className="text-[0.7rem] tracking-[0.16em] text-white/65 uppercase">
                       {t(`filters.${project.category as ProjectCategory}`)}
                     </p>
-                    <h3 className="mt-2 text-2xl tracking-[-0.03em] text-white">
+                    <h3 className="mt-2 text-xl tracking-[-0.03em] text-white sm:text-2xl">
                       {project.name}
                     </h3>
                   </div>
                 </div>
-                <div className="p-7">
-                  <p className="text-[1rem] leading-relaxed text-muted">
+                <div className="p-5 sm:p-7">
+                  <p className="text-[0.98rem] leading-relaxed text-muted sm:text-[1rem]">
                     {t(project.descriptionKey)}
                   </p>
                   <div className="mt-6 flex flex-wrap gap-2">

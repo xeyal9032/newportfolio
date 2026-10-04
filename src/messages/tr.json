@@ -12,7 +12,8 @@
     "theme": "Temayı değiştir",
     "language": "Dil",
     "menu": "Menü",
-    "close": "Kapat"
+    "close": "Kapat",
+    "backToTop": "Yukarı çık"
   },
   "hero": {
     "name": "Khayal Jamilli",
@@ -268,11 +269,77 @@
   "contact": {
     "eyebrow": "İletişim",
     "title": "Birlikte faydalı bir şey inşa edelim.",
-    "subtitle": "Bir fikriniz, ürün brifiniz veya sakin, üretim odaklı yaklaşım isteyen teknik bir sorununuz mu var?",
-    "cta": "Yazın — kişisel olarak yanıtlarım.",
-    "email": "E-posta gönder",
+    "subtitle": "Ürün fikirleri, AI özellikleri, otomasyon veya sakin ve üretim odaklı bir ortak gerektiren teknik sorunlar.",
+    "availability": "Seçili işbirliklerine açığım",
+    "intro": "Netlik, güvenilir teslimat ve insanların gerçekten güvenebileceği arayüzler önemseyen ekiplerle en iyi çalışırım.",
+    "body": "Yeni bir ürün yüzeyi, mevcut sisteme AI akışı veya production’daki bir mimariyi sadeleştirmek için yazın — bağlamla gelin, kişisel yanıtlayayım.",
+    "cta": "Briefler için e-posta tercih edin. Tanışma için LinkedIn. İş için GitHub.",
+    "email": "E-posta yaz",
     "github": "GitHub",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "meta": {
+      "responseLabel": "Yanıt",
+      "responseValue": "Genelde 24–48 saat içinde",
+      "locationLabel": "Konum",
+      "locationValue": "Remote · AB / DE saat dilimi",
+      "languagesLabel": "Diller",
+      "languagesValue": "AZ · TR · RU · DE · EN"
+    },
+    "focusTitle": "Nelerde yardımcı olabilirim",
+    "focus": {
+      "product": {
+        "title": "Web ürünleri",
+        "body": "Next.js platformları, paneller, CMS akışları ve dönüşüm odaklı arayüzler."
+      },
+      "ai": {
+        "title": "AI özellikleri",
+        "body": "Üretime giden pratik LLM akışları, asistanlar ve belge zekâsı."
+      },
+      "automation": {
+        "title": "Otomasyon",
+        "body": "Operasyon araçları, raporlama hatları ve tekrarlayan işi azaltan sistemler."
+      },
+      "platforms": {
+        "title": "Uçtan uca teslim",
+        "body": "Briften mimariye, deploy’a ve sürdürülebilir devreye kadar."
+      }
+    },
+    "channelsTitle": "Doğrudan kanallar",
+    "channelsSubtitle": "İsteğinize uygun yolu seçin — her kanal bana doğrudan ulaşır.",
+    "channels": {
+      "email": {
+        "label": "E-posta",
+        "hint": "Brief, zaman çizelgesi ve proje detayları için en iyisi"
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "value": "Khayal Jamilli",
+        "hint": "Tanışma, roller ve profesyonel bağlam"
+      },
+      "github": {
+        "label": "GitHub",
+        "hint": "Açık çalışmalar, depolar ve kod kalitesi"
+      },
+      "org": {
+        "label": "Organizasyon",
+        "hint": "GovMateAi ürün depoları ve deneyler"
+      }
+    },
+    "processTitle": "İşbirliği nasıl başlar",
+    "process": {
+      "brief": {
+        "title": "Brifi paylaşın",
+        "body": "Hedefler, kısıtlar, mevcut stack ve başarı tanımı."
+      },
+      "build": {
+        "title": "Yolu netleştirin",
+        "body": "Kapsam, kilometre taşları ve ilk seferde çıkarabileceğimiz en küçük faydalı sürüm."
+      },
+      "ship": {
+        "title": "Kurun ve iyileştirin",
+        "body": "Temiz teslimat, production deploy ve sürdürülebilir sonraki adım."
+      }
+    }
   },
   "footer": {
     "tagline": "Web Geliştirici • AI • Dijital Çözümler",

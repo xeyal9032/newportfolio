@@ -56,34 +56,34 @@ export async function Tech() {
       <div className="container-page">
         <Reveal>
           <p className="eyebrow">Stack</p>
-          <h2 id="tech-heading" className="headline mt-4 max-w-[14ch]">
+          <h2 id="tech-heading" className="headline mt-4 max-w-[18ch]">
             {t("title")}
           </h2>
           <p className="lead mt-5">{t("subtitle")}</p>
         </Reveal>
 
-        <div className="mt-14 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-10 grid gap-4 sm:mt-14 sm:gap-5 md:grid-cols-2 xl:grid-cols-3">
           {techEcosystem.map((group, index) => {
             const Icon = groupIcons[group.id];
 
             return (
               <Reveal key={group.id} delay={index * 0.04}>
-                <article className="group relative h-full overflow-hidden rounded-[28px] border border-border bg-surface p-7 shadow-[var(--shadow-soft)] transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)] md:p-8">
+                <article className="group relative h-full overflow-hidden rounded-[22px] border border-border bg-surface p-5 shadow-[var(--shadow-soft)] transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)] sm:rounded-[28px] sm:p-7 md:p-8">
                   <div
                     className="pointer-events-none absolute -top-16 -right-10 h-40 w-40 rounded-full opacity-30 blur-3xl transition duration-500 group-hover:opacity-50"
                     style={{ background: group.accent }}
                     aria-hidden
                   />
 
-                  <div className="relative flex items-start justify-between gap-4">
-                    <div>
+                  <div className="relative flex items-start justify-between gap-3 sm:gap-4">
+                    <div className="min-w-0">
                       <p className="text-xs font-semibold tracking-[0.16em] text-accent uppercase">
                         0{index + 1}
                       </p>
-                      <h3 className="mt-3 text-2xl tracking-[-0.03em] text-foreground">
+                      <h3 className="mt-3 text-xl tracking-[-0.03em] text-foreground sm:text-2xl">
                         {t(`groups.${group.id}`)}
                       </h3>
-                      <p className="mt-2 max-w-[28ch] text-sm leading-relaxed text-muted">
+                      <p className="mt-2 max-w-[32ch] text-sm leading-relaxed text-muted">
                         {t(`descriptions.${group.id}`)}
                       </p>
                     </div>

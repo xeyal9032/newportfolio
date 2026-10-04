@@ -12,6 +12,6 @@ export const siteConfig = {
   company: "OstWind Group",
   companyUrl: "https://frontend.ostwind.az/",
   siteUrl:
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://newportfolio-iota-one.vercel.app",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://portfolio.govmateai.com",
   tagline: "Web Developer • AI • Digital Solutions",
 } as const;
