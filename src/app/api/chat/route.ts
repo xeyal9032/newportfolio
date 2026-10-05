@@ -15,8 +15,32 @@ type ChatBody = {
   locale?: string;
 };
 
+function friendlyApiError(error: unknown) {
+  const message =
+    typeof error === "object" &&
+    error &&
+    "message" in error &&
+    typeof (error as { message: unknown }).message === "string"
+      ? (error as { message: string }).message
+      : "";
+
+  if (
+    /insufficient_quota|credit_balance_exhausted|no credits remaining/i.test(
+      message,
+    )
+  ) {
+    return "OpenAI credits are exhausted. Please add billing credits, then try again.";
+  }
+
+  if (/incorrect api key|invalid api key|authentication/i.test(message)) {
+    return "OpenAI API key is invalid. Please check OPENAI_API_KEY.";
+  }
+
+  return "Assistant is temporarily unavailable. Please try again later.";
+}
+
 export async function POST(req: Request) {
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = process.env.OPENAI_API_KEY?.trim();
   if (!apiKey) {
     return Response.json(
       {
@@ -52,14 +76,20 @@ export async function POST(req: Request) {
       : "en";
 
   const openai = createOpenAI({ apiKey });
-  const modelId = process.env.OPENAI_MODEL ?? "gpt-4.1-mini";
+  const modelId = (process.env.OPENAI_MODEL ?? "gpt-4.1-mini").trim();
 
-  const result = streamText({
-    model: openai(modelId),
-    system: buildAssistantSystemPrompt(locale),
-    messages: await convertToModelMessages(messages),
-    temperature: 0.4,
-  });
+  try {
+    const result = streamText({
+      model: openai(modelId),
+      system: buildAssistantSystemPrompt(locale),
+      messages: await convertToModelMessages(messages),
+      temperature: 0.4,
+    });
 
-  return result.toUIMessageStreamResponse();
+    return result.toUIMessageStreamResponse({
+      onError: friendlyApiError,
+    });
+  } catch (error) {
+    return Response.json({ error: friendlyApiError(error) }, { status: 502 });
+  }
 }

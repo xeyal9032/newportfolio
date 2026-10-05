@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { motion, useReducedMotion } from "framer-motion";
 import { siteConfig } from "@/data/site";
 import { cn } from "@/lib/utils";
+import { HeroStatus } from "./hero-status";
 
 export function Hero() {
   const t = useTranslations("hero");
@@ -49,6 +50,14 @@ export function Hero() {
           >
             {t("role")}
           </motion.p>
+
+          <motion.div
+            initial={reduce ? false : { opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.02 }}
+          >
+            <HeroStatus />
+          </motion.div>
 
           <motion.h1
             id="hero-heading"

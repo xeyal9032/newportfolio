@@ -7,6 +7,7 @@ import { Projects } from "@/components/projects";
 import { GithubSection } from "@/components/github-section";
 import { About } from "@/components/about";
 import { Contact } from "@/components/contact";
+import { ThemeSurface } from "@/components/theme-surface";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -19,7 +20,7 @@ export default async function HomePage({ params }: PageProps) {
   return (
     <>
       <Hero />
-      <div className="theme-surface">
+      <ThemeSurface>
         <WhatIBuild />
         <Featured />
         <Tech />
@@ -27,7 +28,7 @@ export default async function HomePage({ params }: PageProps) {
         <GithubSection />
         <About />
         <Contact />
-      </div>
+      </ThemeSurface>
     </>
   );
 }

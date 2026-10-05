@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
+import { Search } from "lucide-react";
 import { ThemeToggle } from "./theme-toggle";
 import { LanguageSelector } from "./language-selector";
 import { cn } from "@/lib/utils";
@@ -16,8 +17,15 @@ const links = [
 
 export function Nav() {
   const t = useTranslations("nav");
+  const tCommand = useTranslations("command");
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [modKey, setModKey] = useState("⌘");
+
+  useEffect(() => {
+    const mac = /Mac|iPhone|iPad|iPod/i.test(navigator.platform);
+    setModKey(mac ? "⌘" : "Ctrl");
+  }, []);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -72,6 +80,52 @@ export function Nav() {
         </nav>
 
         <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
+          <button
+            type="button"
+            aria-label={tCommand("open")}
+            onClick={() =>
+              window.dispatchEvent(new CustomEvent("portfolio:open-command"))
+            }
+            className={cn(
+              "group hidden h-9 items-center gap-2 rounded-full border px-2.5 transition sm:inline-flex",
+              overHero
+                ? "border-white/30 bg-white/[0.08] text-white/85 hover:border-white/45 hover:bg-white/[0.14] hover:text-white"
+                : "border-border bg-surface/70 text-muted hover:border-[color-mix(in_oklab,var(--accent)_35%,var(--border))] hover:bg-accent-soft hover:text-foreground",
+            )}
+          >
+            <Search
+              className="size-3.5 opacity-70 transition group-hover:opacity-100"
+              strokeWidth={1.8}
+              aria-hidden
+            />
+            <span className="hidden text-[0.72rem] font-medium tracking-[-0.01em] lg:inline">
+              {tCommand("shortcutLabel")}
+            </span>
+            <span className="inline-flex items-center gap-1">
+              <kbd
+                className={cn(
+                  "inline-flex h-5 min-w-5 items-center justify-center rounded-md border px-1",
+                  "font-mono text-[0.62rem] font-medium leading-none",
+                  overHero
+                    ? "border-white/25 bg-black/25 text-white/90"
+                    : "border-border bg-background text-foreground/80",
+                )}
+              >
+                {modKey === "⌘" ? "⌘" : "Ctrl"}
+              </kbd>
+              <kbd
+                className={cn(
+                  "inline-flex h-5 min-w-5 items-center justify-center rounded-md border px-1",
+                  "font-mono text-[0.62rem] font-medium leading-none",
+                  overHero
+                    ? "border-white/25 bg-black/25 text-white/90"
+                    : "border-border bg-background text-foreground/80",
+                )}
+              >
+                K
+              </kbd>
+            </span>
+          </button>
           <div className="hidden sm:block">
             <LanguageSelector forceLight={overHero} />
           </div>

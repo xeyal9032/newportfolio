@@ -30,7 +30,44 @@
     "role": "Yazılım Geliştirici · AI · Otomasyon",
     "visualAlt": "Kod ve ürün arayüzleriyle geliştirici çalışma istasyonu",
     "codeNote": "Netlik için yazılır. Production için yayınlanır.",
-    "liveNote": "GovMate AI · OstWind · BelegPair"
+    "liveNote": "GovMate AI · OstWind · BelegPair",
+    "statusPrompt": "status",
+    "statusLines": {
+      "systems": "yayına giden sistemler kuruyor",
+      "ai": "AI’yi gerçek iş akışlarına taşıyor",
+      "automation": "sıkıcı operasyonları otomatikleştiriyor",
+      "available": "seçili işbirliklerine açık"
+    }
+  },
+  "command": {
+    "title": "komut paleti",
+    "placeholder": "Komut yaz veya ara…",
+    "empty": "Eşleşen komut yok",
+    "hint": "↑↓ gezin · Enter çalıştır · Esc kapat",
+    "open": "Komut paletini aç",
+    "close": "Komut paletini kapat",
+    "shortcutLabel": "Komutlar",
+    "groups": {
+      "navigate": "Gezinme",
+      "actions": "Eylemler",
+      "links": "Bağlantılar"
+    },
+    "items": {
+      "home": "En üste git",
+      "about": "Hakkımda’ya git",
+      "work": "İşler’e git",
+      "stack": "Technology Stack’e git",
+      "projects": "Projeler’e git",
+      "githubSection": "GitHub bölümüne git",
+      "contact": "İletişim’e git",
+      "assistant": "KJ asistanına sor",
+      "theme": "Temayı değiştir",
+      "easter": "hire-me protokolünü çalıştır",
+      "github": "GitHub profilini aç",
+      "linkedin": "LinkedIn’i aç",
+      "email": "E-posta yaz",
+      "govmate": "GovMate AI’yi aç"
+    }
   },
   "whatIBuild": {
     "eyebrow": "Ne geliştiriyorum",
@@ -74,10 +111,17 @@
   "tech": {
     "title": "Odaklı teknoloji ekosistemi",
     "subtitle": "Gerçek teslimatta kullandığım araçlar — logo duvarı değil.",
+    "explodeEyebrow": "Teknoloji yığını",
+    "explodeTitle": "Khayal'ın Technology Stack'i",
+    "explodeSubtitle": "Tek bir production sistemi — kaydırarak gerçek ürünleri taşıyan katmanlara ayrılışını izle.",
+    "explodeHint": "Sistemi parçalamak için kaydır",
+    "coreLabel": "birleşik çekirdek",
+    "coreTitle": "Dijital ürün sistemi",
+    "coreSub": "Frontend · Backend · Data · AI · Cloud · Tools",
     "groups": {
       "frontend": "Frontend",
       "backend": "Backend",
-      "data": "Veri",
+      "data": "Database",
       "ai": "Yapay Zeka",
       "cloud": "Bulut",
       "tools": "Geliştirici Araçları"
@@ -261,9 +305,21 @@
       "en": "İngilizce — Orta"
     },
     "education": {
-      "master": "Araştırma Mühendisliği Yüksek Lisans — Ulusal Radyo Elektronik Üniversitesi",
-      "bachelor": "Otomasyon & BT Lisans — Ulusal Radyo Elektronik Üniversitesi",
-      "cert": "Google AI Essentials — Uzmanlık"
+      "master": {
+        "degree": "Araştırma Mühendisliği Yüksek Lisans",
+        "school": "Kharkiv Ulusal Radyoelektronik Üniversitesi (NURE)",
+        "meta": "Kharkiv, Ukrayna"
+      },
+      "bachelor": {
+        "degree": "Otomasyon & BT Lisans",
+        "school": "Kharkiv Ulusal Radyoelektronik Üniversitesi (NURE)",
+        "meta": "Kharkiv, Ukrayna"
+      },
+      "cert": {
+        "degree": "Google AI Essentials",
+        "school": "Google Career Certificates",
+        "meta": "Uzmanlık"
+      }
     }
   },
   "contact": {
@@ -305,24 +361,29 @@
       }
     },
     "channelsTitle": "Doğrudan kanallar",
-    "channelsSubtitle": "İsteğinize uygun yolu seçin — her kanal bana doğrudan ulaşır.",
+    "channelsSubtitle": "Yazmak veya kanalı açmak için bir karta tıklayın — her yol bana doğrudan ulaşır.",
+    "channelsActionHint": "Açmak için tıklayın",
     "channels": {
       "email": {
         "label": "E-posta",
-        "hint": "Brief, zaman çizelgesi ve proje detayları için en iyisi"
+        "hint": "Brief, zaman çizelgesi ve proje detayları için en iyisi",
+        "action": "E-posta yaz"
       },
       "linkedin": {
         "label": "LinkedIn",
         "value": "Khayal Jamilli",
-        "hint": "Tanışma, roller ve profesyonel bağlam"
+        "hint": "Tanışma, roller ve profesyonel bağlam",
+        "action": "LinkedIn’i aç"
       },
       "github": {
         "label": "GitHub",
-        "hint": "Açık çalışmalar, depolar ve kod kalitesi"
+        "hint": "Açık çalışmalar, depolar ve kod kalitesi",
+        "action": "GitHub’ı aç"
       },
       "org": {
         "label": "Organizasyon",
-        "hint": "GovMateAi ürün depoları ve deneyler"
+        "hint": "GovMateAi ürün depoları ve deneyler",
+        "action": "GovMateAi’yi aç"
       }
     },
     "processTitle": "İşbirliği nasıl başlar",
@@ -343,14 +404,30 @@
   },
   "footer": {
     "tagline": "Web Geliştirici • AI • Dijital Çözümler",
+    "terminalNote": "Canlı bir build oturumu — her zaman faydalı bir şey ship ediliyor.",
     "rights": "© {year} Khayal Jamilli"
   },
+  "easterEgg": {
+    "title": "availability.session",
+    "eyebrow": "Durum · İşe açık",
+    "headline": "Müsait.",
+    "line2": "Web ürünleri, AI iş akışları ve otomasyon — production için, bir sonraki brief için hazır.",
+    "cta": "Brief başlat",
+    "ctaSecondary": "İletişim",
+    "boot1": "müsaitlik kontrol ediliyor",
+    "boot2": "stack yükleniyor · web · ai · otomasyon",
+    "boot3": "işbirliğine hazır",
+    "bootLine": "status --available && open contact",
+    "dismiss": "Kapat",
+    "mailSubject": "Birlikte çalışalım"
+  },
   "assistant": {
-    "label": "KJ’ye sor",
+    "label": "Asistan",
     "open": "Asistanı aç",
     "close": "Asistanı kapat",
-    "title": "KJ Asistan",
+    "title": "Portföy Asistanı",
     "subtitle": "Yetenekler, projeler, işbirliği ve iletişim hakkında sor.",
+    "status": "Çevrimiçi",
     "welcome": "Merhaba — Khayal’ın neler kurduğunu, hangi projelerin bunu kanıtladığını ve birlikte nasıl başlanacağını anlatabilirim.",
     "placeholder": "Yetenek, proje, müsaitlik sor…",
     "send": "Gönder",

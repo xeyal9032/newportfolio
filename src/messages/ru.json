@@ -30,7 +30,44 @@
     "role": "Software Developer · ИИ · Автоматизация",
     "visualAlt": "Рабочее место разработчика с кодом и продуктовыми интерфейсами",
     "codeNote": "Пишется для ясности. Поставляется в production.",
-    "liveNote": "GovMate AI · OstWind · BelegPair"
+    "liveNote": "GovMate AI · OstWind · BelegPair",
+    "statusPrompt": "status",
+    "statusLines": {
+      "systems": "строит системы, которые ship'ятся",
+      "ai": "выводит ИИ в реальные workflow",
+      "automation": "автоматизирует скучные ops",
+      "available": "открыт к выбранным коллаборациям"
+    }
+  },
+  "command": {
+    "title": "палитра команд",
+    "placeholder": "Введите команду или поиск…",
+    "empty": "Нет подходящих команд",
+    "hint": "↑↓ навигация · Enter запуск · Esc закрыть",
+    "open": "Открыть палитру команд",
+    "close": "Закрыть палитру команд",
+    "shortcutLabel": "Команды",
+    "groups": {
+      "navigate": "Навигация",
+      "actions": "Действия",
+      "links": "Ссылки"
+    },
+    "items": {
+      "home": "Наверх",
+      "about": "К разделу Обо мне",
+      "work": "К разделу Работа",
+      "stack": "К Technology Stack",
+      "projects": "К проектам",
+      "githubSection": "К разделу GitHub",
+      "contact": "К контактам",
+      "assistant": "Спросить KJ ассистента",
+      "theme": "Сменить тему",
+      "easter": "Запустить hire-me протокол",
+      "github": "Открыть GitHub профиль",
+      "linkedin": "Открыть LinkedIn",
+      "email": "Написать email",
+      "govmate": "Открыть GovMate AI"
+    }
   },
   "whatIBuild": {
     "eyebrow": "Что я создаю",
@@ -74,10 +111,17 @@
   "tech": {
     "title": "Сфокусированная технологическая экосистема",
     "subtitle": "Инструменты из реальной поставки — не стена логотипов.",
+    "explodeEyebrow": "Technology stack",
+    "explodeTitle": "Technology Stack Khayal",
+    "explodeSubtitle": "Одна production-система — листай и смотри, как она раскладывается на слои, которые доставляют реальные продукты.",
+    "explodeHint": "Скролль, чтобы разобрать систему",
+    "coreLabel": "assembled core",
+    "coreTitle": "Цифровая продуктовая система",
+    "coreSub": "Frontend · Backend · Data · AI · Cloud · Tools",
     "groups": {
       "frontend": "Frontend",
       "backend": "Backend",
-      "data": "Данные",
+      "data": "Database",
       "ai": "ИИ",
       "cloud": "Облако",
       "tools": "Инструменты"
@@ -261,9 +305,21 @@
       "en": "Английский — средний"
     },
     "education": {
-      "master": "Магистр Research Engineering — Национальный университет радиоэлектроники",
-      "bachelor": "Бакалавр автоматизации и ИТ — Национальный университет радиоэлектроники",
-      "cert": "Google AI Essentials — специализация"
+      "master": {
+        "degree": "Магистр Research Engineering",
+        "school": "Харьковский национальный университет радиоэлектроники (ХНУРЭ / NURE)",
+        "meta": "Харьков, Украина"
+      },
+      "bachelor": {
+        "degree": "Бакалавр автоматизации и ИТ",
+        "school": "Харьковский национальный университет радиоэлектроники (ХНУРЭ / NURE)",
+        "meta": "Харьков, Украина"
+      },
+      "cert": {
+        "degree": "Google AI Essentials",
+        "school": "Google Career Certificates",
+        "meta": "Специализация"
+      }
     }
   },
   "contact": {
@@ -305,24 +361,29 @@
       }
     },
     "channelsTitle": "Прямые каналы",
-    "channelsSubtitle": "Выберите удобный путь — каждый канал ведёт напрямую ко мне.",
+    "channelsSubtitle": "Нажмите на карточку, чтобы написать или открыть канал — каждый путь ведёт напрямую ко мне.",
+    "channelsActionHint": "Нажмите, чтобы открыть",
     "channels": {
       "email": {
         "label": "Email",
-        "hint": "Лучше всего для брифов, сроков и деталей проекта"
+        "hint": "Лучше всего для брифов, сроков и деталей проекта",
+        "action": "Написать email"
       },
       "linkedin": {
         "label": "LinkedIn",
         "value": "Khayal Jamilli",
-        "hint": "Знакомства, роли и профессиональный контекст"
+        "hint": "Знакомства, роли и профессиональный контекст",
+        "action": "Открыть LinkedIn"
       },
       "github": {
         "label": "GitHub",
-        "hint": "Публичная работа, репозитории и качество кода"
+        "hint": "Публичная работа, репозитории и качество кода",
+        "action": "Открыть GitHub"
       },
       "org": {
         "label": "Организация",
-        "hint": "Продуктовые репозитории и эксперименты GovMateAi"
+        "hint": "Продуктовые репозитории и эксперименты GovMateAi",
+        "action": "Открыть GovMateAi"
       }
     },
     "processTitle": "Как начинается сотрудничество",
@@ -343,14 +404,30 @@
   },
   "footer": {
     "tagline": "Веб-разработчик • ИИ • Цифровые решения",
+    "terminalNote": "Живая сессия с build-floor — всегда ship'им что-то полезное.",
     "rights": "© {year} Khayal Jamilli"
   },
+  "easterEgg": {
+    "title": "availability.session",
+    "eyebrow": "Статус · Open for work",
+    "headline": "Доступен.",
+    "line2": "Веб-продукты, ИИ-процессы и автоматизация — для production, готово к следующему brief.",
+    "cta": "Начать brief",
+    "ctaSecondary": "Контакт",
+    "boot1": "проверка доступности",
+    "boot2": "загрузка stack · web · ai · automation",
+    "boot3": "готов к collaboration",
+    "bootLine": "status --available && open contact",
+    "dismiss": "Закрыть",
+    "mailSubject": "Давайте сотрудничать"
+  },
   "assistant": {
-    "label": "Спросить KJ",
+    "label": "Ассистент",
     "open": "Открыть ассистента",
     "close": "Закрыть ассистента",
-    "title": "KJ Ассистент",
+    "title": "Ассистент портфолио",
     "subtitle": "Спросите про навыки, проекты, сотрудничество и контакт.",
+    "status": "Онлайн",
     "welcome": "Привет — расскажу, что строит Khayal, какие проекты это подтверждают и как начать работу вместе.",
     "placeholder": "Спросите про навыки, проекты, доступность…",
     "send": "Отправить",

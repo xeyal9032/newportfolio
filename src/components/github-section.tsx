@@ -50,36 +50,36 @@ export async function GithubSection() {
             <div className="surface mt-12 p-8 text-muted">{t("fallback")}</div>
           </Reveal>
         ) : (
-          <div className="mt-12 grid gap-4 md:grid-cols-2">
+          <div className="mt-8 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
             {repos.map((repo, index) => (
               <Reveal key={repo.id} delay={index * 0.03}>
                 <a
                   href={repo.html_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="surface block h-full p-7 transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)]"
+                  className="surface block h-full rounded-[18px] p-4 transition duration-500 hover:-translate-y-0.5 hover:shadow-[var(--shadow-soft)] sm:p-5"
                 >
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="min-w-0">
                       {repo.owner ? (
-                        <p className="text-[0.7rem] tracking-[0.12em] text-muted uppercase">
+                        <p className="truncate text-[0.62rem] tracking-[0.12em] text-muted uppercase">
                           {repo.owner}
                         </p>
                       ) : null}
-                      <h3 className="mt-1 text-xl tracking-[-0.02em]">
+                      <h3 className="mt-1 truncate text-[0.98rem] font-semibold tracking-[-0.02em] sm:text-[1.02rem]">
                         {repo.name}
                       </h3>
                     </div>
                     {repo.language ? (
-                      <span className="shrink-0 rounded-full border border-border px-2.5 py-1 text-xs text-muted">
+                      <span className="shrink-0 rounded-full border border-border px-2 py-0.5 text-[0.68rem] text-muted">
                         {repo.language}
                       </span>
                     ) : null}
                   </div>
-                  <p className="mt-4 text-[0.98rem] leading-relaxed text-muted">
+                  <p className="mt-2.5 line-clamp-2 text-[0.82rem] leading-relaxed text-muted">
                     {repo.description || t("noDescription")}
                   </p>
-                  <p className="mt-7 text-xs tracking-[0.08em] text-muted uppercase">
+                  <p className="mt-4 text-[0.65rem] tracking-[0.08em] text-muted uppercase">
                     {t("updated")} {formatDate(repo.updated_at, locale)}
                   </p>
                 </a>

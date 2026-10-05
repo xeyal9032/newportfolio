@@ -110,8 +110,8 @@ He likes turning complicated ideas into simple digital products.
 Azerbaijani (native), Turkish (professional), Russian (professional), Ukrainian (professional), German (intermediate), English (intermediate).
 
 ## Education
-- Master in Research Engineering — National University of Radio Electronics
-- Bachelor in Automation & IT — National University of Radio Electronics
+- Master in Research Engineering — Kharkiv National University of Radio Electronics (NURE), Kharkiv, Ukraine
+- Bachelor in Automation & IT — Kharkiv National University of Radio Electronics (NURE), Kharkiv, Ukraine
 - Google AI Essentials specialization
 
 ## Availability

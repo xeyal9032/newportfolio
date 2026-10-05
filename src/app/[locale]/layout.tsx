@@ -9,6 +9,8 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { BackToTop } from "@/components/back-to-top";
 import { Assistant } from "@/components/assistant";
+import { CommandPalette } from "@/components/command-palette";
+import { KonamiEgg } from "@/components/konami-egg";
 
 type LocaleLayoutProps = {
   children: React.ReactNode;
@@ -95,6 +97,8 @@ export default async function LocaleLayout({
           <Footer />
           <BackToTop />
           <Assistant />
+          <CommandPalette />
+          <KonamiEgg />
         </div>
         <script
           type="application/ld+json"

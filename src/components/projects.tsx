@@ -55,47 +55,47 @@ export function Projects() {
           ))}
         </div>
 
-        <div className="mt-8 grid gap-5 sm:mt-12 sm:gap-6 md:grid-cols-2">
+        <div className="mt-8 grid gap-3 sm:mt-10 sm:grid-cols-2 sm:gap-4 xl:grid-cols-3">
           {visible.map((project, index) => (
             <Reveal key={project.id} delay={index * 0.03}>
-              <article className="group overflow-hidden rounded-[22px] border border-border bg-surface shadow-[var(--shadow-soft)] transition duration-500 hover:-translate-y-1 hover:shadow-[var(--shadow)] sm:rounded-[26px]">
-                <div className="relative aspect-[16/10] overflow-hidden">
+              <article className="group overflow-hidden rounded-[18px] border border-border bg-surface shadow-[var(--shadow-soft)] transition duration-500 hover:-translate-y-0.5 hover:shadow-[var(--shadow-soft)] sm:rounded-[20px]">
+                <div className="relative aspect-[16/11] overflow-hidden">
                   {project.image ? (
                     <Image
                       src={project.image}
                       alt={project.name}
                       fill
-                      sizes="(max-width: 768px) 100vw, 560px"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 360px"
                       className="object-cover transition duration-700 group-hover:scale-[1.03]"
                     />
                   ) : null}
-                  <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_40%,rgba(7,8,9,0.7)_100%)]" />
-                  <div className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
-                    <p className="text-[0.7rem] tracking-[0.16em] text-white/65 uppercase">
+                  <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_35%,rgba(7,8,9,0.75)_100%)]" />
+                  <div className="absolute inset-x-0 bottom-0 p-3 sm:p-3.5">
+                    <p className="text-[0.62rem] tracking-[0.14em] text-white/65 uppercase">
                       {t(`filters.${project.category as ProjectCategory}`)}
                     </p>
-                    <h3 className="mt-2 text-xl tracking-[-0.03em] text-white sm:text-2xl">
+                    <h3 className="mt-1 text-[1.05rem] font-semibold tracking-[-0.03em] text-white sm:text-[1.12rem]">
                       {project.name}
                     </h3>
                   </div>
                 </div>
-                <div className="p-5 sm:p-7">
-                  <p className="text-[0.98rem] leading-relaxed text-muted sm:text-[1rem]">
+                <div className="p-3.5 sm:p-4">
+                  <p className="line-clamp-2 text-[0.82rem] leading-relaxed text-muted">
                     {t(project.descriptionKey)}
                   </p>
-                  <div className="mt-6 flex flex-wrap gap-2">
-                    {project.technologies.slice(0, 4).map((tech) => (
+                  <div className="mt-3 flex flex-wrap gap-1.5">
+                    {project.technologies.slice(0, 3).map((tech) => (
                       <span
                         key={tech}
-                        className="rounded-full border border-border px-3 py-1 text-xs text-muted"
+                        className="rounded-full border border-border px-2 py-0.5 text-[0.68rem] text-muted"
                       >
                         {tech}
                       </span>
                     ))}
                   </div>
-                  <div className="mt-7 flex flex-wrap items-center gap-4">
+                  <div className="mt-3.5 flex flex-wrap items-center gap-3">
                     {project.isPrivate ? (
-                      <span className="rounded-full border border-border px-3 py-1 text-xs tracking-[0.08em] text-muted uppercase">
+                      <span className="rounded-full border border-border px-2 py-0.5 text-[0.65rem] tracking-[0.08em] text-muted uppercase">
                         {t("private")}
                       </span>
                     ) : (
@@ -103,7 +103,7 @@ export function Projects() {
                         href={project.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm font-medium text-foreground underline-offset-4 hover:underline"
+                        className="text-[0.78rem] font-medium text-foreground underline-offset-4 hover:underline"
                       >
                         {t("viewGithub")}
                       </a>
@@ -113,7 +113,7 @@ export function Projects() {
                         href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm font-medium text-accent underline-offset-4 hover:underline"
+                        className="text-[0.78rem] font-medium text-accent underline-offset-4 hover:underline"
                       >
                         {t("viewLive")}
                       </a>

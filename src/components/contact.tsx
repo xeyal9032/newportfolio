@@ -1,15 +1,18 @@
 import { getTranslations } from "next-intl/server";
 import {
   ArrowUpRight,
-  Briefcase,
-  Building2,
   Clock3,
-  GitBranch,
   Mail,
   MapPin,
   MessageSquare,
 } from "lucide-react";
 import { siteConfig } from "@/data/site";
+import {
+  GitHubIcon,
+  GmailIcon,
+  GovMateIcon,
+  LinkedInIcon,
+} from "./brand-icons";
 import { Reveal } from "./reveal";
 
 const focusKeys = ["product", "ai", "automation", "platforms"] as const;
@@ -25,8 +28,11 @@ export async function Contact() {
       label: t("channels.email.label"),
       value: siteConfig.email,
       hint: t("channels.email.hint"),
-      icon: Mail,
+      action: t("channels.email.action"),
+      icon: GmailIcon,
+      iconClass: "size-5 text-white",
       external: false,
+      primary: true,
     },
     {
       id: "linkedin",
@@ -34,8 +40,11 @@ export async function Contact() {
       label: t("channels.linkedin.label"),
       value: t("channels.linkedin.value"),
       hint: t("channels.linkedin.hint"),
-      icon: Briefcase,
+      action: t("channels.linkedin.action"),
+      icon: LinkedInIcon,
+      iconClass: "size-5 text-[#0A66C2]",
       external: true,
+      primary: false,
     },
     {
       id: "github",
@@ -43,8 +52,11 @@ export async function Contact() {
       label: t("channels.github.label"),
       value: `@${siteConfig.githubUsername}`,
       hint: t("channels.github.hint"),
-      icon: GitBranch,
+      action: t("channels.github.action"),
+      icon: GitHubIcon,
+      iconClass: "size-5 text-foreground",
       external: true,
+      primary: false,
     },
     {
       id: "org",
@@ -52,8 +64,11 @@ export async function Contact() {
       label: t("channels.org.label"),
       value: siteConfig.githubOrg,
       hint: t("channels.org.hint"),
-      icon: Building2,
+      action: t("channels.org.action"),
+      icon: GovMateIcon,
+      iconClass: "size-5 text-foreground",
       external: true,
+      primary: false,
     },
   ] as const;
 
@@ -179,60 +194,105 @@ export async function Contact() {
             </Reveal>
           </div>
 
-          <Reveal delay={0.05}>
-            <div className="min-w-0 overflow-hidden rounded-[22px] border border-border bg-[linear-gradient(165deg,var(--surface)_0%,var(--surface-elevated)_100%)] shadow-[var(--shadow-soft)] sm:rounded-[28px]">
-              <div className="border-b border-border px-5 py-5 sm:px-6 sm:py-6 md:px-8">
+          <div className="min-w-0 space-y-6">
+            <Reveal delay={0.05}>
+              <div>
                 <p className="eyebrow">{t("channelsTitle")}</p>
-                <p className="mt-3 text-[1.02rem] leading-relaxed text-muted sm:text-[1.05rem]">
+                <p className="mt-3 max-w-xl text-[1.02rem] leading-relaxed text-muted">
                   {t("channelsSubtitle")}
                 </p>
-              </div>
 
-              <ul className="divide-y divide-border">
-                {channels.map((channel) => {
-                  const Icon = channel.icon;
-                  return (
-                    <li key={channel.id}>
-                      <a
-                        href={channel.href}
-                        target={channel.external ? "_blank" : undefined}
-                        rel={
-                          channel.external ? "noopener noreferrer" : undefined
-                        }
-                        className="group flex items-start gap-3 px-5 py-4 transition hover:bg-[color-mix(in_oklab,var(--foreground)_3.5%,transparent)] sm:gap-4 sm:px-6 sm:py-5 md:px-8"
-                      >
-                        <span className="mt-0.5 flex size-10 shrink-0 items-center justify-center rounded-full border border-border bg-background text-foreground">
-                          <Icon className="size-4" aria-hidden />
-                        </span>
-                        <span className="min-w-0 flex-1">
-                          <span className="flex items-center justify-between gap-3">
-                            <span className="text-[0.72rem] tracking-[0.14em] text-muted uppercase">
-                              {channel.label}
+                <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+                  {channels.map((channel) => {
+                    const Icon = channel.icon;
+                    return (
+                      <li key={channel.id}>
+                        <a
+                          href={channel.href}
+                          target={channel.external ? "_blank" : undefined}
+                          rel={
+                            channel.external ? "noopener noreferrer" : undefined
+                          }
+                          aria-label={`${channel.action}: ${channel.value}`}
+                          className={
+                            channel.primary
+                              ? "group flex h-full flex-col rounded-[22px] border border-foreground bg-foreground p-5 text-background shadow-[var(--shadow-soft)] transition duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow)] sm:p-5"
+                              : "group flex h-full flex-col rounded-[22px] border border-border bg-surface p-5 shadow-[var(--shadow-soft)] transition duration-300 hover:-translate-y-1 hover:border-foreground/25 hover:shadow-[var(--shadow)] sm:p-5"
+                          }
+                        >
+                          <span className="flex items-start justify-between gap-3">
+                            <span
+                              className={
+                                channel.primary
+                                  ? "inline-flex size-11 items-center justify-center rounded-2xl border border-background/20 bg-background/10"
+                                  : "inline-flex size-11 items-center justify-center rounded-2xl border border-border bg-background"
+                              }
+                            >
+                              <Icon className={channel.iconClass} />
                             </span>
                             <ArrowUpRight
-                              className="size-4 shrink-0 text-muted transition group-hover:text-foreground"
+                              className={
+                                channel.primary
+                                  ? "size-4 shrink-0 text-background/70 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-background"
+                                  : "size-4 shrink-0 text-muted transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-foreground"
+                              }
                               aria-hidden
                             />
                           </span>
-                          <span className="mt-1 block break-all text-[1rem] font-medium text-foreground sm:truncate sm:text-[1.05rem]">
+
+                          <span
+                            className={
+                              channel.primary
+                                ? "mt-4 text-[0.68rem] font-semibold tracking-[0.16em] text-background/60 uppercase"
+                                : "mt-4 text-[0.68rem] font-semibold tracking-[0.16em] text-muted uppercase"
+                            }
+                          >
+                            {channel.label}
+                          </span>
+                          <span
+                            className={
+                              channel.primary
+                                ? "mt-1.5 break-all text-[1.02rem] font-semibold tracking-[-0.02em] text-background"
+                                : "mt-1.5 break-all text-[1.02rem] font-semibold tracking-[-0.02em] text-foreground"
+                            }
+                          >
                             {channel.value}
                           </span>
-                          <span className="mt-1 block text-sm leading-relaxed text-muted">
+                          <span
+                            className={
+                              channel.primary
+                                ? "mt-2 flex-1 text-[0.84rem] leading-relaxed text-background/70"
+                                : "mt-2 flex-1 text-[0.84rem] leading-relaxed text-muted"
+                            }
+                          >
                             {channel.hint}
                           </span>
-                        </span>
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
 
-              <div className="border-t border-border px-6 py-6 md:px-8">
+                          <span
+                            className={
+                              channel.primary
+                                ? "mt-5 inline-flex w-fit items-center gap-1.5 rounded-full bg-background px-3 py-1.5 text-[0.78rem] font-semibold text-foreground"
+                                : "mt-5 inline-flex w-fit items-center gap-1.5 rounded-full border border-border bg-background px-3 py-1.5 text-[0.78rem] font-semibold text-foreground transition group-hover:border-foreground/30"
+                            }
+                          >
+                            {channel.action}
+                            <ArrowUpRight className="size-3.5" aria-hidden />
+                          </span>
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.08}>
+              <div className="rounded-[22px] border border-border bg-surface p-5 shadow-[var(--shadow-soft)] sm:p-6">
                 <p className="eyebrow">{t("processTitle")}</p>
                 <ol className="mt-5 space-y-4">
                   {processKeys.map((key, index) => (
                     <li key={key} className="flex gap-4">
-                      <span className="mt-0.5 text-[0.75rem] font-semibold tracking-[0.12em] text-muted">
+                      <span className="mt-0.5 font-mono text-[0.72rem] font-semibold tracking-[0.12em] text-accent">
                         0{index + 1}
                       </span>
                       <div>
@@ -247,8 +307,8 @@ export async function Contact() {
                   ))}
                 </ol>
               </div>
-            </div>
-          </Reveal>
+            </Reveal>
+          </div>
         </div>
       </div>
     </section>

@@ -30,7 +30,44 @@
     "role": "Software Developer · AI · Automation",
     "visualAlt": "Developer workstation with code and product interfaces",
     "codeNote": "Built for clarity. Shipped for production.",
-    "liveNote": "GovMate AI · OstWind · BelegPair"
+    "liveNote": "GovMate AI · OstWind · BelegPair",
+    "statusPrompt": "status",
+    "statusLines": {
+      "systems": "building systems that ship",
+      "ai": "shipping AI into real workflows",
+      "automation": "automating the boring ops",
+      "available": "open for selected collaborations"
+    }
+  },
+  "command": {
+    "title": "command palette",
+    "placeholder": "Type a command or search…",
+    "empty": "No matching commands",
+    "hint": "↑↓ navigate · Enter run · Esc close",
+    "open": "Open command palette",
+    "close": "Close command palette",
+    "shortcutLabel": "Commands",
+    "groups": {
+      "navigate": "Navigate",
+      "actions": "Actions",
+      "links": "Links"
+    },
+    "items": {
+      "home": "Go to top",
+      "about": "Go to About",
+      "work": "Go to Work",
+      "stack": "Go to Technology Stack",
+      "projects": "Go to Projects",
+      "githubSection": "Go to GitHub section",
+      "contact": "Go to Contact",
+      "assistant": "Ask KJ assistant",
+      "theme": "Toggle theme",
+      "easter": "Run hire-me protocol",
+      "github": "Open GitHub profile",
+      "linkedin": "Open LinkedIn",
+      "email": "Write email",
+      "govmate": "Open GovMate AI"
+    }
   },
   "whatIBuild": {
     "eyebrow": "What I build",
@@ -74,10 +111,17 @@
   "tech": {
     "title": "A focused technology ecosystem",
     "subtitle": "Tools I use in real shipping work — not a logo wall.",
+    "explodeEyebrow": "Technology stack",
+    "explodeTitle": "Khayal's Technology Stack",
+    "explodeSubtitle": "One production system — scroll to watch it break into the layers that ship real products.",
+    "explodeHint": "Scroll to explode the system",
+    "coreLabel": "assembled core",
+    "coreTitle": "Digital product system",
+    "coreSub": "Frontend · Backend · Data · AI · Cloud · Tools",
     "groups": {
       "frontend": "Frontend",
       "backend": "Backend",
-      "data": "Data",
+      "data": "Database",
       "ai": "AI",
       "cloud": "Cloud",
       "tools": "Developer Tools"
@@ -261,9 +305,21 @@
       "en": "English — Intermediate"
     },
     "education": {
-      "master": "Master in Research Engineering — National University of Radio Electronics",
-      "bachelor": "Bachelor in Automation & IT — National University of Radio Electronics",
-      "cert": "Google AI Essentials — Specialization"
+      "master": {
+        "degree": "Master in Research Engineering",
+        "school": "Kharkiv National University of Radio Electronics (NURE)",
+        "meta": "Kharkiv, Ukraine"
+      },
+      "bachelor": {
+        "degree": "Bachelor in Automation & IT",
+        "school": "Kharkiv National University of Radio Electronics (NURE)",
+        "meta": "Kharkiv, Ukraine"
+      },
+      "cert": {
+        "degree": "Google AI Essentials",
+        "school": "Google Career Certificates",
+        "meta": "Specialization"
+      }
     }
   },
   "contact": {
@@ -305,24 +361,29 @@
       }
     },
     "channelsTitle": "Direct channels",
-    "channelsSubtitle": "Choose the path that fits your request — every channel reaches me directly.",
+    "channelsSubtitle": "Tap a card to write or open the channel — every path reaches me directly.",
+    "channelsActionHint": "Click to open",
     "channels": {
       "email": {
         "label": "Email",
-        "hint": "Best for briefs, timelines and project details"
+        "hint": "Best for briefs, timelines and project details",
+        "action": "Write email"
       },
       "linkedin": {
         "label": "LinkedIn",
         "value": "Khayal Jamilli",
-        "hint": "Introductions, roles and professional context"
+        "hint": "Introductions, roles and professional context",
+        "action": "Open LinkedIn"
       },
       "github": {
         "label": "GitHub",
-        "hint": "Public work, repositories and code quality"
+        "hint": "Public work, repositories and code quality",
+        "action": "Open GitHub"
       },
       "org": {
         "label": "Organization",
-        "hint": "GovMateAi product repositories and experiments"
+        "hint": "GovMateAi product repositories and experiments",
+        "action": "Open GovMateAi"
       }
     },
     "processTitle": "How collaboration starts",
@@ -343,14 +404,30 @@
   },
   "footer": {
     "tagline": "Web Developer • AI • Digital Solutions",
+    "terminalNote": "A live session from the build floor — always shipping something useful.",
     "rights": "© {year} Khayal Jamilli"
   },
+  "easterEgg": {
+    "title": "availability.session",
+    "eyebrow": "Status · Open for work",
+    "headline": "Available.",
+    "line2": "Web products, AI workflows and automation — built for production, ready for the next brief.",
+    "cta": "Start a brief",
+    "ctaSecondary": "Contact",
+    "boot1": "checking availability",
+    "boot2": "loading stack · web · ai · automation",
+    "boot3": "ready for collaboration",
+    "bootLine": "status --available && open contact",
+    "dismiss": "Close",
+    "mailSubject": "Let's collaborate"
+  },
   "assistant": {
-    "label": "Ask KJ",
+    "label": "Assistant",
     "open": "Open assistant",
     "close": "Close assistant",
-    "title": "KJ Assistant",
+    "title": "Portfolio Assistant",
     "subtitle": "Ask about skills, projects, collaboration and how to get in touch.",
+    "status": "Online",
     "welcome": "Hi — I can explain what Khayal builds, which projects prove it, and the best way to start working together.",
     "placeholder": "Ask about skills, projects, availability…",
     "send": "Send",
